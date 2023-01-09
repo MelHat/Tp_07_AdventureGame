@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{290203EE-EACD-4236-B08A-39F61AE817E2}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{290203EE-EACD-4236-B08A-39F61AE817E2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MC" ID="{5627CA56-E14D-4B6F-87B6-065283648A14}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Enemies" ID="{8EE75D7F-1E9E-4D6F-99ED-3A5740EA5074}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambiences" ID="{B2F62339-CA62-45D7-8ADC-D6F316395865}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Props" ID="{0330D017-8B35-44D1-B537-1364A0648900}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{E69F108F-569F-4750-A417-0E8DD3CFDE46}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

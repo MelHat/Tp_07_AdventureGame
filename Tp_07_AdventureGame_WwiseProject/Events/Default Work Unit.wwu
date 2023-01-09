@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Ambiences" ID="{2E27CE67-5D9F-4C5C-8002-F9E9C8E3072F}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemies" ID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}" PersistMode="Reference"/>
+				<WorkUnit Name="Props" ID="{8D7C3A09-A2C7-4CB0-883A-5D55F0190F27}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{6E48DCFE-A5FD-4732-9F2C-D1978FBAAE46}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
