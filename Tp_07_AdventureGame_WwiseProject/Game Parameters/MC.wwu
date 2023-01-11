@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{890A6438-4339-481A-BB33-7DCF8A79575F}" SchemaVersion="110" RootDocumentID="{6EB5B71A-BEFB-411E-BDD8-2236B1B925BF}" ParentDocumentID="{6EB5B71A-BEFB-411E-BDD8-2236B1B925BF}">
+	<GameParameters>
+		<WorkUnit Name="MC" ID="{890A6438-4339-481A-BB33-7DCF8A79575F}" OwnerID="{6EB5B71A-BEFB-411E-BDD8-2236B1B925BF}" PersistMode="Nested"/>
+	</GameParameters>
+</WwiseDocument>

@@ -6,6 +6,2708 @@
 				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="MC_FOL" ID="{B6FB4EFF-4A85-4F38-8306-824C5C5994EA}" ShortID="85034809">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="MC_FOL_Land" ID="{5498D553-429F-4448-BE19-4618CC222006}" ShortID="49799297">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_Land_01" ID="{3EDA98CB-56DE-4AC9-B804-1E5356E9541D}" ShortID="226620347">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Land_01" ID="{38A43B39-B0D2-4050-A9C0-8F509840C62D}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Land\MC_FOL_Land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="317180642"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Land_01" ID="{38A43B39-B0D2-4050-A9C0-8F509840C62D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Land_02" ID="{EDDB3F1D-3D5F-451B-8A14-8624B098D176}" ShortID="615556615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Land_02" ID="{C2CC78C0-4A4E-4027-A135-590E301C8259}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Land\MC_FOL_Land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988499431"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Land_02" ID="{C2CC78C0-4A4E-4027-A135-590E301C8259}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_FOL_Hurt" ID="{4F9A1F53-1FE9-4305-AB90-9ED880C74007}" ShortID="118484079">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_Hurt_01" ID="{C5994239-FCA4-4A2A-A834-6E30CACBB1F3}" ShortID="660186311">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Hurt_01" ID="{F1429230-194E-47D7-8C93-16888547CFA2}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="985335400"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Hurt_01" ID="{F1429230-194E-47D7-8C93-16888547CFA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Hurt_02" ID="{6A9FD8F0-9A91-4BEB-AFED-CCB8647DBE73}" ShortID="325609557">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Hurt_02" ID="{EE074903-B522-4F8C-BA5A-003CCD25C5F4}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124158291"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Hurt_02" ID="{EE074903-B522-4F8C-BA5A-003CCD25C5F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Hurt_03" ID="{F8FE40F4-7D9D-41F2-9077-A8918C0C8EEE}" ShortID="676432469">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Hurt_03" ID="{9ADC58AF-7F78-48DE-9890-E80F6DB2BD76}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318024018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Hurt_03" ID="{9ADC58AF-7F78-48DE-9890-E80F6DB2BD76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Hurt_04" ID="{D5BDD88E-D232-4279-BE3C-B8D1C96A830B}" ShortID="1035863189">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Hurt_04" ID="{0849E686-0BD9-4BA6-BBDF-5DE28457B1D8}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="683347950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Hurt_04" ID="{0849E686-0BD9-4BA6-BBDF-5DE28457B1D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_FOL_Jump" ID="{CC08F1F1-B31B-4455-8A05-8F2DF74239F4}" ShortID="301376571">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_Jump_01" ID="{688F3D50-3828-4637-AA8D-2EAA75BFC99E}" ShortID="412643596">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_01" ID="{64D6D61F-C804-4988-AFCE-ED755BBB3E07}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Jump\MC_FOL_Jump_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592724509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_01" ID="{64D6D61F-C804-4988-AFCE-ED755BBB3E07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Jump_02" ID="{B0CFF762-5D27-43C7-8DAB-25CEDFAB76B2}" ShortID="149714380">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Jump_02" ID="{EF671AF9-326B-4B92-B8D0-E23E3F240DCD}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Jump\MC_FOL_Jump_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157267971"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Jump_02" ID="{EF671AF9-326B-4B92-B8D0-E23E3F240DCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_FOL_Run" ID="{6E21E188-4596-4C9F-BDF6-52300FED2076}" ShortID="404714015">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_Run_01" ID="{955F17B6-0C81-4A9D-BB11-B172E1410BA4}" ShortID="841334482">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_01" ID="{CE2146DF-7D7B-494C-861D-6186FF1B6DBE}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16179629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_01" ID="{CE2146DF-7D7B-494C-861D-6186FF1B6DBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_02" ID="{CD1535BD-1C7F-4063-8BC4-77FAAA8253E4}" ShortID="1068407914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_02" ID="{CE96932F-2E8C-4026-9ECD-A9C877301897}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383878873"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_02" ID="{CE96932F-2E8C-4026-9ECD-A9C877301897}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_03" ID="{D21D0697-1B10-40E3-904E-DD18AFA5759A}" ShortID="42498099">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_03" ID="{2E00B85D-59F6-4A18-B9D6-08C0EB6E1E18}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="140070801"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_03" ID="{2E00B85D-59F6-4A18-B9D6-08C0EB6E1E18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_04" ID="{2CA07DC8-C4AF-4F34-8806-F21A88976666}" ShortID="316265059">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_04" ID="{0D71F337-4DA8-4EE0-AF8C-B83BE21C7381}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="809097615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_04" ID="{0D71F337-4DA8-4EE0-AF8C-B83BE21C7381}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_05" ID="{1430EF48-3267-45DD-A7FF-B7A600F00DAA}" ShortID="410439102">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_05" ID="{073B3E30-B601-4A41-9CFB-62378868C91A}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119468366"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_05" ID="{073B3E30-B601-4A41-9CFB-62378868C91A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_06" ID="{ACF88FC7-72EA-49C5-BAAF-80CB654F805F}" ShortID="47574046">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_06" ID="{C33DCAED-1998-4F98-B418-FB8C6A180904}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="780103801"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_06" ID="{C33DCAED-1998-4F98-B418-FB8C6A180904}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_Landing_Fast_01" ID="{3ADA84E6-2F11-4722-9C6B-D298F76FE21E}" ShortID="560655098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_Landing_Fast_01" ID="{82417533-D4CD-47F8-B071-5AA11E3AC90E}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="122367689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_Landing_Fast_01" ID="{82417533-D4CD-47F8-B071-5AA11E3AC90E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_Run_Landing_Fast_02" ID="{4EB54BDA-1528-4405-8214-DD080943596D}" ShortID="476162705">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Run_Landing_Fast_02" ID="{D803B68B-FDA7-4DA8-8AF8-34FCA9ED194A}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996061856"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Run_Landing_Fast_02" ID="{D803B68B-FDA7-4DA8-8AF8-34FCA9ED194A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="MC_FOL_Strafe" ID="{5D97407D-80E9-452D-AF32-37374C12D570}" ShortID="228361145">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_FOL_Strafe" ID="{9689E480-8826-455F-9801-036BAA98C4FB}">
+									<Language>SFX</Language>
+									<AudioFile>MC_FOL\MC_FOL_Strafe.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22387468"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_FOL_Strafe" ID="{9689E480-8826-455F-9801-036BAA98C4FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MC_FOL_Death" ID="{9C207EF8-ECBE-4DD1-A1D8-D8B4672766AA}" ShortID="304073635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_FOL_Death" ID="{EDFF9CCB-5D3B-4D1A-BCC1-AF09C5D4D162}">
+									<Language>SFX</Language>
+									<AudioFile>MC_FOL\MC_FOL_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="78808683"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_FOL_Death" ID="{EDFF9CCB-5D3B-4D1A-BCC1-AF09C5D4D162}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MC_FOL_Respawn" ID="{3F8C1679-00F6-43F3-9473-1931762AC8B6}" ShortID="196928305">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_FOL_Respawn" ID="{BEDC4EBB-1012-4F91-91C8-4ADEF4CD0CED}">
+									<Language>SFX</Language>
+									<AudioFile>MC_FOL\MC_FOL_Respawn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="287402517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_FOL_Respawn" ID="{BEDC4EBB-1012-4F91-91C8-4ADEF4CD0CED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="MC_FOL_RandomIdle" ID="{A4AE8044-2C41-4655-9EA1-CD6CE07DA951}" ShortID="81354969">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FOL_RandomIdle_01" ID="{18A68FC1-1589-41E2-8926-09D63B38EA9A}" ShortID="206480094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_RandomIdle_01" ID="{AC53044A-27D8-496D-9755-8463D8C336BA}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114471360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_RandomIdle_01" ID="{AC53044A-27D8-496D-9755-8463D8C336BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_RandomIdle_02" ID="{A0DBC654-25B5-410B-8B8E-7750E0039596}" ShortID="736900933">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_RandomIdle_02" ID="{4E52DBA6-6C9B-4E20-A7EE-02EF15C14742}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261134828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_RandomIdle_02" ID="{4E52DBA6-6C9B-4E20-A7EE-02EF15C14742}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FOL_RandomIdle_03" ID="{350A4796-E23B-4F0E-85F1-957E44BA96EB}" ShortID="93066849">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_RandomIdle_03" ID="{06FD21F5-A4AB-4DA2-A681-2A202F2D5FBE}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951729995"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_RandomIdle_03" ID="{06FD21F5-A4AB-4DA2-A681-2A202F2D5FBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<RandomSequenceContainer Name="MC_SFX_Hurt" ID="{EBBC40FC-8B85-424A-8A72-4EE7992DCB36}" ShortID="472383082">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MC_SFX_Hurt_01" ID="{13894D84-17CF-48EE-8094-4C7A8E619B4E}" ShortID="1061939849">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_SFX_Hurt_01" ID="{995CC80B-E3FB-4503-97AE-361E14CE10A9}">
+									<Language>SFX</Language>
+									<AudioFile>MC_SFX\MC_SFX_Hurt_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="581365106"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_SFX_Hurt_01" ID="{995CC80B-E3FB-4503-97AE-361E14CE10A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MC_SFX_Hurt_02" ID="{79EE8E94-FEE6-4D98-BF39-E3933A6972C7}" ShortID="284896270">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_SFX_Hurt_02" ID="{4BD25173-FA93-43AD-BCA1-33A982375C3E}">
+									<Language>SFX</Language>
+									<AudioFile>MC_SFX\MC_SFX_Hurt_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="132448169"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_SFX_Hurt_02" ID="{4BD25173-FA93-43AD-BCA1-33A982375C3E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MC_SFX_Hurt_03" ID="{61EB2839-B0EE-453B-87F6-2348E8D6903C}" ShortID="511138876">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_SFX_Hurt_03" ID="{C8A7F86A-5665-46A2-9387-96C7AA2E5FDB}">
+									<Language>SFX</Language>
+									<AudioFile>MC_SFX\MC_SFX_Hurt_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="624464746"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_SFX_Hurt_03" ID="{C8A7F86A-5665-46A2-9387-96C7AA2E5FDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<ActorMixer Name="MC_VOX" ID="{5D3B3A0D-5CEE-4F3C-8898-8F79137F769F}" ShortID="741667278">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="MC_VOX_Combo1" ID="{EE04CAD0-2E29-4AC4-8E27-DB9A4E604AD4}" ShortID="830347585">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_VOX_Combo1_01" ID="{F77E9164-AF41-4976-83FE-B2715D104ABF}" ShortID="118145692">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo1_01" ID="{EB7DC0D1-1523-42C1-AD94-31FE52CB73C0}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="133150587"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo1_01" ID="{EB7DC0D1-1523-42C1-AD94-31FE52CB73C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo1_02" ID="{8E692189-CBE7-407A-9A3A-A109456F2099}" ShortID="156425962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo1_02" ID="{3863CFF5-08FD-49BC-82BA-FD82621CC508}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="77573513"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo1_02" ID="{3863CFF5-08FD-49BC-82BA-FD82621CC508}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo1_03" ID="{EFFAF198-C052-4C6D-8068-EFF8ED6EBEE0}" ShortID="295102932">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo1_03" ID="{4E4BE91A-5833-4F41-B6C2-6690EDACE2C4}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="215162203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo1_03" ID="{4E4BE91A-5833-4F41-B6C2-6690EDACE2C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_VOX_Combo2" ID="{733F11BB-5915-4F82-BCA8-2439CA72CAE6}" ShortID="186355702">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_VOX_Combo2_01" ID="{6B35BD0D-9658-4EBD-AC4C-6CC31E543F7F}" ShortID="192313025">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo2_01" ID="{8A1C6970-2D8B-4AAA-8959-341B071B7781}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737944242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo2_01" ID="{8A1C6970-2D8B-4AAA-8959-341B071B7781}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo2_02" ID="{16E8EA38-DE6D-4A74-A09C-B1605E59CC5D}" ShortID="127090343">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo2_02" ID="{C1F51B66-E595-4E13-987A-3703F99B8D41}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888189405"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo2_02" ID="{C1F51B66-E595-4E13-987A-3703F99B8D41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo2_03" ID="{D0675117-6241-4B35-B3C5-4DBF1D3E9E79}" ShortID="641991273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo2_03" ID="{ED5B5C75-ED7C-4D36-950D-6F31B84DD4B1}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="720315360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo2_03" ID="{ED5B5C75-ED7C-4D36-950D-6F31B84DD4B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_VOX_Combo3" ID="{B3812D49-2541-4387-B761-2C0711ABFCBC}" ShortID="599103452">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_VOX_Combo3_01" ID="{3662B6A0-3E47-4867-8943-6DFEE00C8514}" ShortID="66437801">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo3_01" ID="{E971AF71-8AED-4B93-9628-3C5C2739685D}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="14341869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo3_01" ID="{E971AF71-8AED-4B93-9628-3C5C2739685D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo3_02" ID="{FC6C1859-264B-4F5C-8001-036DADCE7861}" ShortID="398309650">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo3_02" ID="{48E3F095-856E-4C7E-BB65-1660016C96E3}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1013358215"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo3_02" ID="{48E3F095-856E-4C7E-BB65-1660016C96E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo3_03" ID="{93CA96C3-823C-4D4A-AE59-70197DF30A4E}" ShortID="385511233">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo3_03" ID="{A4D6C7B0-6B00-41C0-ACBC-22C61CE3C9CA}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691538567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo3_03" ID="{A4D6C7B0-6B00-41C0-ACBC-22C61CE3C9CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_VOX_Combo4" ID="{54934093-F947-4DAC-AF6C-BED1354E0D3A}" ShortID="561716635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_VOX_Combo4_01" ID="{DC09B227-6EF5-4C75-84A4-2DCE26C78C2D}" ShortID="581162602">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo4_01" ID="{B3653932-5E96-4F9C-9BE7-EF36C600953B}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="915102730"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo4_01" ID="{B3653932-5E96-4F9C-9BE7-EF36C600953B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo4_02" ID="{648D9121-1D6D-40E9-B0C6-1C93EB248791}" ShortID="872500125">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo4_02" ID="{B624B7C1-B57C-4361-88A0-5A4056134565}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558389473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo4_02" ID="{B624B7C1-B57C-4361-88A0-5A4056134565}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Combo4_03" ID="{3EA12FC3-6EDA-450F-B67E-9865E65D85C1}" ShortID="65742212">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Combo4_03" ID="{35D75143-627D-49ED-8B49-A2DCD3F9955F}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="706010484"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Combo4_03" ID="{35D75143-627D-49ED-8B49-A2DCD3F9955F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_VOX_Hurt" ID="{DC521F3C-7CC5-4F26-8A46-AC49EDD31242}" ShortID="887816221">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_VOX_Hurt_01" ID="{78CA6E7B-3BA1-4BB5-9771-66C65609380E}" ShortID="691184621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Hurt_01" ID="{132488CB-70E9-40DB-A8CB-108989782084}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280072535"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Hurt_01" ID="{132488CB-70E9-40DB-A8CB-108989782084}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Hurt_02" ID="{CFC7A255-49B2-4CEA-919B-781C978CAA78}" ShortID="698568017">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Hurt_02" ID="{AA69DD49-DF50-410D-AC98-1AD6EBF7BE76}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744535241"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Hurt_02" ID="{AA69DD49-DF50-410D-AC98-1AD6EBF7BE76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Hurt_03" ID="{0E62BE9F-EAB0-41DD-A116-9D9280403C35}" ShortID="740723167">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Hurt_03" ID="{6A3EDE44-B9FC-4D7D-B2FD-BBC04B91E85A}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042899282"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Hurt_03" ID="{6A3EDE44-B9FC-4D7D-B2FD-BBC04B91E85A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Hurt_04" ID="{1900610A-E1B1-43ED-BAAC-3A5AD57589F4}" ShortID="758620130">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Hurt_04" ID="{DBFFBB6B-14DD-4B03-8755-1710D4B8EE66}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="254614190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Hurt_04" ID="{DBFFBB6B-14DD-4B03-8755-1710D4B8EE66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_VOX_Hurt_05" ID="{8C8CAB5B-D9A4-47F9-B020-9BB3B5B83ED4}" ShortID="642492514">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_VOX_Hurt_05" ID="{F78A5DA3-1B88-4DB1-965C-C541E4C79F84}">
+											<Language>SFX</Language>
+											<AudioFile>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="237880736"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_VOX_Hurt_05" ID="{F78A5DA3-1B88-4DB1-965C-C541E4C79F84}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="MC_VOX_Death" ID="{7743863B-7BDA-42CD-9683-22840F909057}" ShortID="131615085">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_VOX_Death" ID="{04749EA6-1742-47EC-8C53-68DF85A92692}">
+									<Language>SFX</Language>
+									<AudioFile>MC_VOX\MC_VOX_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="458429882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_VOX_Death" ID="{04749EA6-1742-47EC-8C53-68DF85A92692}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="MC_Weapon" ID="{B74E05B6-46BC-476F-876F-31E506AA21B7}" ShortID="1056128198">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="MC_Weapon_Combo3" ID="{4CE162B4-D5A4-4802-8D46-47E1A96B182F}" ShortID="278902284">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Weapon_Combo3_01" ID="{39F0F101-5ACD-435D-A437-693C09F3EB68}" ShortID="945397255">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo3_01" ID="{68BF5FF9-C99A-443A-897A-CCBB1D124EA0}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="943955103"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo3_01" ID="{68BF5FF9-C99A-443A-897A-CCBB1D124EA0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo3_02" ID="{AD6A607C-BCF8-48A8-ADFD-C743E9938346}" ShortID="607974670">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo3_02" ID="{6F881932-FE0B-41ED-9DC3-66F9B22FF9C8}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="513006649"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo3_02" ID="{6F881932-FE0B-41ED-9DC3-66F9B22FF9C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo3_03" ID="{3E366DBB-4FC8-4E54-9353-B0C8E4D74992}" ShortID="574918465">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo3_03" ID="{952EB674-DDB5-4719-B61B-47403F3ECAA5}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="596045046"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo3_03" ID="{952EB674-DDB5-4719-B61B-47403F3ECAA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_Weapon_Combo1" ID="{61227E8F-68CE-4FC8-9B57-EBE26F3116FA}" ShortID="949297233">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Weapon_Combo1_01" ID="{70244210-A5B1-43F0-BF8D-E0E1CB25EF1B}" ShortID="90899419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo1_01" ID="{3AAF3802-B8CF-4B6E-8240-F239741183ED}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="415899772"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo1_01" ID="{3AAF3802-B8CF-4B6E-8240-F239741183ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo1_02" ID="{999B6B29-5D58-4A89-8425-77699089CC48}" ShortID="731588535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo1_02" ID="{931007E2-B961-4C73-A71B-86E6633AAB04}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1027038245"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo1_02" ID="{931007E2-B961-4C73-A71B-86E6633AAB04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo1_03" ID="{3B891FB2-41AA-4AC2-9336-1E55D048A9FA}" ShortID="719106400">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo1_03" ID="{D107848A-026A-41FA-B5BC-01F3FE09E0D7}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008355329"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo1_03" ID="{D107848A-026A-41FA-B5BC-01F3FE09E0D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_Weapon_Combo2" ID="{1D53B65F-62E6-427F-B2C2-73365E9E6C3E}" ShortID="216246871">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Weapon_Combo2_01" ID="{0BEDA130-BDA7-48C2-B391-764A103168F4}" ShortID="767035214">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo2_01" ID="{0EEB732B-1B72-4FF3-AA18-6A13D975332B}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469929845"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo2_01" ID="{0EEB732B-1B72-4FF3-AA18-6A13D975332B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo2_02" ID="{4C88B5ED-C258-484B-BB87-32EC70DE6BEB}" ShortID="859828018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo2_02" ID="{724D3FF3-5C93-439A-AAA2-0C4C034BF38F}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783500089"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo2_02" ID="{724D3FF3-5C93-439A-AAA2-0C4C034BF38F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo2_03" ID="{C053A147-F563-4C70-A63F-250062491FF0}" ShortID="379622020">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo2_03" ID="{D719BADC-E348-4A72-97EB-06E62138D1FC}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318146461"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo2_03" ID="{D719BADC-E348-4A72-97EB-06E62138D1FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MC_Weapon_Combo4" ID="{6E194939-1C8A-4AF2-92C8-7167584E2178}" ShortID="221868267">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_Weapon_Combo4_01" ID="{64FFE1B9-8AE3-4449-B952-1F8B480D7250}" ShortID="518980855">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo4_01" ID="{B6BD08C7-80B4-48F4-B52F-3D555A8604B5}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684885246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo4_01" ID="{B6BD08C7-80B4-48F4-B52F-3D555A8604B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo4_02" ID="{0B204BDB-0287-41A2-9759-D28E3359C05C}" ShortID="842932594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo4_02" ID="{7A99511F-7EEE-4634-8EF7-99EB2BC8D0A7}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994950852"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo4_02" ID="{7A99511F-7EEE-4634-8EF7-99EB2BC8D0A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_Weapon_Combo4_03" ID="{1B0B7239-1646-456D-89DF-156D3DC12B76}" ShortID="137510665">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_Combo4_03" ID="{5CF0D24E-FF67-4B95-A6AF-E9A7DC2BEB79}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156673207"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_Combo4_03" ID="{5CF0D24E-FF67-4B95-A6AF-E9A7DC2BEB79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="MC_FT" ID="{54C61DA3-AE1B-465E-B6D9-4994D48F387B}" ShortID="380161320">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="MC_FT_Land" ID="{BE5A1052-A44E-4F8A-A7BF-C0E3FE40165B}" ShortID="47700285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="MC_FT_Albebo_Land" ID="{AD6ABE78-842E-42EA-87D8-A4E839809BE0}" ShortID="446568995">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Albebo_Land_01" ID="{91C1A486-8E59-4732-9A33-4CDC9E1669DE}" ShortID="621999191">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Land_01" ID="{CF955383-2579-4EF4-AF89-05F481E6B0DA}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Land\MC_FT_Albebo_Land_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="52572683"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Land_01" ID="{CF955383-2579-4EF4-AF89-05F481E6B0DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Land_02" ID="{D2FEADFD-4522-4E6C-836D-3C518E0234E3}" ShortID="44294029">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Land_02" ID="{63AA6596-145D-408F-BAA4-8BA8B2842827}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Land\MC_FT_Albebo_Land_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="35667076"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Land_02" ID="{63AA6596-145D-408F-BAA4-8BA8B2842827}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Moss_Land" ID="{68BFFE53-2815-4E21-BA88-4E25EEDA71D7}" ShortID="391285150">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Moss_Land_01" ID="{35C1DC9E-754C-4719-B508-801FE17334A8}" ShortID="211931473">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Land_01" ID="{2BC4ACB3-95D5-4164-A52E-675764303AFE}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Land\MC_FT_Moss_Land_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732399329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Land_01" ID="{2BC4ACB3-95D5-4164-A52E-675764303AFE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Land_02" ID="{90357440-92CC-435F-90AF-A26324364469}" ShortID="324084240">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Land_02" ID="{D5587EF6-7203-4DE4-99FC-82242812C283}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Land\MC_FT_Moss_Land_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="497967320"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Land_02" ID="{D5587EF6-7203-4DE4-99FC-82242812C283}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Mud_Land" ID="{253A8B45-5C19-4065-8A4A-1BDC39DBA564}" ShortID="587195117">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Mud_Land_01" ID="{C43AAEFC-A7DA-4892-8E70-1EEFB81AC107}" ShortID="659755576">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Land_01" ID="{CEFD7080-C4F2-4D8C-A3DB-C9F2E2689370}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Land\MC_FT_Mud_Land_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="400838985"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Land_01" ID="{CEFD7080-C4F2-4D8C-A3DB-C9F2E2689370}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Land_02" ID="{EE086F20-C205-4BA7-8F44-23A3937ECCAF}" ShortID="155246249">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Land_02" ID="{6853FE4C-6929-4BB5-BE6D-E4C9A0519071}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Land\MC_FT_Mud_Land_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227005033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Land_02" ID="{6853FE4C-6929-4BB5-BE6D-E4C9A0519071}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Mud_Land" ID="{253A8B45-5C19-4065-8A4A-1BDC39DBA564}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Moss_Land" ID="{68BFFE53-2815-4E21-BA88-4E25EEDA71D7}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Albebo_Land" ID="{AD6ABE78-842E-42EA-87D8-A4E839809BE0}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Mud_Land" ID="{253A8B45-5C19-4065-8A4A-1BDC39DBA564}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Moss" ID="{C2269DB1-5BB6-454C-B880-BDC4A7E6312E}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Moss_Land" ID="{68BFFE53-2815-4E21-BA88-4E25EEDA71D7}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Albebo_Land" ID="{AD6ABE78-842E-42EA-87D8-A4E839809BE0}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="MC_FT_Run" ID="{4F9BAD53-9FA6-496E-BBAC-B5E317972125}" ShortID="1021258213">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="MC_FT_Mud_Run" ID="{EB121B75-0927-4283-8079-2DACEF5064B3}" ShortID="940352285">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Mud_Run_01" ID="{EF2C0844-A5B3-4265-A1CC-1575BE8406D2}" ShortID="521151041">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_01" ID="{775249D3-56DA-4AEE-AB4A-9EB5D9A7A26B}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1018410834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_01" ID="{775249D3-56DA-4AEE-AB4A-9EB5D9A7A26B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Run_02" ID="{103F32AA-BC46-4E4E-B70F-197042F9B6C1}" ShortID="334217038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_02" ID="{B29F5103-0116-4AE8-8AEF-7B7D8EA8F982}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="2796906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_02" ID="{B29F5103-0116-4AE8-8AEF-7B7D8EA8F982}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Run_03" ID="{452FCD61-42E7-4A23-97F0-80B5A2F9674A}" ShortID="176550378">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_03" ID="{DB3AFEF0-10EF-402A-8D7A-0848DA61E007}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="431333140"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_03" ID="{DB3AFEF0-10EF-402A-8D7A-0848DA61E007}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Run_04" ID="{B755970F-04B2-4F99-8AF9-34C938C69D50}" ShortID="115536402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_04" ID="{80C30015-1191-46F8-A280-93A30E3801D3}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="538955356"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_04" ID="{80C30015-1191-46F8-A280-93A30E3801D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Run_05" ID="{E8DDAB56-27A9-4AFF-8057-A65D800FE8FE}" ShortID="284743812">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_05" ID="{97246764-CBD6-45B0-B78D-4F6C538C3B49}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="629076502"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_05" ID="{97246764-CBD6-45B0-B78D-4F6C538C3B49}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Run_06" ID="{3CBCC035-BDE8-4345-A9EE-9653EA273D7E}" ShortID="912550459">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Run_06" ID="{2F24ED03-A562-4ECD-8F33-87F37AD02CE5}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="806724285"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Run_06" ID="{2F24ED03-A562-4ECD-8F33-87F37AD02CE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Albebo_Run" ID="{C85E84B3-2FAC-46D2-AC2B-53E54D6A2DB6}" ShortID="700710808">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Albebo_Run_01" ID="{B65AE6F3-EA89-43AA-80C5-A56B6D6E2998}" ShortID="687276745">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_01" ID="{2F8214F3-352B-4310-A784-68182B31BFC4}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="612752634"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_01" ID="{2F8214F3-352B-4310-A784-68182B31BFC4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Run_02" ID="{1D6CC7C5-86F4-489E-89E2-B3085EC3FB10}" ShortID="982166177">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_02" ID="{4C9FDE95-F2E3-41DD-A4BB-92BF3D94F9BF}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="394137455"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_02" ID="{4C9FDE95-F2E3-41DD-A4BB-92BF3D94F9BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Run_03" ID="{3BA8C0CA-A950-4273-A252-EFF979FDEDDE}" ShortID="679176848">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_03" ID="{75C40E0D-EF71-490C-96BD-5F96C5038FE8}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="383811165"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_03" ID="{75C40E0D-EF71-490C-96BD-5F96C5038FE8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Run_04" ID="{11F81EA5-82A2-41C0-B4EB-7D93D2A2C0CC}" ShortID="806634510">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_04" ID="{5A562B58-1851-4253-805B-C8024C071111}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="914633205"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_04" ID="{5A562B58-1851-4253-805B-C8024C071111}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Run_05" ID="{81821D3D-939F-4F18-93BF-4430E9406686}" ShortID="980488925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_05" ID="{4BC64F8E-ECE1-4E50-ADBF-0EDA9AFFCA79}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="573954468"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_05" ID="{4BC64F8E-ECE1-4E50-ADBF-0EDA9AFFCA79}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Run_06" ID="{3EEB4A49-4739-4616-B707-6BCD4770DFD6}" ShortID="66640357">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Run_06" ID="{36F764E5-511A-4C19-8019-6377FC13F456}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="158783973"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Run_06" ID="{36F764E5-511A-4C19-8019-6377FC13F456}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Moss_Run" ID="{C13E379A-9956-41C8-B39A-776E2853CF0D}" ShortID="608817957">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Moss_Run_01" ID="{E172B912-3D05-4C65-B136-0D9080A76AA2}" ShortID="386563805">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_01" ID="{8FFE2707-443F-4F25-8F0F-737848EFAFCA}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="480493616"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_01" ID="{8FFE2707-443F-4F25-8F0F-737848EFAFCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Run_02" ID="{8B219AD9-E9C1-4832-817B-E5271EA3A446}" ShortID="999277644">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_02" ID="{C3C27C4E-0874-4035-970E-49510ED51831}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120420951"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_02" ID="{C3C27C4E-0874-4035-970E-49510ED51831}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Run_03" ID="{4E218329-9F02-4ABE-9EA1-AD5076CA2D9D}" ShortID="737941619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_03" ID="{0C2B4802-09A0-4CF0-AF81-6FB3C7C2BCAB}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="689480796"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_03" ID="{0C2B4802-09A0-4CF0-AF81-6FB3C7C2BCAB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Run_04" ID="{F3C3A270-8821-4968-AAA6-01E4AC916EF7}" ShortID="244017314">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_04" ID="{B2D93073-A0F3-442D-B10A-E5A3AD83B515}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="553732402"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_04" ID="{B2D93073-A0F3-442D-B10A-E5A3AD83B515}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Run_05" ID="{5532BE02-1622-4B80-8246-274D335EB30C}" ShortID="114749015">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_05" ID="{B9260BA2-B771-4FF1-90AF-CFE537D950B9}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831335675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_05" ID="{B9260BA2-B771-4FF1-90AF-CFE537D950B9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Run_06" ID="{C256B548-3BB4-4120-8EAC-1B80D31B5C2D}" ShortID="122267483">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Run_06" ID="{F0CE9A37-0EAF-40D5-8AE3-386B23FA853D}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329168854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Run_06" ID="{F0CE9A37-0EAF-40D5-8AE3-386B23FA853D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Mud_Run" ID="{EB121B75-0927-4283-8079-2DACEF5064B3}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Moss_Run" ID="{C13E379A-9956-41C8-B39A-776E2853CF0D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Albebo_Run" ID="{C85E84B3-2FAC-46D2-AC2B-53E54D6A2DB6}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Mud_Run" ID="{EB121B75-0927-4283-8079-2DACEF5064B3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Moss" ID="{C2269DB1-5BB6-454C-B880-BDC4A7E6312E}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Moss_Run" ID="{C13E379A-9956-41C8-B39A-776E2853CF0D}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Albebo_Run" ID="{C85E84B3-2FAC-46D2-AC2B-53E54D6A2DB6}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="MC_FT_Jump" ID="{072DCF89-7788-4CB6-9813-EB5F433C2ECA}" ShortID="913369197">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="MC_FT_Mud_Jump" ID="{618E488D-56A5-40FF-9964-D2462BCAFDFB}" ShortID="384105369">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Mud_Jump_01" ID="{FA6A8D89-15D2-474E-AF48-D93E98C1AC95}" ShortID="6147822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Jump_01" ID="{3D50C5E5-CC46-45C0-852C-2A30D31F02CB}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Jump\MC_FT_Mud_Jump_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="425942310"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Jump_01" ID="{3D50C5E5-CC46-45C0-852C-2A30D31F02CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Jump_02" ID="{F3FE4F2E-1004-4A8F-8090-D3AC79D80DA3}" ShortID="844079633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Jump_02" ID="{EA567018-741D-49BC-93E6-5F27A926A9E7}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Jump\MC_FT_Mud_Jump_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="223733067"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Jump_02" ID="{EA567018-741D-49BC-93E6-5F27A926A9E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Moss_Jump" ID="{A3141A8C-5C4C-49E9-B1E6-5CDE5F6B72EE}" ShortID="667226070">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Moss_Jump_01" ID="{B92E6215-C453-440E-861A-5709757E4418}" ShortID="331296969">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Jump_01" ID="{B904684A-A628-4673-B7D4-D191C67865C6}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Jump\MC_FT_Moss_Jump_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851613363"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Jump_01" ID="{B904684A-A628-4673-B7D4-D191C67865C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Moss_Jump_02" ID="{6A74D52F-0253-4263-A0AE-D9AAD9C72CD4}" ShortID="719249603">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Moss_Jump_02" ID="{2AD6CFAC-9CFE-420E-A61D-53F372F636D8}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Jump\MC_FT_Moss_Jump_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="429112264"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Moss_Jump_02" ID="{2AD6CFAC-9CFE-420E-A61D-53F372F636D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="MC_FT_Albebo_Jump" ID="{A836B777-5C5C-4682-8E79-AB709743A874}" ShortID="969677027">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Albebo_Jump_01" ID="{7DB72F06-F486-4824-B363-DE8316D93CFD}" ShortID="670879335">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Jump_01" ID="{C381A64B-4A12-419E-8290-4238923505B5}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Jump\MC_FT_Albebo_Jump_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271273661"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Jump_01" ID="{C381A64B-4A12-419E-8290-4238923505B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Albebo_Jump_02" ID="{2C25C7FA-35DA-4F7A-BD2C-703880B13642}" ShortID="797791446">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Albebo_Jump_02" ID="{66D683C3-0DA5-4021-A711-1EDC98718030}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Jump\MC_FT_Albebo_Jump_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="25441164"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Albebo_Jump_02" ID="{66D683C3-0DA5-4021-A711-1EDC98718030}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Albebo_Jump" ID="{A836B777-5C5C-4682-8E79-AB709743A874}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Moss_Jump" ID="{A3141A8C-5C4C-49E9-B1E6-5CDE5F6B72EE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Mud_Jump" ID="{618E488D-56A5-40FF-9964-D2462BCAFDFB}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Mud_Jump" ID="{618E488D-56A5-40FF-9964-D2462BCAFDFB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Moss" ID="{C2269DB1-5BB6-454C-B880-BDC4A7E6312E}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Moss_Jump" ID="{A3141A8C-5C4C-49E9-B1E6-5CDE5F6B72EE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Albebo_Jump" ID="{A836B777-5C5C-4682-8E79-AB709743A874}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="MC_FT_Walk" ID="{F8A96B12-94D6-467E-A246-8EF95673D78F}" ShortID="163906731">
+							<Comment>Manque Grass et moss
+</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="MC_FT_Mud_Walk" ID="{527B27F0-6795-4871-87CC-552E7B366D1E}" ShortID="212654965">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MC_FT_Mud_Walk_01" ID="{B78C037D-7F39-4371-A58C-C6A3487E2974}" ShortID="484225988">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_01" ID="{E8E2EE5B-D0AC-4A5C-844F-A7936A8E7494}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="52436346"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_01" ID="{E8E2EE5B-D0AC-4A5C-844F-A7936A8E7494}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Walk_02" ID="{37DB4DEE-1AAB-47F5-9897-0E9C85969358}" ShortID="918235804">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_02" ID="{460FC1B4-6DAE-4721-A163-168D181A13FA}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="374122735"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_02" ID="{460FC1B4-6DAE-4721-A163-168D181A13FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Walk_03" ID="{4555E65F-6C99-48A8-A641-363450999BC8}" ShortID="394261336">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_03" ID="{691A3938-5A2F-47F8-B3BE-141FC9E95D05}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="602498631"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_03" ID="{691A3938-5A2F-47F8-B3BE-141FC9E95D05}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Walk_04" ID="{36A091FA-1167-43DB-948A-7A70D2558B6E}" ShortID="102004569">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_04" ID="{9BEC9CC4-192E-482B-99D0-1AECE1AEC281}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="182154320"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_04" ID="{9BEC9CC4-192E-482B-99D0-1AECE1AEC281}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Walk_05" ID="{72645868-539F-4646-8C27-11742951A2E0}" ShortID="181280741">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_05" ID="{3C1C596F-95E5-4AA8-9E15-29910E568A37}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="665863009"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_05" ID="{3C1C596F-95E5-4AA8-9E15-29910E568A37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MC_FT_Mud_Walk_06" ID="{BC3EE345-7546-465D-9C39-AD888F202BE3}" ShortID="428919041">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MC_FT_Mud_Walk_06" ID="{04EEAF7E-FE38-4E7A-B401-6E63A5B74C9E}">
+													<Language>SFX</Language>
+													<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="511570566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MC_FT_Mud_Walk_06" ID="{04EEAF7E-FE38-4E7A-B401-6E63A5B74C9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Mud_Walk" ID="{527B27F0-6795-4871-87CC-552E7B366D1E}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Mud_Walk" ID="{527B27F0-6795-4871-87CC-552E7B366D1E}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="MC_FT_Strafe" ID="{9CB5BD65-9F32-491C-82F2-FA076D20E206}" ShortID="661430976">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MC_FT_Mud_Strafe" ID="{2D3CD648-34F0-43E1-B88B-ADAF0BAC1880}" ShortID="1032086896">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FT_Mud_Strafe" ID="{98BEF696-7E21-475E-B756-96E6D819C7DC}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FT\MC_FT_Mud\MC_FT_Mud_Strafe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550997891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FT_Mud_Strafe" ID="{98BEF696-7E21-475E-B756-96E6D819C7DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FT_Moss_Strafe" ID="{81560B8A-5843-401D-9D4D-7973331A06DE}" ShortID="501109621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FT_Moss_Strafe" ID="{4E657132-6D2E-4BF6-962F-1857963A1FCB}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FT\MC_FT_Moss\MC_FT_Moss_Strafe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108887011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FT_Moss_Strafe" ID="{4E657132-6D2E-4BF6-962F-1857963A1FCB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MC_FT_Albebo_Strafe" ID="{411A93F5-2DC2-4B22-8DE4-AFE34EBB7DAC}" ShortID="81322952">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FT_Albebo_Strafe" ID="{C8CD4B5E-4ABF-4A09-9A63-BB48B06E87E7}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Strafe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124783595"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FT_Albebo_Strafe" ID="{C8CD4B5E-4ABF-4A09-9A63-BB48B06E87E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Mud_Strafe" ID="{2D3CD648-34F0-43E1-B88B-ADAF0BAC1880}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Moss_Strafe" ID="{81560B8A-5843-401D-9D4D-7973331A06DE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FT_Albebo_Strafe" ID="{411A93F5-2DC2-4B22-8DE4-AFE34EBB7DAC}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Mud_Strafe" ID="{2D3CD648-34F0-43E1-B88B-ADAF0BAC1880}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Moss" ID="{C2269DB1-5BB6-454C-B880-BDC4A7E6312E}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Moss_Strafe" ID="{81560B8A-5843-401D-9D4D-7973331A06DE}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="MC_FT_Albebo_Strafe" ID="{411A93F5-2DC2-4B22-8DE4-AFE34EBB7DAC}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

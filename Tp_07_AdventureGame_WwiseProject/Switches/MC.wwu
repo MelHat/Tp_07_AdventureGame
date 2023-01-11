@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}" SchemaVersion="110" RootDocumentID="{CE268497-AE03-4F97-A0C3-6B316B97313B}" ParentDocumentID="{CE268497-AE03-4F97-A0C3-6B316B97313B}">
+	<Switches>
+		<WorkUnit Name="MC" ID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}" OwnerID="{CE268497-AE03-4F97-A0C3-6B316B97313B}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}">
+					<ChildrenList>
+						<Switch Name="Moss" ID="{C2269DB1-5BB6-454C-B880-BDC4A7E6312E}"/>
+						<Switch Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+						<Switch Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
