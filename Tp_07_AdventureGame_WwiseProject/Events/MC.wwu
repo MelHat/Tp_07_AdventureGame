@@ -97,6 +97,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_MC_FOL_Landing_Fast" ID="{FEAF2B05-50A9-41D8-8193-AFEFACFC5F10}">
+							<ChildrenList>
+								<Action Name="" ID="{3A5BDE46-EF85-401D-9787-C7FF7C86D486}" ShortID="551098494">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MC_FOL_Landing_Fast" ID="{F50FEE86-2C44-4D0C-A11F-03571641BFE9}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Combos" ID="{421B0E81-F385-4B2E-82BD-EDE9AD27E6EC}" ShortID="829950454">

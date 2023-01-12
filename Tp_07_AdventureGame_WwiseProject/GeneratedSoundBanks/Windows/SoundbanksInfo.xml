@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="968010305" Type="User" Language="SFX">
+			<ShortName>Props</ShortName>
+			<Path>Props.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1017660616" Type="User" Language="SFX">
+			<ShortName>Ambiences</ShortName>
+			<Path>Ambiences.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A15E795C-FCC4-4E90-51D9-F2636C2E7820}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="838047381" Name="Non-World"/>
+				<Bus Id="968010305" Name="Props"/>
+				<Bus Id="1117531639" Name="Amb"/>
+				<Bus Id="1551306167" Name="UI"/>
+				<Bus Id="1685527061" Name="MC"/>
+				<Bus Id="2609808943" Name="World"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="4166191657" Name="Ennemies"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="3131853436" Name="MC_Switch_Material">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1684300366" Name="Albedo"/>
+						<Switch Id="2927316363" Name="Moss"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{336B5A01-0098-566E-E2EC-CABA547F5D3C}">
+			<ShortName>MC</ShortName>
+			<Path>MC.bnk</Path>
+			<Media>
+				<File Id="2796906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="14341869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo3/MC_VOX_Combo3_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="16179629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="22387468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Strafe.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Strafe_10C4C929.wem</CachePath>
+				</File>
+				<File Id="25441164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Jump\MC_FT_Albebo_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Jump/MC_FT_Albebo_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="35667076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Land\MC_FT_Albebo_Land_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Land/MC_FT_Albebo_Land_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52436346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52572683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Land\MC_FT_Albebo_Land_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Land/MC_FT_Albebo_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="66800164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL_Landing_Fast\MC_FOL_Run_Landing_Fast_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL_Landing_Fast/MC_FOL_Run_Landing_Fast_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="77573513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo1/MC_VOX_Combo1_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="78808683" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Death.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="108887011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Strafe.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Strafe_10C4C929.wem</CachePath>
+				</File>
+				<File Id="114471360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_RandomIdle/MC_FOL_RandomIdle_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="117624795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL_Landing_Fast\MC_FOL_Run_Landing_Fast_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL_Landing_Fast/MC_FOL_Run_Landing_Fast_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="119468366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_05.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120420951" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122367689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_Landing_Fast_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="124158291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Hurt/MC_FOL_Hurt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="124783595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Strafe.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Strafe_10C4C929.wem</CachePath>
+				</File>
+				<File Id="132448169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_SFX\MC_SFX_Hurt_02.wav</ShortName>
+					<CachePath>SFX/MC_SFX/MC_SFX_Hurt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="133150587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo1/MC_VOX_Combo1_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="140070801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_03.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="156673207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_03.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo4/MC_Weapon_Combo4_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="157267971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Jump\MC_FOL_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Jump/MC_FOL_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158783973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_06.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="182154320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_04.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="215162203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo1\MC_VOX_Combo1_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo1/MC_VOX_Combo1_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223733067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Jump\MC_FT_Mud_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Jump/MC_FT_Mud_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227005033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Land\MC_FT_Mud_Land_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Land/MC_FT_Mud_Land_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="237880736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_05.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254614190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_04.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="261134828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_RandomIdle/MC_FOL_RandomIdle_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="271273661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Jump\MC_FT_Albebo_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Jump/MC_FT_Albebo_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280072535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="287402517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Respawn.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Respawn_10C4C929.wem</CachePath>
+				</File>
+				<File Id="317180642" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Land\MC_FOL_Land_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Land/MC_FOL_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="318024018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_03.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Hurt/MC_FOL_Hurt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="318146461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_03.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo2/MC_Weapon_Combo2_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="329168854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_06.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="374122735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="383811165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_03.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="383878873" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="394137455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="400838985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Land\MC_FT_Mud_Land_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Land/MC_FT_Mud_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="415899772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_01.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo1/MC_Weapon_Combo1_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="425942310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Jump\MC_FT_Mud_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Jump/MC_FT_Mud_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="429112264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Jump\MC_FT_Moss_Jump_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Jump/MC_FT_Moss_Jump_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="431333140" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_03.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="458429882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Death.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="469929845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_01.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo2/MC_Weapon_Combo2_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="480493616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="497967320" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Land\MC_FT_Moss_Land_02.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Land/MC_FT_Moss_Land_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511570566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_06.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="513006649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_02.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo3/MC_Weapon_Combo3_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="538955356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_04.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="550997891" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Strafe.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Strafe_10C4C929.wem</CachePath>
+				</File>
+				<File Id="553732402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_04.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="558389473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo4/MC_VOX_Combo4_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="573954468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_05.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="581365106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_SFX\MC_SFX_Hurt_01.wav</ShortName>
+					<CachePath>SFX/MC_SFX/MC_SFX_Hurt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592724509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Jump\MC_FOL_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Jump/MC_FOL_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="596045046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_03.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo3/MC_Weapon_Combo3_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602498631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_03.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="612752634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="624464746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_SFX\MC_SFX_Hurt_03.wav</ShortName>
+					<CachePath>SFX/MC_SFX/MC_SFX_Hurt_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="629076502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_05.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665863009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Walk\MC_FT_Mud_Walk_05.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Walk/MC_FT_Mud_Walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="683347950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_04.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Hurt/MC_FOL_Hurt_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="684885246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_01.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo4/MC_Weapon_Combo4_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="689480796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_03.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="691538567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo3/MC_VOX_Combo3_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="706010484" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo4/MC_VOX_Combo4_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="720315360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo2/MC_VOX_Combo2_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="732399329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Land\MC_FT_Moss_Land_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Land/MC_FT_Moss_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="737944242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo2/MC_VOX_Combo2_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="744535241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="780103801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_06.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="783500089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo2\MC_Weapon_Combo2_02.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo2/MC_Weapon_Combo2_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="806724285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_06.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="809097615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_04.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="831335675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_05.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="851613363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Jump\MC_FT_Moss_Jump_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Jump/MC_FT_Moss_Jump_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="888189405" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo2\MC_VOX_Combo2_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo2/MC_VOX_Combo2_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="914633205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Albebo\MC_FT_Albebo_Run\MC_FT_Albebo_Run_04.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Albebo/MC_FT_Albebo_Run/MC_FT_Albebo_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="915102730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo4\MC_VOX_Combo4_01.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo4/MC_VOX_Combo4_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943955103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo3\MC_Weapon_Combo3_01.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo3/MC_Weapon_Combo3_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="951729995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_RandomIdle\MC_FOL_RandomIdle_03.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_RandomIdle/MC_FOL_RandomIdle_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="985335400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_01.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Hurt/MC_FOL_Hurt_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="988499431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Land\MC_FOL_Land_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Land/MC_FOL_Land_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="994950852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_02.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo4/MC_Weapon_Combo4_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="996061856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_02.wav</ShortName>
+					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_Landing_Fast_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1008355329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_03.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo1/MC_Weapon_Combo1_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1013358215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Combo3\MC_VOX_Combo3_02.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Combo3/MC_VOX_Combo3_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1018410834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT\MC_FT_Mud\MC_FT_Mud_Run\MC_FT_Mud_Run_01.wav</ShortName>
+					<CachePath>SFX/MC_FT/MC_FT_Mud/MC_FT_Mud_Run/MC_FT_Mud_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1027038245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_02.wav</ShortName>
+					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo1/MC_Weapon_Combo1_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042899282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_03.wav</ShortName>
+					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_03_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1172822028" Name="Play_Death" DurationType="OneShot" DurationMin="2.2" DurationMax="2.2">
+					<MediaRefs>
+						<MediaRef Id="78808683"/>
+						<MediaRef Id="458429882"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2955259529" Name="Play_Hurt" DurationType="OneShot" DurationMin="1.4666667" DurationMax="1.4666667">
+					<MediaRefs>
+						<MediaRef Id="124158291"/>
+						<MediaRef Id="132448169"/>
+						<MediaRef Id="237880736"/>
+						<MediaRef Id="254614190"/>
+						<MediaRef Id="280072535"/>
+						<MediaRef Id="318024018"/>
+						<MediaRef Id="581365106"/>
+						<MediaRef Id="624464746"/>
+						<MediaRef Id="683347950"/>
+						<MediaRef Id="744535241"/>
+						<MediaRef Id="985335400"/>
+						<MediaRef Id="1042899282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3980513442" Name="Play_MC_Combo1" DurationType="OneShot" DurationMin="0.8333333" DurationMax="0.96666664">
+					<MediaRefs>
+						<MediaRef Id="77573513"/>
+						<MediaRef Id="133150587"/>
+						<MediaRef Id="215162203"/>
+						<MediaRef Id="415899772"/>
+						<MediaRef Id="1008355329"/>
+						<MediaRef Id="1027038245"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3980513441" Name="Play_MC_Combo2" DurationType="OneShot" DurationMin="0.93333334" DurationMax="0.96666664">
+					<MediaRefs>
+						<MediaRef Id="318146461"/>
+						<MediaRef Id="469929845"/>
+						<MediaRef Id="720315360"/>
+						<MediaRef Id="737944242"/>
+						<MediaRef Id="783500089"/>
+						<MediaRef Id="888189405"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3980513440" Name="Play_MC_Combo3" DurationType="OneShot" DurationMin="0.93333334" DurationMax="0.96666664">
+					<MediaRefs>
+						<MediaRef Id="14341869"/>
+						<MediaRef Id="513006649"/>
+						<MediaRef Id="596045046"/>
+						<MediaRef Id="691538567"/>
+						<MediaRef Id="943955103"/>
+						<MediaRef Id="1013358215"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3980513447" Name="Play_MC_Combo4" DurationType="OneShot" DurationMin="1.7666667" DurationMax="1.9666667">
+					<MediaRefs>
+						<MediaRef Id="156673207"/>
+						<MediaRef Id="558389473"/>
+						<MediaRef Id="684885246"/>
+						<MediaRef Id="706010484"/>
+						<MediaRef Id="915102730"/>
+						<MediaRef Id="994950852"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3212184235" Name="Play_MC_FOL_Jump" DurationType="OneShot" DurationMin="0.6" DurationMax="0.6666667">
+					<MediaRefs>
+						<MediaRef Id="157267971"/>
+						<MediaRef Id="592724509"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2037670792" Name="Play_MC_FOL_Land" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
+					<MediaRefs>
+						<MediaRef Id="317180642"/>
+						<MediaRef Id="988499431"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3717249437" Name="Play_MC_FOL_Landing_Fast" DurationType="OneShot" DurationMin="1" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="66800164"/>
+						<MediaRef Id="117624795"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3173554790" Name="Play_MC_FOL_RandomIdle_01" DurationType="OneShot" DurationMin="6.7" DurationMax="6.7">
+					<MediaRefs>
+						<MediaRef Id="114471360"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3173554789" Name="Play_MC_FOL_RandomIdle_02" DurationType="OneShot" DurationMin="6.3333335" DurationMax="6.3333335">
+					<MediaRefs>
+						<MediaRef Id="261134828"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3173554788" Name="Play_MC_FOL_RandomIdle_03" DurationType="OneShot" DurationMin="7.4" DurationMax="7.4">
+					<MediaRefs>
+						<MediaRef Id="951729995"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4245449921" Name="Play_MC_FOL_Respawn" DurationType="OneShot" DurationMin="1.6333333" DurationMax="1.6333333">
+					<MediaRefs>
+						<MediaRef Id="287402517"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="733683298" Name="Play_MC_FOL_Run" DurationType="OneShot" DurationMin="0.43333334" DurationMax="1">
+					<MediaRefs>
+						<MediaRef Id="16179629"/>
+						<MediaRef Id="119468366"/>
+						<MediaRef Id="122367689"/>
+						<MediaRef Id="140070801"/>
+						<MediaRef Id="383878873"/>
+						<MediaRef Id="780103801"/>
+						<MediaRef Id="809097615"/>
+						<MediaRef Id="996061856"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1450395262" Name="Play_MC_FOL_Strafe" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
+					<MediaRefs>
+						<MediaRef Id="22387468"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2657619710" Name="Play_MC_FT_Jump" DurationType="OneShot" DurationMin="0.31462476" DurationMax="0.5297316">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="223733067"/>
+								<MediaRef Id="425942310"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="429112264"/>
+								<MediaRef Id="851613363"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="25441164"/>
+								<MediaRef Id="271273661"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="720167465" Name="Play_MC_FT_Land" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.628372">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="227005033"/>
+								<MediaRef Id="400838985"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="497967320"/>
+								<MediaRef Id="732399329"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="35667076"/>
+								<MediaRef Id="52572683"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3245995633" Name="Play_MC_FT_Run" DurationType="OneShot" DurationMin="0.26591688" DurationMax="0.5297316">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="2796906"/>
+								<MediaRef Id="431333140"/>
+								<MediaRef Id="538955356"/>
+								<MediaRef Id="629076502"/>
+								<MediaRef Id="806724285"/>
+								<MediaRef Id="1018410834"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="120420951"/>
+								<MediaRef Id="329168854"/>
+								<MediaRef Id="480493616"/>
+								<MediaRef Id="553732402"/>
+								<MediaRef Id="689480796"/>
+								<MediaRef Id="831335675"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="158783973"/>
+								<MediaRef Id="383811165"/>
+								<MediaRef Id="394137455"/>
+								<MediaRef Id="573954468"/>
+								<MediaRef Id="612752634"/>
+								<MediaRef Id="914633205"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2798830395" Name="Play_MC_FT_Strafe" DurationType="OneShot" DurationMin="0.21174245" DurationMax="0.4591007">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="550997891"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="108887011"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="124783595"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="87523801" Name="Play_MC_FT_Walk" DurationType="OneShot" DurationMin="0.47193712" DurationMax="0.5297316">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="52436346"/>
+								<MediaRef Id="182154320"/>
+								<MediaRef Id="374122735"/>
+								<MediaRef Id="511570566"/>
+								<MediaRef Id="602498631"/>
+								<MediaRef Id="665863009"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3131853436" Name="MC_Switch_Material">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1684300366" Name="Albedo"/>
+						<Switch Id="2927316363" Name="Moss"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2242381963" Type="User" Language="SFX">
+			<ShortName>Enemies</ShortName>
+			<Path>Enemies.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6BB1A05F-3412-DF59-FC69-350D3EAEF3ED}</FileHash>
+</SoundBanksInfo>
