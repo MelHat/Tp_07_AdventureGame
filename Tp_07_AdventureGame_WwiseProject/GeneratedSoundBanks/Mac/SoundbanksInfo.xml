@@ -17,7 +17,7 @@
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CDB0E485-DFB3-DAFC-3B59-A7B4BAF7833C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F3A93517-9A7F-FE3F-6F3D-9814030282F5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -50,7 +50,7 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{336B5A01-0098-566E-E2EC-CABA547F5D3C}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{2C9B539F-50F6-6BA3-7227-2AA6C550F9AD}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -117,10 +117,6 @@
 				<File Id="120420951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_02.wav</ShortName>
 					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="122367689" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_01.wav</ShortName>
-					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_Landing_Fast_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="124158291" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FOL\MC_FOL_Hurt\MC_FOL_Hurt_02.wav</ShortName>
@@ -190,9 +186,9 @@
 					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_01.wav</ShortName>
 					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="287402517" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_FOL\MC_FOL_Respawn.wav</ShortName>
-					<CachePath>SFX/MC_FOL/MC_FOL_Respawn_10C4C929.wem</CachePath>
+				<File Id="305624397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_SFX_Respawn.wav</ShortName>
+					<CachePath>SFX/MC_SFX_Respawn_10C4C929.wem</CachePath>
 				</File>
 				<File Id="317180642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FOL\MC_FOL_Land\MC_FOL_Land_01.wav</ShortName>
@@ -378,6 +374,10 @@
 					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Run\MC_FT_Moss_Run_05.wav</ShortName>
 					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Run/MC_FT_Moss_Run_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="838640376" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FOL_Respawn.wav</ShortName>
+					<CachePath>SFX/MC_FOL_Respawn_10C4C929.wem</CachePath>
+				</File>
 				<File Id="851613363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT\MC_FT_Moss\MC_FT_Moss_Jump\MC_FT_Moss_Jump_01.wav</ShortName>
 					<CachePath>SFX/MC_FT/MC_FT_Moss/MC_FT_Moss_Jump/MC_FT_Moss_Jump_01_10C4C929.wem</CachePath>
@@ -414,10 +414,6 @@
 					<ShortName>MC_Weapon\MC_Weapon_Combo4\MC_Weapon_Combo4_02.wav</ShortName>
 					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo4/MC_Weapon_Combo4_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="996061856" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_FOL\MC_FOL_Run\MC_FOL_Run_Landing_Fast_02.wav</ShortName>
-					<CachePath>SFX/MC_FOL/MC_FOL_Run/MC_FOL_Run_Landing_Fast_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="1008355329" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_03.wav</ShortName>
 					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo1/MC_Weapon_Combo1_03_10C4C929.wem</CachePath>
@@ -439,30 +435,15 @@
 					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_03_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="475436456" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="734813099" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="757478679" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="1172822028" Name="Play_Death" DurationType="OneShot" DurationMin="2.2" DurationMax="2.2">
-					<MediaRefs>
-						<MediaRef Id="78808683"/>
-						<MediaRef Id="458429882"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2955259529" Name="Play_Hurt" DurationType="OneShot" DurationMin="1.4666667" DurationMax="1.4666667">
-					<MediaRefs>
-						<MediaRef Id="124158291"/>
-						<MediaRef Id="132448169"/>
-						<MediaRef Id="237880736"/>
-						<MediaRef Id="254614190"/>
-						<MediaRef Id="280072535"/>
-						<MediaRef Id="318024018"/>
-						<MediaRef Id="581365106"/>
-						<MediaRef Id="624464746"/>
-						<MediaRef Id="683347950"/>
-						<MediaRef Id="744535241"/>
-						<MediaRef Id="985335400"/>
-						<MediaRef Id="1042899282"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3980513442" Name="Play_MC_Combo1" DurationType="OneShot" DurationMin="0.8333333" DurationMax="0.96666664">
+				<Event Id="3980513442" Name="Play_MC_Combo1" DurationType="OneShot" DurationMin="0.8333333" DurationMax="1.1">
 					<MediaRefs>
 						<MediaRef Id="77573513"/>
 						<MediaRef Id="133150587"/>
@@ -471,6 +452,11 @@
 						<MediaRef Id="1008355329"/>
 						<MediaRef Id="1027038245"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="734813099"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3980513441" Name="Play_MC_Combo2" DurationType="OneShot" DurationMin="0.93333334" DurationMax="0.96666664">
 					<MediaRefs>
@@ -482,7 +468,7 @@
 						<MediaRef Id="888189405"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3980513440" Name="Play_MC_Combo3" DurationType="OneShot" DurationMin="0.93333334" DurationMax="0.96666664">
+				<Event Id="3980513440" Name="Play_MC_Combo3" DurationType="OneShot" DurationMin="0.93333334" DurationMax="1.1">
 					<MediaRefs>
 						<MediaRef Id="14341869"/>
 						<MediaRef Id="513006649"/>
@@ -491,6 +477,11 @@
 						<MediaRef Id="943955103"/>
 						<MediaRef Id="1013358215"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="757478679"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 				<Event Id="3980513447" Name="Play_MC_Combo4" DurationType="OneShot" DurationMin="1.7666667" DurationMax="1.9666667">
 					<MediaRefs>
@@ -500,6 +491,17 @@
 						<MediaRef Id="706010484"/>
 						<MediaRef Id="915102730"/>
 						<MediaRef Id="994950852"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="475436456"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="107675701" Name="Play_MC_Death" DurationType="OneShot" DurationMin="2.2" DurationMax="2.2">
+					<MediaRefs>
+						<MediaRef Id="78808683"/>
+						<MediaRef Id="458429882"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3212184235" Name="Play_MC_FOL_Jump" DurationType="OneShot" DurationMin="0.6" DurationMax="0.6666667">
@@ -535,21 +537,14 @@
 						<MediaRef Id="951729995"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4245449921" Name="Play_MC_FOL_Respawn" DurationType="OneShot" DurationMin="1.6333333" DurationMax="1.6333333">
-					<MediaRefs>
-						<MediaRef Id="287402517"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="733683298" Name="Play_MC_FOL_Run" DurationType="OneShot" DurationMin="0.43333334" DurationMax="1">
+				<Event Id="733683298" Name="Play_MC_FOL_Run" DurationType="OneShot" DurationMin="0.43333334" DurationMax="0.43333334">
 					<MediaRefs>
 						<MediaRef Id="16179629"/>
 						<MediaRef Id="119468366"/>
-						<MediaRef Id="122367689"/>
 						<MediaRef Id="140070801"/>
 						<MediaRef Id="383878873"/>
 						<MediaRef Id="780103801"/>
 						<MediaRef Id="809097615"/>
-						<MediaRef Id="996061856"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1450395262" Name="Play_MC_FOL_Strafe" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
@@ -681,6 +676,111 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2522474374" Name="Play_MC_Hurt" DurationType="OneShot" DurationMin="1.4666667" DurationMax="1.4666667">
+					<MediaRefs>
+						<MediaRef Id="124158291"/>
+						<MediaRef Id="132448169"/>
+						<MediaRef Id="237880736"/>
+						<MediaRef Id="254614190"/>
+						<MediaRef Id="280072535"/>
+						<MediaRef Id="318024018"/>
+						<MediaRef Id="581365106"/>
+						<MediaRef Id="624464746"/>
+						<MediaRef Id="683347950"/>
+						<MediaRef Id="744535241"/>
+						<MediaRef Id="985335400"/>
+						<MediaRef Id="1042899282"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3022734957" Name="Play_MC_Jump" DurationType="OneShot" DurationMin="0.6" DurationMax="0.6666667">
+					<MediaRefs>
+						<MediaRef Id="157267971"/>
+						<MediaRef Id="592724509"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="223733067"/>
+								<MediaRef Id="425942310"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="429112264"/>
+								<MediaRef Id="851613363"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="25441164"/>
+								<MediaRef Id="271273661"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1593937298" Name="Play_MC_Land" DurationType="OneShot" DurationMin="0.7" DurationMax="0.7">
+					<MediaRefs>
+						<MediaRef Id="317180642"/>
+						<MediaRef Id="988499431"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="227005033"/>
+								<MediaRef Id="400838985"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="497967320"/>
+								<MediaRef Id="732399329"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="35667076"/>
+								<MediaRef Id="52572683"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2047825579" Name="Play_MC_Respawn" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="305624397"/>
+						<MediaRef Id="838640376"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3738803368" Name="Play_MC_Strafe" DurationType="OneShot" DurationMin="0.6333333" DurationMax="0.6333333">
+					<MediaRefs>
+						<MediaRef Id="22387468"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="550997891"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="2927316363"/>
+							<MediaRefs>
+								<MediaRef Id="108887011"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="124783595"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="3131853436" Name="MC_Switch_Material">
@@ -697,5 +797,5 @@
 			<Path>Enemies.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{862FC68F-0AC2-F71A-08E5-CFBC5667496B}</FileHash>
+	<FileHash>{44D5E1F1-708B-20D8-BDDC-1DBC894FC965}</FileHash>
 </SoundBanksInfo>

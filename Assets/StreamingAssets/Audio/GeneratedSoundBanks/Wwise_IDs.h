@@ -13,19 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_DEATH = 1172822028U;
-        static const AkUniqueID PLAY_HURT = 2955259529U;
         static const AkUniqueID PLAY_MC_COMBO1 = 3980513442U;
         static const AkUniqueID PLAY_MC_COMBO2 = 3980513441U;
         static const AkUniqueID PLAY_MC_COMBO3 = 3980513440U;
         static const AkUniqueID PLAY_MC_COMBO4 = 3980513447U;
+        static const AkUniqueID PLAY_MC_DEATH = 107675701U;
         static const AkUniqueID PLAY_MC_FOL_JUMP = 3212184235U;
         static const AkUniqueID PLAY_MC_FOL_LAND = 2037670792U;
         static const AkUniqueID PLAY_MC_FOL_LANDING_FAST = 3717249437U;
         static const AkUniqueID PLAY_MC_FOL_RANDOMIDLE_01 = 3173554790U;
         static const AkUniqueID PLAY_MC_FOL_RANDOMIDLE_02 = 3173554789U;
         static const AkUniqueID PLAY_MC_FOL_RANDOMIDLE_03 = 3173554788U;
-        static const AkUniqueID PLAY_MC_FOL_RESPAWN = 4245449921U;
         static const AkUniqueID PLAY_MC_FOL_RUN = 733683298U;
         static const AkUniqueID PLAY_MC_FOL_STRAFE = 1450395262U;
         static const AkUniqueID PLAY_MC_FT_JUMP = 2657619710U;
@@ -33,6 +31,11 @@ namespace AK
         static const AkUniqueID PLAY_MC_FT_RUN = 3245995633U;
         static const AkUniqueID PLAY_MC_FT_STRAFE = 2798830395U;
         static const AkUniqueID PLAY_MC_FT_WALK = 87523801U;
+        static const AkUniqueID PLAY_MC_HURT = 2522474374U;
+        static const AkUniqueID PLAY_MC_JUMP = 3022734957U;
+        static const AkUniqueID PLAY_MC_LAND = 1593937298U;
+        static const AkUniqueID PLAY_MC_RESPAWN = 2047825579U;
+        static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
     } // namespace EVENTS
 
     namespace SWITCHES

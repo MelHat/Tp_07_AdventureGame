@@ -749,7 +749,7 @@ ModelImporter:
       events:
       - time: 0
         functionName: PlayEvent
-        data: Play_MC_FT_Jump
+        data: Play_MC_Jump
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
@@ -930,7 +930,7 @@ ModelImporter:
       events:
       - time: 0.0015985967
         functionName: PlayEvent
-        data: Play_MC_FT_Land
+        data: Play_MC_Land
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0

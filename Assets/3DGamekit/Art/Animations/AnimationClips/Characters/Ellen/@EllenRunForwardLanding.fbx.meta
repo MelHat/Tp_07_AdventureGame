@@ -743,7 +743,7 @@ ModelImporter:
       events:
       - time: 0
         functionName: PlayEvent
-        data: Play_MC_FT_Land
+        data: Play_MC_Land
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
@@ -751,6 +751,13 @@ ModelImporter:
       - time: 0
         functionName: PlayEvent
         data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4936255
+        functionName: PlayEvent
+        data: Play_MC_FOL_Run
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0

@@ -186,7 +186,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Death" ID="{A6E0B4A7-050A-49A6-A03C-3F37CBF50971}">
+				<Event Name="Play_MC_Death" ID="{A6E0B4A7-050A-49A6-A03C-3F37CBF50971}">
 					<ChildrenList>
 						<Action Name="" ID="{00257072-78B5-4ABF-B649-27FE947B2785}" ShortID="1067830073">
 							<ReferenceList>
@@ -204,7 +204,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Hurt" ID="{99583A1C-89E0-43AC-9BC3-5CE47C1DF6B7}">
+				<Event Name="Play_MC_Hurt" ID="{99583A1C-89E0-43AC-9BC3-5CE47C1DF6B7}">
 					<ChildrenList>
 						<Action Name="" ID="{921CBCB0-3890-4C90-976A-9F27A311F5D4}" ShortID="302479096">
 							<ReferenceList>
@@ -288,6 +288,79 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Layer" ID="{B3986B30-5E17-4694-A8FB-EF5D5B806ED8}" ShortID="828605479"/>
+				<Event Name="Play_MC_Land" ID="{B0DDDE49-05BC-4DED-BEF2-49999584EC23}">
+					<ChildrenList>
+						<Action Name="" ID="{2F0372F8-7CE5-476D-86BB-BE5BC8460360}" ShortID="356697365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOL_Land" ID="{5498D553-429F-4448-BE19-4618CC222006}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3FC2780B-B907-469B-9AB8-A8B72AE62024}" ShortID="678227302">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FT_Land" ID="{BE5A1052-A44E-4F8A-A7BF-C0E3FE40165B}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Jump" ID="{825E6B09-87FB-4BDD-9CD7-E759E1D75A3B}">
+					<ChildrenList>
+						<Action Name="" ID="{1F9F5398-211C-4D8C-85AF-3FB9CB2C9B04}" ShortID="26800857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOL_Jump" ID="{CC08F1F1-B31B-4455-8A05-8F2DF74239F4}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D7462C70-B5EB-4B62-B912-91B901DF6B32}" ShortID="212620595">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FT_Jump" ID="{072DCF89-7788-4CB6-9813-EB5F433C2ECA}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Strafe" ID="{639D9CCB-5D6C-4BAA-8BE9-4857EF47956A}">
+					<ChildrenList>
+						<Action Name="" ID="{F6F7C3EE-1A8A-4150-BA9A-6B6DD235A8B5}" ShortID="579746658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FT_Strafe" ID="{9CB5BD65-9F32-491C-82F2-FA076D20E206}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1BC8BD62-D4C8-499F-BC75-85F954CC022D}" ShortID="31508588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOL_Strafe" ID="{5D97407D-80E9-452D-AF32-37374C12D570}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Respawn" ID="{4DE58AD9-C340-4FBB-8229-2AE6D79B231D}">
+					<ChildrenList>
+						<Action Name="" ID="{2BE98467-9B1D-4ADE-9FDA-4EE62F6119A9}" ShortID="822414613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOL_Respawn" ID="{3F8C1679-00F6-43F3-9473-1931762AC8B6}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78274EC5-B43F-4A21-B2DC-8E21A51404DE}" ShortID="174889806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_SFX_Respawn" ID="{77DB6824-14DC-4E6D-805C-267CE713E637}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
