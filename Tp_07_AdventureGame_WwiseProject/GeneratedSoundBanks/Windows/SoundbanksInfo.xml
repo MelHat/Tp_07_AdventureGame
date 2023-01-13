@@ -50,7 +50,7 @@
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{2C9B539F-50F6-6BA3-7227-2AA6C550F9AD}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{DB5A456F-6F8A-41B1-9145-3B4F64419FBB}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -797,5 +797,5 @@
 			<Path>Enemies.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FD48CBF5-9C9D-0D15-5DFC-B87764F4B4C0}</FileHash>
+	<FileHash>{B80B4808-C02F-9A64-CF99-93937926A319}</FileHash>
 </SoundBanksInfo>

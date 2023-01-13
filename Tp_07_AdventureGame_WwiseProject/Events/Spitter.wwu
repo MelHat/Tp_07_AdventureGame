@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" SchemaVersion="110" RootDocumentID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" ParentDocumentID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}">
+	<Events>
+		<WorkUnit Name="Spitter" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

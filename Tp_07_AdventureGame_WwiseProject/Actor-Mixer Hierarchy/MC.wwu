@@ -252,31 +252,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="MC_FOL_Respawn" ID="{3F8C1679-00F6-43F3-9473-1931762AC8B6}" ShortID="196928305">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_FOL_Respawn" ID="{BEDC4EBB-1012-4F91-91C8-4ADEF4CD0CED}">
-											<Language>SFX</Language>
-											<AudioFile>MC_FOL\MC_FOL_Respawn.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="287402517"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_FOL_Respawn" ID="{BEDC4EBB-1012-4F91-91C8-4ADEF4CD0CED}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="MC_FOL_Landing_Fast" ID="{F50FEE86-2C44-4D0C-A11F-03571641BFE9}" ShortID="920788969">
 									<PropertyList>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -387,13 +362,35 @@
 										<ActiveSource Name="MC_FOL_Strafe" ID="{9689E480-8826-455F-9801-036BAA98C4FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="MC_FOL_Respawn" ID="{ABB14DB0-8347-42C8-A620-CFA5139421D4}" ShortID="819102988">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_FOL_Respawn" ID="{B45F23EF-3E85-4134-A249-881AD6119532}">
+											<Language>SFX</Language>
+											<AudioFile>MC_FOL_Respawn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="838640376"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_FOL_Respawn" ID="{B45F23EF-3E85-4134-A249-881AD6119532}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Priority-2" ID="{678043E3-8E20-4105-BBBA-657A13021AC1}" ShortID="133517846">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1361,6 +1358,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="MC_Weapon_Combo3" ID="{4CE162B4-D5A4-4802-8D46-47E1A96B182F}" ShortID="278902284">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -1517,6 +1521,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MC_Weapon_Combo2" ID="{1D53B65F-62E6-427F-B2C2-73365E9E6C3E}" ShortID="216246871">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -1994,7 +2005,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

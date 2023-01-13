@@ -774,7 +774,7 @@ ModelImporter:
         intParameter: 1
         messageOptions: 0
       - time: 0.32967433
-        functionName: eAttackEndkEnd
+        functionName: MeleeAttackEnd
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

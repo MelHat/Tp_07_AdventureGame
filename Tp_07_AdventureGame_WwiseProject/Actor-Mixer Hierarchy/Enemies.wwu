@@ -6,6 +6,11 @@
 				<Property Name="Color" Type="int16" Value="18"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Chomper" ID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}" PersistMode="Reference"/>
+				<WorkUnit Name="Grenadier" ID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}" PersistMode="Reference"/>
+				<WorkUnit Name="Spitter" ID="{EEA8E984-A4A1-4535-94BB-8076C4EAF643}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

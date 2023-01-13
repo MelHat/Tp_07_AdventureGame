@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}" SchemaVersion="110" RootDocumentID="{C17DEFA2-F80F-49BA-9ACD-C7E45B4FC326}" ParentDocumentID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}">
+	<AudioObjects>
+		<WorkUnit Name="Chomper" ID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}" OwnerID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

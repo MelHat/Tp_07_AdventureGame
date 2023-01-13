@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}" SchemaVersion="110" RootDocumentID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" ParentDocumentID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}">
+	<Events>
+		<WorkUnit Name="Grenadier" ID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="VOX" ID="{212B5E8B-3CDE-4944-9D66-32EF4B68DB33}" ShortID="1044029120"/>
+				<Folder Name="Attack" ID="{1C6B9EAC-AFC3-47C5-8891-34EFC8ACABB5}" ShortID="877328467"/>
+				<Folder Name="FT" ID="{F04A76F7-0D1F-4365-9566-B7230E806603}" ShortID="42151954"/>
+				<Folder Name="Layer" ID="{6E5310ED-A1FB-4BF9-BD4C-BB6B2E57BCAA}" ShortID="439300608"/>
+				<Folder Name="FOL" ID="{58B82D4E-793E-48B1-A2D9-6EA6900C24B5}" ShortID="318408032"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
