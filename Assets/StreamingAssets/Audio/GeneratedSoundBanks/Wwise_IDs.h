@@ -13,6 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PAUSE_GLOBAL = 953280733U;
+        static const AkUniqueID PLAY_GRE_ATTACK_MELEE = 986282324U;
+        static const AkUniqueID PLAY_GRE_ATTACK_RANGE1 = 3496026436U;
+        static const AkUniqueID PLAY_GRE_ATTACK_RANGE2 = 3496026439U;
+        static const AkUniqueID PLAY_GRE_DEATH = 1948459449U;
+        static const AkUniqueID PLAY_GRE_FT = 1462277527U;
+        static const AkUniqueID PLAY_GRE_HURT = 3097803578U;
+        static const AkUniqueID PLAY_GRE_SFX_ATTACK_RANGE2_EXPLOSION = 2057381883U;
+        static const AkUniqueID PLAY_GRE_SFX_ATTACK_RANGE2_HIT = 3265412597U;
+        static const AkUniqueID PLAY_GRE_SFX_ATTACK_RANGE2_LP = 472742742U;
         static const AkUniqueID PLAY_MC_COMBO1 = 3980513442U;
         static const AkUniqueID PLAY_MC_COMBO2 = 3980513441U;
         static const AkUniqueID PLAY_MC_COMBO3 = 3980513440U;
@@ -36,6 +46,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_LAND = 1593937298U;
         static const AkUniqueID PLAY_MC_RESPAWN = 2047825579U;
         static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
+        static const AkUniqueID RESUME_GLOBAL = 2407924494U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -58,7 +69,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCES = 1017660616U;
-        static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID PROPS = 968010305U;
         static const AkUniqueID UI = 1551306167U;

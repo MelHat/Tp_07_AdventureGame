@@ -10,11 +10,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Enemies" ID="{8EE75D7F-1E9E-4D6F-99ED-3A5740EA5074}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="Ambiences" ID="{B2F62339-CA62-45D7-8ADC-D6F316395865}">
 					<ObjectInclusionList/>
 					<ObjectExclusionList/>
@@ -26,10 +21,23 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="UI" ID="{E69F108F-569F-4750-A417-0E8DD3CFDE46}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}" WorkUnitID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<Folder Name="Enemies" ID="{2E18C3D9-E110-49E9-BFFF-77C23EB711FE}" ShortID="128910854">
+					<ChildrenList>
+						<SoundBank Name="Grenadier" ID="{EBAD1454-E3CD-4048-BE06-B1C2899BADC0}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Grenadier" ID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}" WorkUnitID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

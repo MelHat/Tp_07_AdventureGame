@@ -1,6 +1,575 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}" SchemaVersion="110" RootDocumentID="{C17DEFA2-F80F-49BA-9ACD-C7E45B4FC326}" ParentDocumentID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}">
 	<AudioObjects>
-		<WorkUnit Name="Grenadier" ID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}" OwnerID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}" PersistMode="Nested"/>
+		<WorkUnit Name="Grenadier" ID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}" OwnerID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="GRE" ID="{BB789DC1-C3C4-410D-8C77-0BE7430C872C}" ShortID="858620648">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Grenadier" ID="{FFA57B0A-448F-405A-9770-0FBA5DA6D462}" WorkUnitID="{8C2594C9-FC95-4B97-8FA0-4AC432E45BCE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="GRE_Hurt" ID="{8AEBD9B3-527D-44B7-86B0-D890B7C3D2EF}" ShortID="638404102">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GRE_Hurt_01" ID="{0EC8FBA0-CBA3-4E79-BEB7-6F3F067C0E5C}" ShortID="824398054">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_Hurt_01" ID="{A9C1EEC6-21A5-416E-9056-06A715158480}">
+											<Language>SFX</Language>
+											<AudioFile>Hurt\GRE_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308980552"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="GRE_Hurt_02" ID="{E9DF7DA7-847F-458F-8328-0C72DB50ED63}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_Hurt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259059168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_Hurt_02" ID="{E9DF7DA7-847F-458F-8328-0C72DB50ED63}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_Hurt_02" ID="{3B29D6E8-08D5-4AFF-93B9-6D0B36CB6D8A}" ShortID="963442630">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_Hurt_02" ID="{53AF92B7-6285-4E67-9427-E92C0DE3264A}">
+											<Language>SFX</Language>
+											<AudioFile>Hurt\GRE_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941397020"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="GRE_Hurt_01" ID="{6B79B2DC-2669-40BD-A23F-7AF7C2EC6750}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_Hurt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214701318"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_Hurt_01" ID="{6B79B2DC-2669-40BD-A23F-7AF7C2EC6750}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_Hurt_03" ID="{55DC2734-7713-4A73-9A44-3266FEC8738D}" ShortID="743719270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_Hurt_03" ID="{F9D67D52-2A4F-429B-8E97-1A307712CA5C}">
+											<Language>SFX</Language>
+											<AudioFile>Hurt\GRE_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="511570642"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="GRE_Hurt_01" ID="{17B57208-9203-4592-BE4C-3DE89BE97E67}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_Hurt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="871153379"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_Hurt_01" ID="{17B57208-9203-4592-BE4C-3DE89BE97E67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_Hurt_04" ID="{98C007BB-D76E-4543-AF87-1D0BEB89941F}" ShortID="85141560">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_Hurt_04" ID="{E2106848-956D-455C-BB02-31E4D96A58DE}">
+											<Language>SFX</Language>
+											<AudioFile>Hurt\GRE_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="598004772"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="GRE_Hurt_01" ID="{7A10AF17-7786-4FC3-A59D-C7A032C46F32}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_Hurt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259704407"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_Hurt_01" ID="{7A10AF17-7786-4FC3-A59D-C7A032C46F32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="GRE_Attack_Range2" ID="{FABC6AB3-FABF-4A14-BBE9-6DEAED3F9763}" ShortID="51295326">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GRE_Attack_Range2" ID="{FDC74DC9-87C6-4B83-9476-512FA98C8011}">
+									<Language>SFX</Language>
+									<AudioFile>GRE_Attack_Range2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="391032836"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GRE_Attack_Range2" ID="{FDC74DC9-87C6-4B83-9476-512FA98C8011}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GRE_Attack_Range1" ID="{04FDAAB8-1884-457D-AD7E-A2A3A0CD8E84}" ShortID="423765987">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GRE_Attack_Range1" ID="{5178FE02-1F71-4BDA-9C45-447B3BF091FE}">
+									<Language>SFX</Language>
+									<AudioFile>GRE_Attack_Range1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="519653906"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GRE_Attack_Range1" ID="{5178FE02-1F71-4BDA-9C45-447B3BF091FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GRE_Death" ID="{CC519D25-8006-4352-B843-6FC7DBE2ED2A}" ShortID="924674975">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GRE_Death" ID="{D21CF595-9074-46DD-ADE4-E0C00A9A4F3C}">
+									<Language>SFX</Language>
+									<AudioFile>GRE_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="574619970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GRE_Death" ID="{D21CF595-9074-46DD-ADE4-E0C00A9A4F3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GRE_Attack_Melee" ID="{6BF99A75-E477-4FA5-A370-5E47BF4FE212}" ShortID="23000886">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GRE_Attack_Melee" ID="{8433BD67-D9F2-4D44-BF7E-AC7A13DADA2C}">
+									<Language>SFX</Language>
+									<AudioFile>GRE_Attack_Melee.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="628122336"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GRE_Attack_Melee" ID="{8433BD67-D9F2-4D44-BF7E-AC7A13DADA2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="SFX" ID="{6D3957F0-09B2-4228-85BE-1CB827211E73}" ShortID="623794978">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GRE_SFX" ID="{7B542EE9-A452-4395-B962-75DC619617D7}" WorkUnitID="{8C2594C9-FC95-4B97-8FA0-4AC432E45BCE}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GRE_SFX_Attack_Range1" ID="{7210243D-A73A-4246-816A-E5C454CA138E}" ShortID="149194682">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_SFX_Attack_Range1" ID="{DA1AFFC3-2B85-4FE5-A7F6-2EF451CBA113}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\GRE_SFX_Attack_Range1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="287688149"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_SFX_Attack_Range1" ID="{DA1AFFC3-2B85-4FE5-A7F6-2EF451CBA113}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_SFX_Attack_Range2_Explosion" ID="{2FA89E4B-C46F-45E2-ADC8-6417BE3E3804}" ShortID="1013926781">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_SFX_Attack_Range2_Explosion" ID="{B1973544-135F-47A7-9A9F-AEA4BF4A592C}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX\GRE_SFX_Attack_Range2_Explosion.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70716511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_SFX_Attack_Range2_Explosion" ID="{B1973544-135F-47A7-9A9F-AEA4BF4A592C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_SFX_Attack_Range2_LP" ID="{9517E714-9E37-4304-9417-6717D918B8A8}" ShortID="477010658">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_SFX_Attack_Range2_LP" ID="{30E17FCD-7B7C-44F9-B602-9DCD6BC8DE78}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="197.719"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX\GRE_SFX_Attack_Range2_LP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497081514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_SFX_Attack_Range2_LP" ID="{30E17FCD-7B7C-44F9-B602-9DCD6BC8DE78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="GRE_SFX_Attack_Range2_Hit" ID="{8092D2CD-F894-4545-8346-EC72891917D2}" ShortID="1019557813">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A8E34D55-3FB0-4319-A9C0-1EA5AA399736}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{11D455C7-9FDB-4830-A4A3-1C03C5A0CE63}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="GRE_SFX_Attack_Range2_Hit_01" ID="{B18681C0-9063-4F72-B8FE-F96397387AB3}" ShortID="165064747">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GRE_SFX_Attack_Range2_Hit_01" ID="{F45ECFC1-B7B9-4CBE-8534-972FCDBB97C5}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\GRE_SFX_Attack_Range2_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="373966773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GRE_SFX_Attack_Range2_Hit_01" ID="{F45ECFC1-B7B9-4CBE-8534-972FCDBB97C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GRE_SFX_Attack_Range2_Hit_02" ID="{B23F7FB1-E65A-4B0A-9649-AD968622698B}" ShortID="323869832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GRE_SFX_Attack_Range2_Hit_02" ID="{A193AB9B-EABF-4592-B87D-F6CCDD45231F}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\GRE_SFX_Attack_Range2_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624070834"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GRE_SFX_Attack_Range2_Hit_02" ID="{A193AB9B-EABF-4592-B87D-F6CCDD45231F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GRE_SFX_Attack_Range2_Hit_03" ID="{48FA50B4-25B6-4E20-B590-B170FBAD6CF9}" ShortID="1038100455">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GRE_SFX_Attack_Range2_Hit_03" ID="{1612497F-7B0A-4612-A20D-C7AC958527F8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX\GRE_SFX_Attack_Range2_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="255294283"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GRE_SFX_Attack_Range2_Hit_03" ID="{1612497F-7B0A-4612-A20D-C7AC958527F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<RandomSequenceContainer Name="GRE_FT" ID="{43856A8C-A124-41C3-89D8-2ABC6B12143E}" ShortID="340574713">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GRE_FT_01" ID="{BEB0A9B1-67FA-411A-97FC-67B8A39C2548}" ShortID="713330883">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_FT_01" ID="{052B6B52-8AF9-43B5-9703-EF13CE573E4D}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_FT\GRE_FT_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="552249393"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_FT_01" ID="{052B6B52-8AF9-43B5-9703-EF13CE573E4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_FT_02" ID="{9A310AC1-13E6-4BDC-BBEF-6D1C248771E1}" ShortID="855347369">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_FT_02" ID="{97897661-7C8A-45C4-A35B-0AB7C45B059E}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_FT\GRE_FT_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210126388"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_FT_02" ID="{97897661-7C8A-45C4-A35B-0AB7C45B059E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_FT_03" ID="{FCFEE087-1B9C-4B63-8041-0EBDDB45E75F}" ShortID="87302578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_FT_03" ID="{FE21140B-2B98-4893-BDCF-E56E9034EECE}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_FT\GRE_FT_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504067666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_FT_03" ID="{FE21140B-2B98-4893-BDCF-E56E9034EECE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_FT_04" ID="{D07A76CA-CF4D-4785-B643-3142F3183F98}" ShortID="330378140">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_FT_04" ID="{A134C77E-FBDE-486E-B5EF-57F1AD0128BD}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_FT\GRE_FT_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="836851975"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_FT_04" ID="{A134C77E-FBDE-486E-B5EF-57F1AD0128BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GRE_FT_05" ID="{086E14CC-D48B-4D8B-BED0-277E20DFA71C}" ShortID="290079173">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GRE_FT_05" ID="{5231B02E-7ECB-4F52-8FCD-331577516C17}">
+											<Language>SFX</Language>
+											<AudioFile>GRE_FT\GRE_FT_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147187351"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GRE_FT_05" ID="{5231B02E-7ECB-4F52-8FCD-331577516C17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

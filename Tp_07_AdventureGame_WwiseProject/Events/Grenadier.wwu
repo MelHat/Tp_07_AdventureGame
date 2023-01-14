@@ -3,11 +3,141 @@
 	<Events>
 		<WorkUnit Name="Grenadier" ID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested">
 			<ChildrenList>
-				<Folder Name="VOX" ID="{212B5E8B-3CDE-4944-9D66-32EF4B68DB33}" ShortID="1044029120"/>
-				<Folder Name="Attack" ID="{1C6B9EAC-AFC3-47C5-8891-34EFC8ACABB5}" ShortID="877328467"/>
-				<Folder Name="FT" ID="{F04A76F7-0D1F-4365-9566-B7230E806603}" ShortID="42151954"/>
-				<Folder Name="Layer" ID="{6E5310ED-A1FB-4BF9-BD4C-BB6B2E57BCAA}" ShortID="439300608"/>
-				<Folder Name="FOL" ID="{58B82D4E-793E-48B1-A2D9-6EA6900C24B5}" ShortID="318408032"/>
+				<Event Name="Play_GRE_Hurt" ID="{3583066D-A4FD-44AF-8A13-C9568BD607A2}">
+					<ChildrenList>
+						<Action Name="" ID="{25C1195D-35F8-46F1-A866-93A157C37B14}" ShortID="1052452772">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRE_Hurt" ID="{8AEBD9B3-527D-44B7-86B0-D890B7C3D2EF}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GRE_Death" ID="{D4658940-24B7-4538-8C2A-D6CC3A9C53CA}">
+					<ChildrenList>
+						<Action Name="" ID="{05878655-83E1-4361-86C1-23882C997C20}" ShortID="888714214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRE_Death" ID="{CC519D25-8006-4352-B843-6FC7DBE2ED2A}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Attack" ID="{4CE9FB7D-9801-47B0-AC0F-2EF4889FBAAD}" ShortID="586496256">
+					<ChildrenList>
+						<Event Name="Play_GRE_SFX_Attack_Range2_LP" ID="{9F2825FD-263E-448B-93E9-9E8EE02D5881}">
+							<ChildrenList>
+								<Action Name="" ID="{09FE9583-502B-4F54-B12B-AB96A249CDB5}" ShortID="3080668">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range2_LP" ID="{9517E714-9E37-4304-9417-6717D918B8A8}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_SFX_Attack_Range2_Explosion" ID="{1CFDB7F0-5F47-47DC-B7C2-29865DCD3842}">
+							<ChildrenList>
+								<Action Name="" ID="{1EF821A7-0C1F-4FCC-BE79-C61A74996BA3}" ShortID="656581060">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range2_Explosion" ID="{2FA89E4B-C46F-45E2-ADC8-6417BE3E3804}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F4E8114E-D433-4F27-B363-DFF3669EF1C3}" ShortID="870428980">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range2_LP" ID="{9517E714-9E37-4304-9417-6717D918B8A8}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_SFX_Attack_Range1" ID="{FFCE6211-EC39-4FF3-9C30-3495113F6694}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{40D1C498-4653-44F2-84BD-21253AABF2C4}" ShortID="204335433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range1" ID="{7210243D-A73A-4246-816A-E5C454CA138E}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_SFX_Attack_Range2_Hit" ID="{C4532405-5692-4301-9CF3-256F8A0C69C0}">
+							<ChildrenList>
+								<Action Name="" ID="{2CAC369C-E81F-4937-9C54-09C7CB530178}" ShortID="435988690">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range2_Hit" ID="{8092D2CD-F894-4545-8346-EC72891917D2}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_Attack_Range1" ID="{77DF7A66-0B56-494D-9D4D-2806697F7CFE}">
+							<ChildrenList>
+								<Action Name="" ID="{CB2D8266-8ED3-40CE-A88C-7659CF5F3ADE}" ShortID="779187427">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_Attack_Range1" ID="{04FDAAB8-1884-457D-AD7E-A2A3A0CD8E84}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{476F9570-3BFE-4BB1-B7D6-2403367B7B86}" ShortID="291669262">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_SFX_Attack_Range1" ID="{7210243D-A73A-4246-816A-E5C454CA138E}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_Attack_Melee" ID="{C7FCBA4F-5CDD-4795-A678-8DC872677BE1}">
+							<ChildrenList>
+								<Action Name="" ID="{E3954FCE-636E-4F51-932E-37A3BA0BD863}" ShortID="181093672">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_Attack_Melee" ID="{6BF99A75-E477-4FA5-A370-5E47BF4FE212}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GRE_Attack_Range2" ID="{C29C71EB-E255-48B0-8B1E-076995DE015E}">
+							<ChildrenList>
+								<Action Name="" ID="{2605079D-C4A0-480F-B71C-684136C5C530}" ShortID="941803972">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GRE_Attack_Range2" ID="{FABC6AB3-FABF-4A14-BBE9-6DEAED3F9763}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_GRE_FT" ID="{80D0C1AF-2F1D-4FA6-87F3-6A53BE4783A6}">
+					<ChildrenList>
+						<Action Name="" ID="{49AC2555-B2BC-400B-9717-4A7BDC8744A3}" ShortID="1019180100">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRE_FT" ID="{43856A8C-A124-41C3-89D8-2ABC6B12143E}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

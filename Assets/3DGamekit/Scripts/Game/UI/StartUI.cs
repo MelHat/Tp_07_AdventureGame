@@ -11,6 +11,8 @@ namespace Gamekit3D
 {
     public class StartUI : MonoBehaviour
     {
+        public AK.Wwise.Event pauseEvent;
+        public AK.Wwise.Event resumeEvent;
         public bool alwaysDisplayMouse;
         public GameObject pauseCanvas;
         public GameObject optionsCanvas;
@@ -82,18 +84,28 @@ namespace Gamekit3D
                 if (m_Directors[i].state == PlayState.Playing && !m_InPause)
                 {
                     m_Directors[i].Pause ();
+
+
                 }
                 else if(m_Directors[i].state == PlayState.Paused && m_InPause)
                 {
                     m_Directors[i].Resume ();
+
                 }
             }
-            
-            if(!m_InPause)
-                CameraShake.Stop ();
 
+            if (!m_InPause)
+            {
+                CameraShake.Stop();
+                pauseEvent.Post(gameObject);
+            }
+                
             if (m_InPause)
+            {
                 PlayerInput.Instance.GainControl();
+                resumeEvent.Post(gameObject);
+            }
+                
             else
                 PlayerInput.Instance.ReleaseControl();
 

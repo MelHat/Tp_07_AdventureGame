@@ -6,6 +6,11 @@ namespace Gamekit3D
 {
     public class GrenadierGrenade : Projectile
     {
+        public AK.Wwise.Event explosionEvent;
+        public AK.Wwise.Event loopEvent;
+        public AK.Wwise.Event hitEvent;
+
+
         public enum ShotType
         {
             HIGHEST_SHOT,
@@ -55,6 +60,7 @@ namespace Gamekit3D
 
         public override void Shot(Vector3 target, RangeWeapon shooter)
         {
+            loopEvent.Post(this.gameObject);
             m_RigidBody.isKinematic = false;
 
             m_Shooter = shooter;
@@ -81,6 +87,8 @@ namespace Gamekit3D
             if (explosionTimer > 0 && m_SinceFired > explosionTimer)
             {
                 Explosion();
+                explosionEvent.Post(this.gameObject);
+
             }
         }
 
@@ -136,8 +144,9 @@ namespace Gamekit3D
 
         protected virtual void OnCollisionEnter(Collision other)
         {
-            if (bouncePlayer != null)
-                bouncePlayer.PlayRandomClip();
+            hitEvent.Post(this.gameObject);
+            //if (bouncePlayer != null)
+            //    bouncePlayer.PlayRandomClip();
         }
 
         private Vector3 GetVelocity(Vector3 target)

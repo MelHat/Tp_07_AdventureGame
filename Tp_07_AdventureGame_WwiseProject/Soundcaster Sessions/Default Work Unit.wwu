@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0C7A5479-AB34-46C2-9F12-D5ECCF2657E0}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{0C7A5479-AB34-46C2-9F12-D5ECCF2657E0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0C7A5479-AB34-46C2-9F12-D5ECCF2657E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="UI Tests" ID="{0219CA7F-A5F6-4567-95D2-AE3973CF85A9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_GRE_Death" ID="{D4658940-24B7-4538-8C2A-D6CC3A9C53CA}" WorkUnitID="{FC8E81E4-2FF8-405B-9906-2B21DEEDFE98}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause_Global" ID="{77DC7516-0F30-448B-AEDD-7481DBB3FE73}" WorkUnitID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_Global" ID="{F35F9391-CA37-4386-8EF0-3A70EB4F9F1E}" WorkUnitID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

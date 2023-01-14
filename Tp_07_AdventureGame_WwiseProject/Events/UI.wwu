@@ -6,6 +6,60 @@
 				<Property Name="Color" Type="int16" Value="15"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Pause_Global" ID="{77DC7516-0F30-448B-AEDD-7481DBB3FE73}">
+					<ChildrenList>
+						<Action Name="" ID="{57619EA3-F245-478C-99D8-918213296232}" ShortID="221895232">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRE" ID="{BB789DC1-C3C4-410D-8C77-0BE7430C872C}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F39BF03D-3AEB-4D98-8822-9E81803F073E}" ShortID="859977417">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC" ID="{BE090A4F-8657-43EC-8F98-3B62E6DE44E4}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume_Global" ID="{F35F9391-CA37-4386-8EF0-3A70EB4F9F1E}">
+					<ChildrenList>
+						<Action Name="" ID="{728EF8E1-7DAB-435E-9001-AED69C77FC82}" ShortID="350147915">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRE" ID="{BB789DC1-C3C4-410D-8C77-0BE7430C872C}" WorkUnitID="{E72FCE7E-BB1A-437A-AFDD-74AF0B56B9E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08D0A8C4-8CBD-4DB0-84A2-568508B203DD}" ShortID="798222674">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC" ID="{BE090A4F-8657-43EC-8F98-3B62E6DE44E4}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
