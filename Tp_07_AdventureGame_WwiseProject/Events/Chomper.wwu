@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C0398F42-7CF8-44EF-AD74-A17E8C336982}" SchemaVersion="110" RootDocumentID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" ParentDocumentID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}">
 	<Events>
-		<WorkUnit Name="Chomper" ID="{C0398F42-7CF8-44EF-AD74-A17E8C336982}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested"/>
+		<WorkUnit Name="Chomper" ID="{C0398F42-7CF8-44EF-AD74-A17E8C336982}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Chomper_HIT" ID="{0277CD0B-FDB6-4A27-8083-990F574D3303}">
+					<ChildrenList>
+						<Action Name="" ID="{192AB8F7-3E99-4011-89C7-45E6F5130CA7}" ShortID="708807422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_HIT" ID="{724B06FC-071C-44C5-94CA-E1BB9A99F8FD}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{255C49A8-6DD1-4EDB-9A90-33BA39316CE7}" ShortID="829604225">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_DMG" ID="{853456C0-0189-4316-967F-AA71AB394F35}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
