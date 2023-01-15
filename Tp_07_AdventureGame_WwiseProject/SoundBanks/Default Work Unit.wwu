@@ -36,20 +36,6 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
-						<SoundBank Name="Chomper" ID="{4CD71F0A-B66D-48B9-B72D-BCA9E3B8513A}">
-							<ObjectInclusionList>
-								<ObjectRef Name="Chomper" ID="{C0398F42-7CF8-44EF-AD74-A17E8C336982}" WorkUnitID="{C0398F42-7CF8-44EF-AD74-A17E8C336982}" Origin="Manual" Filter="7"/>
-							</ObjectInclusionList>
-							<ObjectExclusionList/>
-							<GameSyncExclusionList/>
-						</SoundBank>
-						<SoundBank Name="Spitter" ID="{1F350D0A-55DB-45E6-8397-89999BEE584F}">
-							<ObjectInclusionList>
-								<ObjectRef Name="Spitter" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" WorkUnitID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" Origin="Manual" Filter="7"/>
-							</ObjectInclusionList>
-							<ObjectExclusionList/>
-							<GameSyncExclusionList/>
-						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" SchemaVersion="110" RootDocumentID="{918DC801-474B-45ED-9F1D-F0D93244EE5B}" ParentDocumentID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}">
 	<Events>
-		<WorkUnit Name="Spitter" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested">
-			<ChildrenList>
-				<Event Name="Play_Chomper_SPIT" ID="{51C32F7F-4708-4735-BAE2-53C16CAF9585}">
-					<ChildrenList>
-						<Action Name="" ID="{EA8F219F-FE25-4B79-B43E-F508EC08B782}" ShortID="139241015">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chomper_SPIT" ID="{DC57A34E-402F-4092-B135-A4D8F89CEEB6}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Chomper_SPAT" ID="{FCE7B6F1-B6F1-43C1-AF7B-1EA08A5B3035}">
-					<ChildrenList>
-						<Action Name="" ID="{6BB123D3-BC67-4AB7-BD31-5DC2360447F0}" ShortID="1040421998">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Chomper_SPAT" ID="{34B483E9-37AA-4237-85B1-2C99E082B16C}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Spitter" ID="{26516E23-A8D5-4FE7-A20E-D4E086FA7C41}" OwnerID="{8ACA5DC0-13DD-4F79-B1EA-59C30BCD575A}" PersistMode="Nested"/>
 	</Events>
 </WwiseDocument>
