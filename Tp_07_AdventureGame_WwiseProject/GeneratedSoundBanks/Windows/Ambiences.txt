@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1551221296	Stop_AMB_Cave			\Default Work Unit\Ambiences\Cave\Stop_AMB_Cave	
+	1564626531	Play_AMB_Ext_LV2			\Default Work Unit\Ambiences\EXT_LV2\Play_AMB_Ext_LV2	
+	1612516214	Play_AMB_Acid			\Default Work Unit\Ambiences\Acid\Play_AMB_Acid	
+	2258856857	Stop_AMB_Ext_LV2			\Default Work Unit\Ambiences\EXT_LV2\Stop_AMB_Ext_LV2	
+	2314402090	Play_AMB_Cave			\Default Work Unit\Ambiences\Cave\Play_AMB_Cave	
+	2622214992	Stop_AMB_Acid			\Default Work Unit\Ambiences\Acid\Stop_AMB_Acid	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	453760494	AMB_Ext_LV2	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Ext_LV2_D79FB2B7.wem	453760494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2	
+	530269747	AMB_Cave	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Cave_D79FB2B7.wem	530269747.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Cave	
+	1022703319	AMB_Acid	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Acid_D79FB2B7.wem	1022703319.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Acid	
+

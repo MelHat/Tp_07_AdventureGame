@@ -6,6 +6,95 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Acid" ID="{6A6EAD3F-93DA-4E04-A6DE-57A3B5C7465A}" ShortID="749882837">
+					<ChildrenList>
+						<Event Name="Play_AMB_Acid" ID="{6D9FF26A-CAB2-4A20-B6F2-49A7778D64FF}">
+							<ChildrenList>
+								<Action Name="" ID="{DEC534D8-B778-46C1-9D10-9779DEA6731D}" ShortID="534352589">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Acid" ID="{448BE928-97FF-464D-8B6E-F9D53E36036F}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Acid" ID="{06CB5EA5-E4CF-4BA9-9AE3-48074FCBFC43}">
+							<ChildrenList>
+								<Action Name="" ID="{B75B3F7F-A4B7-4819-9581-04B821B46C8C}" ShortID="1004354319">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Acid" ID="{448BE928-97FF-464D-8B6E-F9D53E36036F}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cave" ID="{C144F958-5776-4926-961A-96C62A4FDD26}" ShortID="620622380">
+					<ChildrenList>
+						<Event Name="Play_AMB_Cave" ID="{73BACBAD-DD01-444F-8845-1A6F76220076}">
+							<ChildrenList>
+								<Action Name="" ID="{63463C3D-C46A-4B03-BB86-E2604E41DBA5}" ShortID="995934268">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cave" ID="{1C990C68-A634-4774-937E-DD4993427D4B}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Cave" ID="{A044BD48-6104-4F6F-A016-5C403CC5FBDC}">
+							<ChildrenList>
+								<Action Name="" ID="{5E834489-B1F7-456C-8D44-6CE1991D5E46}" ShortID="161581034">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cave" ID="{1C990C68-A634-4774-937E-DD4993427D4B}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EXT_LV2" ID="{C41D5B9C-6D9D-4DE7-A0D7-64CD2906A9FA}" ShortID="53313707">
+					<ChildrenList>
+						<Event Name="Play_AMB_Ext_LV2" ID="{20A8711E-B901-4A7F-B665-00D79800015B}">
+							<ChildrenList>
+								<Action Name="" ID="{014A6415-3948-4B54-B878-8019EB49F2D9}" ShortID="1041085049">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Ext_LV2" ID="{7C035347-707D-4C06-95C0-BAA28634E035}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_AMB_Ext_LV2" ID="{3CE5C8EA-9DCB-417A-8098-89A6BED0F5A6}">
+							<ChildrenList>
+								<Action Name="" ID="{8FB6A620-77AA-42A4-ACFB-B5BAFF8A1042}" ShortID="603402531">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Ext_LV2" ID="{7C035347-707D-4C06-95C0-BAA28634E035}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{5263F6AE-C9BA-F31B-C4F9-69A6874C4F2B}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{3ABDC6EC-C348-B333-8C6B-5C183808997E}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -684,9 +684,46 @@
 				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{3AB150AC-238E-7A1E-2BBF-B95C7A84698C}">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{C7E4C19B-BD15-5E05-4EBC-CD2008E48C24}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
+			<Media>
+				<File Id="453760494" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB\AMB_Ext_LV2.wav</ShortName>
+					<Path>Media/453760494.wem</Path>
+					<CachePath>SFX/AMB/AMB_Ext_LV2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="530269747" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB\AMB_Cave.wav</ShortName>
+					<Path>Media/530269747.wem</Path>
+					<CachePath>SFX/AMB/AMB_Cave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1022703319" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB\AMB_Acid.wav</ShortName>
+					<Path>Media/1022703319.wem</Path>
+					<CachePath>SFX/AMB/AMB_Acid_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1612516214" Name="Play_AMB_Acid" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1022703319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2314402090" Name="Play_AMB_Cave" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="530269747"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1564626531" Name="Play_AMB_Ext_LV2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="453760494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2622214992" Name="Stop_AMB_Acid" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1551221296" Name="Stop_AMB_Cave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2258856857" Name="Stop_AMB_Ext_LV2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{8F7C51BF-3BF0-CF06-05A3-D91700C6CDD0}">
 			<ShortName>Grenadier</ShortName>
@@ -2009,5 +2046,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70D61719-A1A8-7370-9885-35BA63881650}</FileHash>
+	<FileHash>{B604F5DE-BC5D-A471-1068-5843843FA388}</FileHash>
 </SoundBanksInfo>

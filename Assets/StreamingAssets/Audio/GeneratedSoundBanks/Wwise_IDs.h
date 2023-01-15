@@ -14,6 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PAUSE_GLOBAL = 953280733U;
+        static const AkUniqueID PLAY_AMB_ACID = 1612516214U;
+        static const AkUniqueID PLAY_AMB_CAVE = 2314402090U;
+        static const AkUniqueID PLAY_AMB_EXT_LV2 = 1564626531U;
         static const AkUniqueID PLAY_BLOC_HIT = 3653246000U;
         static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
         static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
@@ -65,6 +68,9 @@ namespace AK
         static const AkUniqueID PLAY_SFX_TILE_LOOP = 29733011U;
         static const AkUniqueID PLAY_SFX_TILE_PRESS = 1951128422U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
+        static const AkUniqueID STOP_AMB_ACID = 2622214992U;
+        static const AkUniqueID STOP_AMB_CAVE = 1551221296U;
+        static const AkUniqueID STOP_AMB_EXT_LV2 = 2258856857U;
         static const AkUniqueID STOP_SFX_PARTICLES_LOOP = 1382542350U;
         static const AkUniqueID STOP_SFX_PORTAL_LOOP = 3333170603U;
     } // namespace EVENTS
