@@ -35,6 +35,9 @@ namespace Gamekit3D
         protected float m_timeSinceLastHit = 0.0f;
         protected Collider m_Collider;
 
+        //[SerializeField]
+        //private AK.Wwise.Event DestroyBox = null;
+
         System.Action schedule;
 
         void Start()
@@ -97,7 +100,11 @@ namespace Gamekit3D
             currentHitPoints -= data.amount;
 
             if (currentHitPoints <= 0)
+            {
                 schedule += OnDeath.Invoke; //This avoid race condition when objects kill each other.
+                AkSoundEngine.PostEvent("Play_Bloc_HIT", this.gameObject);
+            }
+
             else
                 OnReceiveDamage.Invoke();
 

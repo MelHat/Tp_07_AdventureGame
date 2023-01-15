@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PAUSE_GLOBAL = 953280733U;
+        static const AkUniqueID PLAY_BLOC_HIT = 3653246000U;
         static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
         static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
         static const AkUniqueID PLAY_CHOMPER_IDL_GROWL = 177509106U;

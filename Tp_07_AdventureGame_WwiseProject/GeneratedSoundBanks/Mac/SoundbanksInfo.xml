@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{C10B04AD-CFE6-0903-859C-A575444B33A4}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{0D90F2F8-6B3F-E00A-01B8-EC79835B8EE0}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -582,18 +582,34 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{CFDDBD53-757F-9095-10F2-FBA2945749A8}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{0F8A6B26-4D40-A35E-46F4-EC5CD6BEB297}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
+				<File Id="11062814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-002.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="57528329" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Tile\SFX_Tile_Press.wav</ShortName>
 					<CachePath>SFX/SFX_Tile/SFX_Tile_Press_10C4C929.wem</CachePath>
+				</File>
+				<File Id="103966253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-003.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="160388069" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_Chest\SFX_Chest_Loop.wav</ShortName>
 					<Path>Media/160388069.wem</Path>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="248953593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-006.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="264087726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-004.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="380665248" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_Tile\SFX_Tile_Loop.wav</ShortName>
@@ -604,8 +620,26 @@
 					<ShortName>SFX_Chest\SFX_Chest_Open.wav</ShortName>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Open_10C4C929.wem</CachePath>
 				</File>
+				<File Id="805912963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-001.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1005879309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bloc_HIT\Bloc_HIT-005.wav</ShortName>
+					<CachePath>SFX/Bloc_HIT/Bloc_HIT-005_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3653246000" Name="Play_Bloc_HIT" DurationType="OneShot" DurationMin="1.6921693" DurationMax="2.244924">
+					<MediaRefs>
+						<MediaRef Id="11062814"/>
+						<MediaRef Id="103966253"/>
+						<MediaRef Id="248953593"/>
+						<MediaRef Id="264087726"/>
+						<MediaRef Id="805912963"/>
+						<MediaRef Id="1005879309"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4275973846" Name="Play_SFX_Chest_Loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="160388069"/>
@@ -632,7 +666,7 @@
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{0D7182A9-8B15-28AC-CABE-9E2A557C286B}">
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{8F7C51BF-3BF0-CF06-05A3-D91700C6CDD0}">
 			<ShortName>Grenadier</ShortName>
 			<Path>Grenadier.bnk</Path>
 			<Media>
@@ -1953,5 +1987,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{714B868C-E450-F505-55A6-366A75DB9A0E}</FileHash>
+	<FileHash>{9530B053-BE21-AC9B-E04B-CE39B237AFFF}</FileHash>
 </SoundBanksInfo>

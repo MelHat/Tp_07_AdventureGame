@@ -39,6 +39,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{DD8C619C-BA22-463A-AFB2-1F606834B4B3}" ShortID="284409354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bloc_HIT" ID="{838B7DF5-18B2-4EDE-B303-0BC475209E4D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Chomper_IDL_Yawn" ID="{479C86F9-BE82-43A5-BD39-5BD14143C622}">

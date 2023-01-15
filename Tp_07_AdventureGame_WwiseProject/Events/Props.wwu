@@ -71,6 +71,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bloc_HIT" ID="{BFEC612F-837E-482F-A696-2CCFD92D24D5}">
+					<ChildrenList>
+						<Action Name="" ID="{2D673F28-CC70-4275-96E8-BAEFF18954F2}" ShortID="206114318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bloc_HIT" ID="{838B7DF5-18B2-4EDE-B303-0BC475209E4D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

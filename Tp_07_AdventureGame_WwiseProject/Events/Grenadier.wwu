@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{AAEFB8D4-5A8A-4D14-A4DB-680451E93958}" ShortID="198431558">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bloc_HIT" ID="{838B7DF5-18B2-4EDE-B303-0BC475209E4D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_GRE_Death" ID="{D4658940-24B7-4538-8C2A-D6CC3A9C53CA}">
