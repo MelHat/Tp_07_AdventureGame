@@ -14,6 +14,17 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PAUSE_GLOBAL = 953280733U;
+        static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
+        static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
+        static const AkUniqueID PLAY_CHOMPER_IDL_GROWL = 177509106U;
+        static const AkUniqueID PLAY_CHOMPER_IDL_SCRATCH = 3278365387U;
+        static const AkUniqueID PLAY_CHOMPER_IDL_SNIFF = 2580655721U;
+        static const AkUniqueID PLAY_CHOMPER_IDL_YAWN = 2881135418U;
+        static const AkUniqueID PLAY_CHOMPER_RUN = 3548379502U;
+        static const AkUniqueID PLAY_CHOMPER_SPAT = 317311073U;
+        static const AkUniqueID PLAY_CHOMPER_SPIT = 451531993U;
+        static const AkUniqueID PLAY_CHOMPER_SPOT = 350866255U;
+        static const AkUniqueID PLAY_CHOMPER_WLK = 4000639717U;
         static const AkUniqueID PLAY_GRE_ATTACK_MELEE = 986282324U;
         static const AkUniqueID PLAY_GRE_ATTACK_RANGE1 = 3496026436U;
         static const AkUniqueID PLAY_GRE_ATTACK_RANGE2 = 3496026439U;
@@ -69,9 +80,11 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCES = 1017660616U;
+        static const AkUniqueID CHOMPER = 14039721U;
         static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID PROPS = 968010305U;
+        static const AkUniqueID SPITTER = 2535446860U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 

@@ -3,16 +3,16 @@
 	<AudioObjects>
 		<WorkUnit Name="Chomper" ID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}" OwnerID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}" PersistMode="Nested">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Chomper_HIT" ID="{724B06FC-071C-44C5-94CA-E1BB9A99F8FD}" ShortID="826192867">
+				<ActorMixer Name="Chomper" ID="{3D31750D-49BC-48E0-B025-76C9BC688CE9}" ShortID="563023466">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
-									<Modifier Name="" ID="{BAB27AF4-D615-4AD3-9ADB-85532D3000FB}">
+									<Modifier Name="" ID="{1538F03C-CCD3-4E59-946C-EB751B0C9E98}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="200"/>
-											<Property Name="Min" Type="Real64" Value="-200"/>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
@@ -28,7 +28,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Chomper_HIT_Vox_01" ID="{F7F162BD-27EC-4945-9569-6E34B712B4EE}" ShortID="903932219">
+						<ActorMixer Name="Chomper_HURT" ID="{5883F30B-B330-4F1C-A52B-7EE357D2707B}" ShortID="701532026">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -38,19 +38,288 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Chomper_HIT_Vox_01" ID="{D1146F11-82CE-4800-9A1A-E6035437103A}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_HIT_Vox_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1039509972"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<RandomSequenceContainer Name="Chomper_DMG" ID="{853456C0-0189-4316-967F-AA71AB394F35}" ShortID="645776408">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{40F7AB7D-0A56-47FE-9233-AAECBDD6248D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_DMG-001" ID="{4C5D3B50-55F1-4DB7-A9CA-68A6C46D5667}" ShortID="176577435">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-001" ID="{5C9A52F0-469B-4BF2-AE27-8B427267C22E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="370027248"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-001" ID="{5C9A52F0-469B-4BF2-AE27-8B427267C22E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_DMG-002" ID="{F78DB369-4CEE-4CF3-B784-8391263141BC}" ShortID="595001484">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-002" ID="{64068DD6-8FF7-4C04-960C-B5373F3EFCC1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="324133235"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-002" ID="{64068DD6-8FF7-4C04-960C-B5373F3EFCC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_DMG-003" ID="{273FFB73-7D60-4AAC-821A-F8B565EE71AD}" ShortID="301613827">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-003" ID="{B85B4A71-7F09-4829-B060-89C36E6CE14E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="631029170"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-003" ID="{B85B4A71-7F09-4829-B060-89C36E6CE14E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_DMG-004" ID="{14259F7A-DF9B-49C0-8D20-72C6960664E9}" ShortID="410063991">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-004" ID="{792F3397-9773-43F3-AD4C-751968A92447}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="386033967"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-004" ID="{792F3397-9773-43F3-AD4C-751968A92447}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_DMG-005" ID="{1B12EF12-3942-4686-B88D-2EE9D7BE6E1F}" ShortID="862446217">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-005" ID="{33890234-87B4-450D-9A3B-92080F47DF83}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365944156"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-005" ID="{33890234-87B4-450D-9A3B-92080F47DF83}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_DMG-006" ID="{7D26E58A-666C-452B-B0F1-4772A5BFFAA5}" ShortID="751039292">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_DMG-006" ID="{15021B56-0988-40DB-BCEF-3A96E1911114}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_DMG-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="753325750"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_DMG-006" ID="{15021B56-0988-40DB-BCEF-3A96E1911114}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_HIT" ID="{724B06FC-071C-44C5-94CA-E1BB9A99F8FD}" ShortID="826192867">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BAB27AF4-D615-4AD3-9ADB-85532D3000FB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_HIT_Vox_01" ID="{F7F162BD-27EC-4945-9569-6E34B712B4EE}" ShortID="903932219">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_HIT_Vox_01" ID="{D1146F11-82CE-4800-9A1A-E6035437103A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_HIT_Vox_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1039509972"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_HIT_Vox_01" ID="{D1146F11-82CE-4800-9A1A-E6035437103A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_HIT_Vox_02" ID="{554B9B96-2425-4C43-B1E4-F3DFCD4420E3}" ShortID="291470619">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_HIT_Vox_02" ID="{D0901896-2797-406C-A7CC-DAD85E53A2E3}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_HIT_Vox_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="606264269"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_HIT_Vox_02" ID="{D0901896-2797-406C-A7CC-DAD85E53A2E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_HIT_Vox_03" ID="{9D200377-E0EA-4817-9240-FB2659966F6F}" ShortID="576977184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_HIT_Vox_03" ID="{2562390D-9AA0-4D09-9BB1-1056A255FDC6}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_HIT_Vox_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827933169"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_HIT_Vox_03" ID="{2562390D-9AA0-4D09-9BB1-1056A255FDC6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_HIT_Vox_04" ID="{94F8CF12-B68E-49CB-9E30-B5E9DD5E1AF4}" ShortID="654183172">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_HIT_Vox_04" ID="{A3C1E850-7C85-4D27-85DE-B0DCA7F0354E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_HIT_Vox_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="301572479"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_HIT_Vox_04" ID="{A3C1E850-7C85-4D27-85DE-B0DCA7F0354E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_HIT_Vox_01" ID="{D1146F11-82CE-4800-9A1A-E6035437103A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_HIT_Vox_02" ID="{554B9B96-2425-4C43-B1E4-F3DFCD4420E3}" ShortID="291470619">
+						</ActorMixer>
+						<ActorMixer Name="Chomper_IDL" ID="{413C2F43-D199-49A1-BF2D-E3EA577E3C49}" ShortID="715991318">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -60,19 +329,416 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Chomper_HIT_Vox_02" ID="{D0901896-2797-406C-A7CC-DAD85E53A2E3}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_HIT_Vox_02.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="606264269"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<RandomSequenceContainer Name="Chomper_IDL_Growl" ID="{4DC7CEFA-656C-4649-8FF4-EEE8C467237A}" ShortID="539820390">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_IDL_Growl-001" ID="{7B5DFEE6-2E3B-4C48-AD53-B5873D43461D}" ShortID="89408701">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Growl-001" ID="{DA89E6C3-9AAD-4A59-8FE3-FC1F77A69AA5}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Growl-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="301614189"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Growl-001" ID="{DA89E6C3-9AAD-4A59-8FE3-FC1F77A69AA5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Growl-002" ID="{54FE8B92-121E-4F70-8828-F63A6EC9F634}" ShortID="92397827">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Growl-002" ID="{B04957C8-FD8D-45A3-925B-FF931CE9B6E9}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Growl-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="664412114"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Growl-002" ID="{B04957C8-FD8D-45A3-925B-FF931CE9B6E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Growl-003" ID="{2D6A5A95-5B4C-478A-B342-02C19A5A4EF3}" ShortID="686452248">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Growl-003" ID="{157BA154-C42B-469F-A494-77C4777B54A0}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Growl-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="29399816"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Growl-003" ID="{157BA154-C42B-469F-A494-77C4777B54A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Growl-004" ID="{3A4183D7-7368-4905-9A26-24F78FB6112B}" ShortID="183557279">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Growl-004" ID="{3AD0BED1-5039-4EE2-8EB8-FB499F5E373A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Growl-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="956107197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Growl-004" ID="{3AD0BED1-5039-4EE2-8EB8-FB499F5E373A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_IDL_Scratch" ID="{D82EB823-5117-49D7-9193-DC537CBD1489}" ShortID="211290554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_IDL_Scratch-001" ID="{E728989B-108E-41A4-8F73-2D7DD8BF3E01}" ShortID="613649186">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Scratch-001" ID="{8796BD64-525D-4F78-A690-9F6E7AF91113}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Scratch-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="856608714"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Scratch-001" ID="{8796BD64-525D-4F78-A690-9F6E7AF91113}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Scratch-002" ID="{8D8A881F-9857-483E-A7AE-0F928150909A}" ShortID="80755667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Scratch-002" ID="{316EBD32-DDCA-4818-B921-7DA6F35E638D}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Scratch-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="741140885"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Scratch-002" ID="{316EBD32-DDCA-4818-B921-7DA6F35E638D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Scratch-003" ID="{11626449-7EB5-4A6D-BC5C-2A42E000A345}" ShortID="368587220">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Scratch-003" ID="{9AE80B54-F480-4C3B-8D84-C9E7F52A089C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Scratch-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="663388250"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Scratch-003" ID="{9AE80B54-F480-4C3B-8D84-C9E7F52A089C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Scratch-004" ID="{ABE59D15-E9B8-42FA-A059-28B1EAA55D9C}" ShortID="54395828">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Scratch-004" ID="{764AC7CA-DE52-406F-8148-66C03BCC80DF}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Scratch-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="11223627"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Scratch-004" ID="{764AC7CA-DE52-406F-8148-66C03BCC80DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_IDL_Sniff" ID="{6FC5A6B8-E6D0-430F-87F7-58E313CE84A3}" ShortID="1039617457">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_IDL_Sniff-001" ID="{B2BA001D-AF03-4B75-BB9C-ED95B0CFC124}" ShortID="555270668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Sniff-001" ID="{3B8A9490-6993-437E-9E65-69074F45285B}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Sniff-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="712641108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Sniff-001" ID="{3B8A9490-6993-437E-9E65-69074F45285B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Sniff-002" ID="{E6F05937-82EF-4175-9D53-69D5C7DA9E00}" ShortID="813754265">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Sniff-002" ID="{B980394F-EB30-4413-801C-7590CBCA385A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Sniff-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="421520485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Sniff-002" ID="{B980394F-EB30-4413-801C-7590CBCA385A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Sniff-003" ID="{3CD7EFD4-8E9F-4DDE-A03A-2AF6887DEC89}" ShortID="739759925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Sniff-003" ID="{90EC52F5-A7F8-4326-8673-E47DC09FC2BC}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Sniff-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1037702051"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Sniff-003" ID="{90EC52F5-A7F8-4326-8673-E47DC09FC2BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Sniff-004" ID="{68F81A14-88A2-4E30-B05E-175B19D70713}" ShortID="987349411">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Sniff-004" ID="{AFB20425-F588-4656-8169-089835B1A7C3}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Sniff-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1067725795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Sniff-004" ID="{AFB20425-F588-4656-8169-089835B1A7C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_IDL_Yawn" ID="{829E2C38-3F14-4222-8E64-F1C831872B85}" ShortID="486512155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_IDL_Yawn-001" ID="{82311546-1928-4CFA-9A53-5570FDF7AD7C}" ShortID="561336645">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Yawn-001" ID="{93592A2C-9329-4BCB-A394-AAAA4A910391}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Yawn-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="554768774"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Yawn-001" ID="{93592A2C-9329-4BCB-A394-AAAA4A910391}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Yawn-002" ID="{83721ECC-320C-483E-9E1A-5267F52F2BC2}" ShortID="658776814">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Yawn-002" ID="{A9D75456-6910-46C7-830F-7565D073E67D}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Yawn-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771720827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Yawn-002" ID="{A9D75456-6910-46C7-830F-7565D073E67D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Yawn-003" ID="{22B2219F-0AD0-4CAE-9C78-DC32EF1D9783}" ShortID="908571039">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Yawn-003" ID="{C294EC63-5FC6-4B9B-BAA6-4128AF6B65F1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Yawn-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="460051576"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Yawn-003" ID="{C294EC63-5FC6-4B9B-BAA6-4128AF6B65F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_IDL_Yawn-004" ID="{819F9610-0F43-4445-B5AC-585E1FEDA16A}" ShortID="458775978">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_IDL_Yawn-004" ID="{17E06318-656D-45A7-8A52-7AC09F6A5EB2}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_IDL\Chomper_IDL_Yawn-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="225482934"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_IDL_Yawn-004" ID="{17E06318-656D-45A7-8A52-7AC09F6A5EB2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_HIT_Vox_02" ID="{D0901896-2797-406C-A7CC-DAD85E53A2E3}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_HIT_Vox_03" ID="{9D200377-E0EA-4817-9240-FB2659966F6F}" ShortID="576977184">
+						</ActorMixer>
+						<RandomSequenceContainer Name="Chomper_ATK" ID="{90448EF5-1286-4B0C-8ADF-7B9B06440324}" ShortID="485945134">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -82,19 +748,97 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Chomper_HIT_Vox_03" ID="{2562390D-9AA0-4D09-9BB1-1056A255FDC6}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_HIT_Vox_03.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="827933169"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Chomper_ATK_01" ID="{BDB46D20-8449-4849-AFE4-318E2B102E22}" ShortID="882112066">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_ATK_01" ID="{9A3B02D0-2547-4A0D-A718-8A1F55316CFF}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_ATK\Chomper_ATK_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="963747218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_ATK_01" ID="{9A3B02D0-2547-4A0D-A718-8A1F55316CFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_ATK_02" ID="{344FC2E0-8744-4351-915F-1D71C9E555B2}" ShortID="234333827">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_ATK_02" ID="{31939F9D-4CC3-4775-9C7C-BC2825B50B18}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_ATK\Chomper_ATK_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764765759"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_ATK_02" ID="{31939F9D-4CC3-4775-9C7C-BC2825B50B18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_ATK_03" ID="{F50710A0-8726-4EB0-A66F-2D26E8890B7B}" ShortID="761058161">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_ATK_03" ID="{70AD6A8B-F52B-4230-B9BB-363C4FA814ED}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_ATK\Chomper_ATK_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="942681052"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_ATK_03" ID="{70AD6A8B-F52B-4230-B9BB-363C4FA814ED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_ATK_04" ID="{9D324DA6-D353-4059-9503-88FF1739C64D}" ShortID="350050367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_ATK_04" ID="{B4F9AF24-A9C1-48B6-8563-AB2942496EA7}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_ATK\Chomper_ATK_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="617981817"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_ATK_04" ID="{B4F9AF24-A9C1-48B6-8563-AB2942496EA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_HIT_Vox_03" ID="{2562390D-9AA0-4D09-9BB1-1056A255FDC6}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_HIT_Vox_04" ID="{94F8CF12-B68E-49CB-9E30-B5E9DD5E1AF4}" ShortID="654183172">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper_SPOT" ID="{3F008A48-E0A8-42B4-A39C-3CDC4D0FAEB5}" ShortID="747438532">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -104,179 +848,1696 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Chomper_HIT_Vox_04" ID="{A3C1E850-7C85-4D27-85DE-B0DCA7F0354E}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_HIT_Vox_04.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="301572479"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Chomper_SPOT-001" ID="{D16EF289-5E0F-42E0-9571-641C8E7EA5EC}" ShortID="35868777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-001" ID="{2C474EE7-CB2B-4574-B8DA-28E04323D8AB}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="808687363"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-001" ID="{2C474EE7-CB2B-4574-B8DA-28E04323D8AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_SPOT-002" ID="{2033BED5-AE32-494D-A988-1B7403681BED}" ShortID="811302103">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-002" ID="{045AAB36-37E0-4011-A40F-C201D038131B}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="746093749"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-002" ID="{045AAB36-37E0-4011-A40F-C201D038131B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_SPOT-003" ID="{19687C39-3ECF-4B5E-A4D1-9A55B9AF4DAA}" ShortID="774479799">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-003" ID="{26E66453-9E98-4ABE-A06C-AE90E66D3BA9}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="927929031"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-003" ID="{26E66453-9E98-4ABE-A06C-AE90E66D3BA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_SPOT-004" ID="{3214AA0E-57B0-4181-AF3A-42AA7522DD54}" ShortID="144975721">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-004" ID="{301CBD48-E4A2-4EEF-B985-2CB70CF61597}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="940942373"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-004" ID="{301CBD48-E4A2-4EEF-B985-2CB70CF61597}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_SPOT-005" ID="{5A470020-0D07-4627-8EC3-D7EDDC2F9DEE}" ShortID="198467519">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-005" ID="{E0C7F3F2-AF38-4500-BAE0-1BF6E0C28EF1}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="952145629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-005" ID="{E0C7F3F2-AF38-4500-BAE0-1BF6E0C28EF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chomper_SPOT-006" ID="{70ED6982-20DA-460A-8F33-EE83CAA9FC8D}" ShortID="599254890">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chomper_SPOT-006" ID="{BEAC9A5A-E369-42C3-8F56-27FA14BC33B5}">
+											<Language>SFX</Language>
+											<AudioFile>Chomper_SPOT\Chomper_SPOT-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="584634823"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chomper_SPOT-006" ID="{BEAC9A5A-E369-42C3-8F56-27FA14BC33B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_HIT_Vox_04" ID="{A3C1E850-7C85-4D27-85DE-B0DCA7F0354E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Chomper_RUN" ID="{0FF6D32E-3254-485D-8F30-283B164DDC6C}" ShortID="798152868">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_RUN_Albedo" ID="{D64CFC68-6BF5-4D0B-8F06-F12DABD13CC3}" ShortID="838616940">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_RUN_Albedo-001" ID="{F6C6A2AD-4E58-410D-8B3B-8639325E8817}" ShortID="234047911">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-001" ID="{F1659F8B-DA79-4570-A78C-3F93D2E6ADD4}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="71408060"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-001" ID="{F1659F8B-DA79-4570-A78C-3F93D2E6ADD4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-002" ID="{C07BBFB2-C78E-48EE-8E2A-E6B91DC05C27}" ShortID="413384513">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-002" ID="{5CF6E131-5999-4579-A2A7-5A2043CDA8A4}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365157223"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-002" ID="{5CF6E131-5999-4579-A2A7-5A2043CDA8A4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-003" ID="{701BCD8C-2F2D-4034-8904-A55F346C27A6}" ShortID="1045542380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-003" ID="{2948B8E4-0293-4572-AC87-F0CEA52D715C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="762812979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-003" ID="{2948B8E4-0293-4572-AC87-F0CEA52D715C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-004" ID="{2F6FFB19-F158-4126-8359-DE6CB3C0166B}" ShortID="174927372">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-004" ID="{1760389F-3965-42BB-ABBA-50F439674464}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="280874067"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-004" ID="{1760389F-3965-42BB-ABBA-50F439674464}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-005" ID="{37C86AB8-FA44-46C6-85AF-DA64B060DEDD}" ShortID="3892178">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-005" ID="{EF48D48D-DCAF-41AD-9167-95E139EC1094}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="761771530"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-005" ID="{EF48D48D-DCAF-41AD-9167-95E139EC1094}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-006" ID="{C09F3057-ED5E-42AD-A2D2-F0B82D8A3ED1}" ShortID="656859162">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-006" ID="{65D89655-90F4-44FD-AFDA-0016E98EB21B}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="406783082"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-006" ID="{65D89655-90F4-44FD-AFDA-0016E98EB21B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-007" ID="{DA99BD69-D5DB-4C98-AEDA-B6DDE9F93EC3}" ShortID="373580142">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-007" ID="{BD287277-4F14-46B7-8677-6177E7DF34D1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493011791"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-007" ID="{BD287277-4F14-46B7-8677-6177E7DF34D1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-008" ID="{06D52974-CD7F-4753-B408-A5143B0B57A6}" ShortID="951676686">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-008" ID="{BB8B68B6-125C-4CC7-BC37-003C5FF416C4}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="906772876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-008" ID="{BB8B68B6-125C-4CC7-BC37-003C5FF416C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-009" ID="{53351C7A-162F-464D-8522-8DFA9B5C5C06}" ShortID="21143808">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-009" ID="{F045300E-A711-492A-B54E-174D11D05912}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="588213352"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-009" ID="{F045300E-A711-492A-B54E-174D11D05912}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-010" ID="{771F313B-902A-4564-8B50-F5AE79EA768C}" ShortID="809034642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-010" ID="{417F074A-1A8B-4E32-B83B-C0A744B6870D}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="700107197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-010" ID="{417F074A-1A8B-4E32-B83B-C0A744B6870D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-011" ID="{C212333C-2024-4957-A383-B17B7CF6A5F7}" ShortID="422227720">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-011" ID="{E75C22AC-A912-4DF7-8CBC-5E5F439118D0}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972920686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-011" ID="{E75C22AC-A912-4DF7-8CBC-5E5F439118D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-012" ID="{45BAEC5F-DA7D-40FC-9F76-54B404689CA9}" ShortID="1002173467">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-012" ID="{7DCC2EEB-DA9C-48DD-A4CE-D0CCEFAE0355}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485284019"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-012" ID="{7DCC2EEB-DA9C-48DD-A4CE-D0CCEFAE0355}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-013" ID="{5B20FBBC-EEC7-4101-8012-16B1815F96D5}" ShortID="231591118">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-013" ID="{1714FBCF-20D7-45C4-81C6-02E539086311}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986436289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-013" ID="{1714FBCF-20D7-45C4-81C6-02E539086311}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-014" ID="{A77B0D2C-B22B-43B3-8055-1F223B5C4D8C}" ShortID="414274556">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-014" ID="{506420FA-C09A-446A-B46D-FC9BD4C9EAD1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="814495707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-014" ID="{506420FA-C09A-446A-B46D-FC9BD4C9EAD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-015" ID="{97499511-8A5A-40C6-A83A-C6109C3BC342}" ShortID="327581344">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-015" ID="{783BE619-C484-4C6D-BC8E-71B9C0B236AA}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247117634"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-015" ID="{783BE619-C484-4C6D-BC8E-71B9C0B236AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Albedo-016" ID="{04F66B12-B546-4411-856F-1C1E350DECD1}" ShortID="703980863">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Albedo-016" ID="{4E162DE6-64AC-4EF3-9471-50091DDA1797}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Albedo\Chomper_RUN_Albedo-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="481834559"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Albedo-016" ID="{4E162DE6-64AC-4EF3-9471-50091DDA1797}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_RUN_Mud" ID="{3C0D1531-81D9-471F-A2B8-6D657F7D0959}" ShortID="340706705">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_RUN_Mud-001" ID="{31F12441-2EE1-4A85-B4CE-08DADD0874FE}" ShortID="107219419">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-001" ID="{3A1ACCCC-EF9D-40E0-81CA-5D11FBA0BA50}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="287945508"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-001" ID="{3A1ACCCC-EF9D-40E0-81CA-5D11FBA0BA50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-002" ID="{6EA13C02-6355-4B97-BC13-BA89EE5BF535}" ShortID="547135164">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-002" ID="{CAB543E4-31BC-46BA-AF2B-ECB1A7B408EA}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="959148368"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-002" ID="{CAB543E4-31BC-46BA-AF2B-ECB1A7B408EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-003" ID="{C2ECBCFA-4904-4673-9D42-0E9BAEFB21B8}" ShortID="1051737769">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-003" ID="{52300C92-9B1A-4EF5-9071-390D485C81C1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1021285773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-003" ID="{52300C92-9B1A-4EF5-9071-390D485C81C1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-004" ID="{C39DEE32-259B-4DBC-864B-F4613280ED58}" ShortID="972008974">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-004" ID="{27A4819F-1E2F-40B6-A78E-DA7F4C331C46}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="638709904"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-004" ID="{27A4819F-1E2F-40B6-A78E-DA7F4C331C46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-005" ID="{1966DCE3-026C-4ED7-BAA9-94AE88C6B059}" ShortID="568127701">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-005" ID="{D4C2272A-E523-472D-A2B7-141178933715}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="231212849"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-005" ID="{D4C2272A-E523-472D-A2B7-141178933715}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-006" ID="{E3368D8F-D74A-4797-8A00-5A21C250F2ED}" ShortID="963827151">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-006" ID="{A0C02936-6530-4468-A681-2C78F37A581C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="805207871"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-006" ID="{A0C02936-6530-4468-A681-2C78F37A581C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-007" ID="{A7791E68-06F7-4B3B-ACFD-D4F05DFDE0EE}" ShortID="644633219">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-007" ID="{3CF802FB-378A-4106-A9F0-32354A4E6292}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="658272508"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-007" ID="{3CF802FB-378A-4106-A9F0-32354A4E6292}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-008" ID="{18531511-2EA0-404E-8251-BE026877B17F}" ShortID="237301264">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-008" ID="{5941EB96-71CC-49EA-B280-DCC7AA3413C8}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857081824"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-008" ID="{5941EB96-71CC-49EA-B280-DCC7AA3413C8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-009" ID="{41C61E6C-D324-4B08-9608-7F39EAD1243F}" ShortID="724935936">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-009" ID="{9C4197EB-C1E7-4C69-842D-48D8A7CE454D}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="251047007"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-009" ID="{9C4197EB-C1E7-4C69-842D-48D8A7CE454D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-010" ID="{12931B15-D6AB-4871-A8D1-9F90462E9A69}" ShortID="707110186">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-010" ID="{B1FE3A77-92D9-470E-B878-337A725A4C1E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="134483716"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-010" ID="{B1FE3A77-92D9-470E-B878-337A725A4C1E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-011" ID="{71A53269-5BD0-4990-AF7B-240C761003A7}" ShortID="48726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-011" ID="{05BAF351-2EFE-48F3-B85C-479BD0262459}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="954898546"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-011" ID="{05BAF351-2EFE-48F3-B85C-479BD0262459}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-012" ID="{2442D843-103B-4F52-96EC-CE377F0E65AD}" ShortID="633004520">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-012" ID="{2941ADD7-637E-4365-ABFD-DF4EAB90C986}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="271557756"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-012" ID="{2941ADD7-637E-4365-ABFD-DF4EAB90C986}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-013" ID="{116FEC45-0C5F-4311-924D-2E76614A4CD5}" ShortID="208616964">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-013" ID="{3E18454D-C21B-4A19-9D41-9BC3478E0195}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670300551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-013" ID="{3E18454D-C21B-4A19-9D41-9BC3478E0195}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-014" ID="{52043AE5-2324-4D62-86C5-9D43C322798A}" ShortID="600495035">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-014" ID="{66A46B7F-899C-47DD-90EE-94D79756DE28}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="156271689"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-014" ID="{66A46B7F-899C-47DD-90EE-94D79756DE28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-015" ID="{A648960F-AA7A-4F9E-8525-035A59D4A261}" ShortID="165451975">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-015" ID="{4F5DF415-2DC3-4176-840E-92C895BC5022}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="161631539"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-015" ID="{4F5DF415-2DC3-4176-840E-92C895BC5022}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_RUN_Mud-016" ID="{C02FE0C0-59A9-4EE3-B334-3A475FB4C874}" ShortID="443939168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_RUN_Mud-016" ID="{87E17EF3-203C-4C17-82BB-6F8CA69F7F19}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_RUN_Mud\Chomper_RUN_Mud-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854125941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_RUN_Mud-016" ID="{87E17EF3-203C-4C17-82BB-6F8CA69F7F19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_RUN_Mud" ID="{3C0D1531-81D9-471F-A2B8-6D657F7D0959}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_RUN_Albedo" ID="{D64CFC68-6BF5-4D0B-8F06-F12DABD13CC3}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_RUN_Mud" ID="{3C0D1531-81D9-471F-A2B8-6D657F7D0959}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_RUN_Albedo" ID="{D64CFC68-6BF5-4D0B-8F06-F12DABD13CC3}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="Chomper_WLK" ID="{EE3A6C43-2313-4195-BF99-D323DF8D3F18}" ShortID="117709467">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_Switch_Material" ID="{094B1C34-6A3E-45A2-9467-95A9BDD31897}" WorkUnitID="{D46F2B18-41F4-49E4-BFD7-1C41F1833976}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Chomper_WLK_Albedo" ID="{4986D513-0515-4EB0-9235-699C5990E986}" ShortID="877099064">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_WLK_Albedo-001" ID="{762F7795-373A-4303-9F52-361427704470}" ShortID="909228902">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-001" ID="{DD6D24A3-B699-4B9C-9DF9-8D24C9C34D90}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773815795"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-001" ID="{DD6D24A3-B699-4B9C-9DF9-8D24C9C34D90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-002" ID="{2E20C4BE-5241-48E9-ACC3-A1F879486EDB}" ShortID="65878120">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-002" ID="{670D2745-0B56-4F9E-A05C-25AA8425C2A1}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607546144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-002" ID="{670D2745-0B56-4F9E-A05C-25AA8425C2A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-003" ID="{2FBBDE9F-F2C1-4C55-B974-904595BBE915}" ShortID="208181654">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-003" ID="{B9A98515-1167-4379-844E-034E001D8C90}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="272137969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-003" ID="{B9A98515-1167-4379-844E-034E001D8C90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-004" ID="{BC728A73-1ABF-45D9-A98D-756B85063869}" ShortID="849662289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-004" ID="{FC12C4D4-A07D-492D-A5C1-EF47BC761337}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76296863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-004" ID="{FC12C4D4-A07D-492D-A5C1-EF47BC761337}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-005" ID="{679CA899-7CB0-47A8-B1CD-5AFFE6477B12}" ShortID="984887778">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-005" ID="{B406E89A-9D07-4C3E-8173-44BD80C5175A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="209169410"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-005" ID="{B406E89A-9D07-4C3E-8173-44BD80C5175A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-006" ID="{528C95BF-3FE2-4D3C-8D2A-BAE88C560BDA}" ShortID="1032500379">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-006" ID="{1402008C-7D49-4E36-AB50-CD02D0F8DA74}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="17730691"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-006" ID="{1402008C-7D49-4E36-AB50-CD02D0F8DA74}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-007" ID="{57EB1304-8A47-4C26-8609-52031CE15CF7}" ShortID="658214066">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-007" ID="{82DE9F97-1504-4D6E-866B-2BD860498850}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="440314114"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-007" ID="{82DE9F97-1504-4D6E-866B-2BD860498850}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-008" ID="{467363B0-9AB2-48DF-8E64-485945901CCA}" ShortID="490893884">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-008" ID="{67946D52-4BBF-4E1F-A8A2-5F40C37265D2}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="237795809"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-008" ID="{67946D52-4BBF-4E1F-A8A2-5F40C37265D2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-009" ID="{0638F714-60A9-4503-B050-DE80A5F293ED}" ShortID="567912058">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-009" ID="{BEBF48F2-0952-454F-9410-90D320B68EA8}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="958568256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-009" ID="{BEBF48F2-0952-454F-9410-90D320B68EA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-010" ID="{9374F51E-03C0-4D12-9E37-C8F9ADD8488D}" ShortID="769096221">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-010" ID="{D4A97C91-7611-4F3A-A974-5E5AAD3BCB35}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="618217076"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-010" ID="{D4A97C91-7611-4F3A-A974-5E5AAD3BCB35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-011" ID="{0C2E4909-1562-44E1-853C-CC021CDCD948}" ShortID="1017515855">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-011" ID="{3330B760-525E-4266-9D8A-DEAEC786530A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="630084952"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-011" ID="{3330B760-525E-4266-9D8A-DEAEC786530A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-012" ID="{24364F91-40B5-4ED6-92D3-DC49EBDADA30}" ShortID="711360254">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-012" ID="{70EB1182-6060-453B-B8F1-F3D50FDB2E3C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509287086"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-012" ID="{70EB1182-6060-453B-B8F1-F3D50FDB2E3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-013" ID="{0CB7F682-CBB4-450F-8E5A-F8A56AB38A95}" ShortID="176776824">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-013" ID="{0001ED70-4319-47BF-B306-6DB085AE65DB}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485535931"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-013" ID="{0001ED70-4319-47BF-B306-6DB085AE65DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-014" ID="{DBBEFAA8-BFBE-4B71-A1C1-6099EF5D406B}" ShortID="588177542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-014" ID="{17007B79-FB25-4F32-96FB-1C3FF92F6867}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="961448151"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-014" ID="{17007B79-FB25-4F32-96FB-1C3FF92F6867}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-015" ID="{FF63DA09-4AEB-48BA-A706-B80CD8520C8D}" ShortID="781072491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-015" ID="{311A3835-62E2-41AF-8728-4BA7F47C92A0}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="468611026"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-015" ID="{311A3835-62E2-41AF-8728-4BA7F47C92A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Albedo-016" ID="{AF86D132-3901-4235-B1F7-300DFBE2FDF3}" ShortID="182746195">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Albedo-016" ID="{2C0BB09A-42DE-4907-9AB0-04C678974096}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Albedo\Chomper_WLK_Albedo-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="704792762"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Albedo-016" ID="{2C0BB09A-42DE-4907-9AB0-04C678974096}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chomper_WLK_Mud" ID="{FFDF9141-44D1-448C-BB65-74FD4FE5A409}" ShortID="895092407">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chomper_WLK_Mud-001" ID="{59C531B2-8335-41D9-A245-D66F9CE8DC86}" ShortID="883851820">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-001" ID="{510BFBE8-6DF1-4B28-BD2F-065DD7CDD6F8}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="39751593"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-001" ID="{510BFBE8-6DF1-4B28-BD2F-065DD7CDD6F8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-002" ID="{E0F3E7D3-D65A-49D2-B986-8F2C9EE0F603}" ShortID="789729929">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-002" ID="{89B64FCA-09B0-4EBC-A323-072B50F59D28}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736983061"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-002" ID="{89B64FCA-09B0-4EBC-A323-072B50F59D28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-003" ID="{BA327364-E1DF-49BC-B4E0-49374960A349}" ShortID="59639074">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-003" ID="{5EC6A353-F297-46AD-81DB-2BEAE196C85E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321959391"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-003" ID="{5EC6A353-F297-46AD-81DB-2BEAE196C85E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-004" ID="{2108C697-EC70-4CC1-A2E7-B8B294977A9B}" ShortID="998237314">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-004" ID="{A874FF61-2A0D-412A-BE5D-FACE372CE79C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="525300382"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-004" ID="{A874FF61-2A0D-412A-BE5D-FACE372CE79C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-005" ID="{8E0ACDFD-0754-45D2-A317-63AE551F75BB}" ShortID="1065162599">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-005" ID="{6D1C5ADC-2C34-4147-89ED-E2E98A67460E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="804779476"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-005" ID="{6D1C5ADC-2C34-4147-89ED-E2E98A67460E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-006" ID="{0D32DB81-F8AB-4C9D-AD92-B2418E3BAF40}" ShortID="478470077">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-006" ID="{BED18606-30A7-4FD3-9806-B47AE6B4343C}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850579583"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-006" ID="{BED18606-30A7-4FD3-9806-B47AE6B4343C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-007" ID="{3D2F2CD6-D111-4F9D-AF40-6C935C28950F}" ShortID="483851859">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-007" ID="{5660B68F-6434-47A8-9C21-685228557BA6}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="784665699"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-007" ID="{5660B68F-6434-47A8-9C21-685228557BA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-008" ID="{C68AC47D-6385-4C27-B328-16B2196DD606}" ShortID="137553006">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-008" ID="{E7EC2061-6EB1-4B34-8E89-991E3131CB4A}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-008.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1031799636"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-008" ID="{E7EC2061-6EB1-4B34-8E89-991E3131CB4A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-009" ID="{C98467D3-4134-4153-A434-77EF7742FA83}" ShortID="854360808">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-009" ID="{91B55F8B-6C95-4C77-A435-F9C3EAABB37B}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-009.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="646073544"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-009" ID="{91B55F8B-6C95-4C77-A435-F9C3EAABB37B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-010" ID="{74A06D7F-3405-42C1-9E53-22EAE37FC688}" ShortID="900881402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-010" ID="{07B3261A-5B4D-4ADA-86BD-9A1010DC03F2}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-010.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="492476342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-010" ID="{07B3261A-5B4D-4ADA-86BD-9A1010DC03F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-011" ID="{52219CD3-73FC-4CB5-A150-C5DB7B69DDEB}" ShortID="72153466">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-011" ID="{00E971F0-8137-4B8F-AAA7-603DC1DE0D43}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-011.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="242907666"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-011" ID="{00E971F0-8137-4B8F-AAA7-603DC1DE0D43}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-012" ID="{FFB6080B-786B-41EA-A7DD-66C830327155}" ShortID="637638624">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-012" ID="{01741D0F-626C-40A2-8847-6F76C0A8AF4E}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-012.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="840609427"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-012" ID="{01741D0F-626C-40A2-8847-6F76C0A8AF4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-013" ID="{8D3DC14E-B6AF-413D-BBA7-60EF8AFB6316}" ShortID="316723010">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-013" ID="{08BBC1A7-B60F-4E6A-B015-C7FCF6212275}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-013.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="648411992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-013" ID="{08BBC1A7-B60F-4E6A-B015-C7FCF6212275}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-014" ID="{8DABC5BD-80B6-4C42-970B-C69E37C42127}" ShortID="133184164">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-014" ID="{3BC9A2FC-7849-41F0-8C6D-62F0452CDBDF}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-014.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="283080916"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-014" ID="{3BC9A2FC-7849-41F0-8C6D-62F0452CDBDF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-015" ID="{B85CD271-C317-4574-B965-08BE3CC1D301}" ShortID="210748018">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-015" ID="{C7921054-479B-4DA6-8BC6-4312139AA17B}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-015.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68259090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-015" ID="{C7921054-479B-4DA6-8BC6-4312139AA17B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chomper_WLK_Mud-016" ID="{3C13F8DC-D1C6-4D01-9B23-7D88AB5FC1DD}" ShortID="843101928">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chomper_WLK_Mud-016" ID="{45D82394-205C-43DC-8B7F-A3DF647A28CB}">
+													<Language>SFX</Language>
+													<AudioFile>Chomper_WLK_Mud\Chomper_WLK_Mud-016.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="66571607"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chomper_WLK_Mud-016" ID="{45D82394-205C-43DC-8B7F-A3DF647A28CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_WLK_Albedo" ID="{4986D513-0515-4EB0-9235-699C5990E986}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Chomper_WLK_Mud" ID="{FFDF9141-44D1-448C-BB65-74FD4FE5A409}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_WLK_Mud" ID="{FFDF9141-44D1-448C-BB65-74FD4FE5A409}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
+										<ItemList>
+											<ItemRef Name="Chomper_WLK_Albedo" ID="{4986D513-0515-4EB0-9235-699C5990E986}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Chomper_DMG" ID="{853456C0-0189-4316-967F-AA71AB394F35}" ShortID="645776408">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{40F7AB7D-0A56-47FE-9233-AAECBDD6248D}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="200"/>
-											<Property Name="Min" Type="Real64" Value="-200"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Chomper_DMG-001" ID="{4C5D3B50-55F1-4DB7-A9CA-68A6C46D5667}" ShortID="176577435">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-001" ID="{5C9A52F0-469B-4BF2-AE27-8B427267C22E}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="370027248"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-001" ID="{5C9A52F0-469B-4BF2-AE27-8B427267C22E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_DMG-002" ID="{F78DB369-4CEE-4CF3-B784-8391263141BC}" ShortID="595001484">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-002" ID="{64068DD6-8FF7-4C04-960C-B5373F3EFCC1}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-002.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="324133235"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-002" ID="{64068DD6-8FF7-4C04-960C-B5373F3EFCC1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_DMG-003" ID="{273FFB73-7D60-4AAC-821A-F8B565EE71AD}" ShortID="301613827">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-003" ID="{B85B4A71-7F09-4829-B060-89C36E6CE14E}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-003.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="631029170"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-003" ID="{B85B4A71-7F09-4829-B060-89C36E6CE14E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_DMG-004" ID="{14259F7A-DF9B-49C0-8D20-72C6960664E9}" ShortID="410063991">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-004" ID="{792F3397-9773-43F3-AD4C-751968A92447}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-004.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="386033967"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-004" ID="{792F3397-9773-43F3-AD4C-751968A92447}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_DMG-005" ID="{1B12EF12-3942-4686-B88D-2EE9D7BE6E1F}" ShortID="862446217">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-005" ID="{33890234-87B4-450D-9A3B-92080F47DF83}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-005.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="365944156"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-005" ID="{33890234-87B4-450D-9A3B-92080F47DF83}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Chomper_DMG-006" ID="{7D26E58A-666C-452B-B0F1-4772A5BFFAA5}" ShortID="751039292">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chomper_DMG-006" ID="{15021B56-0988-40DB-BCEF-3A96E1911114}">
-									<Language>SFX</Language>
-									<AudioFile>Chomper_DMG-006.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="753325750"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chomper_DMG-006" ID="{15021B56-0988-40DB-BCEF-3A96E1911114}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</RandomSequenceContainer>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

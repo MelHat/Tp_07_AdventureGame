@@ -361,7 +361,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="asuppr" ID="{4B42A763-A6D5-4F16-86AC-A61C3F5081C1}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

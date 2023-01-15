@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	317311073	Play_Chomper_SPAT			\Default Work Unit\Enemies\Spitter\Play_Chomper_SPAT	
+	451531993	Play_Chomper_SPIT			\Default Work Unit\Enemies\Spitter\Play_Chomper_SPIT	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	144183806	Chomper_SPIT-002	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPIT\Chomper_SPIT-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPIT\Chomper_SPIT-002		103814
+	235591580	Chomper_SPIT-003	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPIT\Chomper_SPIT-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPIT\Chomper_SPIT-003		101512
+	243230857	Chomper_SPAT-003	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPAT\Chomper_SPAT-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPAT\Chomper_SPAT-003		48096
+	421591113	Chomper_SPAT-004	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPAT\Chomper_SPAT-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPAT\Chomper_SPAT-004		48096
+	429489173	Chomper_SPIT-001	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPIT\Chomper_SPIT-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPIT\Chomper_SPIT-001		103708
+	548559792	Chomper_SPAT-001	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPAT\Chomper_SPAT-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPAT\Chomper_SPAT-001		48096
+	622404631	Chomper_SPIT-004	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPIT\Chomper_SPIT-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPIT\Chomper_SPIT-004		100814
+	1043740032	Chomper_SPAT-002	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Chomper_SPAT\Chomper_SPAT-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Spitter\Spitter\Chomper_SPAT\Chomper_SPAT-002		48096
+

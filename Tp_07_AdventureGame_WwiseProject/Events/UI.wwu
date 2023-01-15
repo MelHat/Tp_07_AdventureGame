@@ -31,6 +31,26 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C5D5A2F9-4548-44A2-A106-AB954CA47A30}" ShortID="201278417">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper" ID="{3D31750D-49BC-48E0-B025-76C9BC688CE9}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4DD6DA75-DA6A-4862-8E1F-E0F0D0763C3A}" ShortID="686650099">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter" ID="{D1F305E7-ECB9-40FB-A2B9-6CFE002EF6C2}" WorkUnitID="{EEA8E984-A4A1-4535-94BB-8076C4EAF643}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Resume_Global" ID="{F35F9391-CA37-4386-8EF0-3A70EB4F9F1E}">
@@ -54,6 +74,26 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MC" ID="{BE090A4F-8657-43EC-8F98-3B62E6DE44E4}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D6A52B72-C065-43F1-BD8D-ECC7D4E461D2}" ShortID="313659175">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper" ID="{3D31750D-49BC-48E0-B025-76C9BC688CE9}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB209A8F-F3C2-4155-BEFB-9C7E406C74A8}" ShortID="246774959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spitter" ID="{D1F305E7-ECB9-40FB-A2B9-6CFE002EF6C2}" WorkUnitID="{EEA8E984-A4A1-4535-94BB-8076C4EAF643}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

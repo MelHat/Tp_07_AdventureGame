@@ -19,6 +19,104 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{CDBB1D8A-9FD4-4102-8AA6-BE5A3339D11E}" ShortID="868084788">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_ATK" ID="{90448EF5-1286-4B0C-8ADF-7B9B06440324}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_IDL_Yawn" ID="{479C86F9-BE82-43A5-BD39-5BD14143C622}">
+					<ChildrenList>
+						<Action Name="" ID="{461BD9CC-C5DA-4315-91E9-59031A5DAA1C}" ShortID="900764439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_IDL_Yawn" ID="{829E2C38-3F14-4222-8E64-F1C831872B85}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_RUN" ID="{885E2064-FE76-4CEB-AE09-FD1FE390BDDE}">
+					<ChildrenList>
+						<Action Name="" ID="{6585A660-EE7D-4391-BCAB-CDDC772EDC29}" ShortID="842995644">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_RUN" ID="{0FF6D32E-3254-485D-8F30-283B164DDC6C}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_ATK" ID="{8A62B61E-9B38-49D0-8ADA-CD9DBC6F7C1B}">
+					<ChildrenList>
+						<Action Name="" ID="{6F284ABC-55E4-44EF-BB2E-C443BBD74A2B}" ShortID="493573382">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_ATK" ID="{90448EF5-1286-4B0C-8ADF-7B9B06440324}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_SPOT" ID="{68F1D8C2-D1B6-427C-8E0B-04940B9EAE20}">
+					<ChildrenList>
+						<Action Name="" ID="{475C8800-A529-4A90-A583-9C6393EA748B}" ShortID="77530557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_SPOT" ID="{3F008A48-E0A8-42B4-A39C-3CDC4D0FAEB5}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_WLK" ID="{DF0C014B-C7F0-4746-B759-0503829822FE}">
+					<ChildrenList>
+						<Action Name="" ID="{13457A97-B734-4AC8-8AD4-4DA38C306B7A}" ShortID="982934209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_WLK" ID="{EE3A6C43-2313-4195-BF99-D323DF8D3F18}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_IDL_Growl" ID="{03B9B0EF-6755-42C2-8975-D5B272D5B95F}">
+					<ChildrenList>
+						<Action Name="" ID="{B04F1580-4336-4689-BC70-D4E6CB06E9F0}" ShortID="146144033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_IDL_Growl" ID="{4DC7CEFA-656C-4649-8FF4-EEE8C467237A}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_IDL_Scratch" ID="{941258CF-E6FE-4F85-BD27-7167FF117220}">
+					<ChildrenList>
+						<Action Name="" ID="{D1DB392E-E074-48B3-9C12-45E35A65F0B2}" ShortID="974739022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_IDL_Scratch" ID="{D82EB823-5117-49D7-9193-DC537CBD1489}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_IDL_Sniff" ID="{02DDB8DC-C777-4EB2-89BC-29B53B10D25B}">
+					<ChildrenList>
+						<Action Name="" ID="{F7DA441A-B860-4089-8304-2B5DA9199915}" ShortID="127178586">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_IDL_Sniff" ID="{6FC5A6B8-E6D0-430F-87F7-58E313CE84A3}" WorkUnitID="{F8A5A66E-AA64-4F15-9730-DB42088FBE8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

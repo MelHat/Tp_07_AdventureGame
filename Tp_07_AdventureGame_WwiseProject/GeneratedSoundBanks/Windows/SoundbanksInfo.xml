@@ -9,15 +9,588 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="968010305" Type="User" Language="SFX">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{4A6EF3A8-84F6-0BA4-A5D9-7CBB15C988CF}">
+			<ShortName>Chomper</ShortName>
+			<Path>Chomper.bnk</Path>
+			<Media>
+				<File Id="11223627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Scratch-004.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Scratch-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="17730691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-006.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="29399816" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Growl-003.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Growl-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="39751593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-001.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="66571607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-016.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="68259090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-015.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="71408060" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-001.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="76296863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-004.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="134483716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-010.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="156271689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-014.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="161631539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-015.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="209169410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-005.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="225482934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Yawn-004.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Yawn-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="231212849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-005.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="237795809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-008.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="242907666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-011.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="247117634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-015.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="251047007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-009.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="271557756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-012.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="272137969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-003.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="280874067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-004.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="283080916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-014.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="287945508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-001.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="301572479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_HIT_Vox_04.wav</ShortName>
+					<CachePath>SFX/Chomper_HIT_Vox_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="301614189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Growl-001.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Growl-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="321959391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-003.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="324133235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-002.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365157223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-002.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365944156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-005.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="370027248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-001.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="386033967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-004.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="406783082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-006.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="421520485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Sniff-002.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Sniff-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440314114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-007.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="460051576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Yawn-003.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Yawn-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="468611026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-015.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-015_10C4C929.wem</CachePath>
+				</File>
+				<File Id="481834559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-016.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485284019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-012.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485535931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-013.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="492476342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-010.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="493011791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-007.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="509287086" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-012.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="525300382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-004.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="554768774" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Yawn-001.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Yawn-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="584634823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-006.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="588213352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-009.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="606264269" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_HIT_Vox_02.wav</ShortName>
+					<CachePath>SFX/Chomper_HIT_Vox_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="607546144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-002.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="617981817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_ATK\Chomper_ATK_04.wav</ShortName>
+					<CachePath>SFX/Chomper_ATK/Chomper_ATK_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="618217076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-010.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="630084952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-011.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="631029170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-003.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638709904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-004.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="646073544" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-009.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="648411992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-013.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="658272508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-007.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="663388250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Scratch-003.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Scratch-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="664412114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Growl-002.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Growl-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670300551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-013.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="700107197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-010.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="704792762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-016.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="712641108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Sniff-001.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Sniff-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="736983061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-002.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="741140885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Scratch-002.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Scratch-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="746093749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-002.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="753325750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_DMG-006.wav</ShortName>
+					<CachePath>SFX/Chomper_DMG-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761771530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-005.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="762812979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-003.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="764765759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_ATK\Chomper_ATK_02.wav</ShortName>
+					<CachePath>SFX/Chomper_ATK/Chomper_ATK_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="771720827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Yawn-002.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Yawn-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773815795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-001.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784665699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-007.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="804779476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-005.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="805207871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-006.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="808687363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-001.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="814495707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-014.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="827933169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_HIT_Vox_03.wav</ShortName>
+					<CachePath>SFX/Chomper_HIT_Vox_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="840609427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-012.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850579583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-006.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854125941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-016.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-016_10C4C929.wem</CachePath>
+				</File>
+				<File Id="856608714" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Scratch-001.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Scratch-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="857081824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-008.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="906772876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-008.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="927929031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-003.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="940942373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-004.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="942681052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_ATK\Chomper_ATK_03.wav</ShortName>
+					<CachePath>SFX/Chomper_ATK/Chomper_ATK_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="952145629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPOT\Chomper_SPOT-005.wav</ShortName>
+					<CachePath>SFX/Chomper_SPOT/Chomper_SPOT-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="954898546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-011.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="956107197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Growl-004.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Growl-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="958568256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-009.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="959148368" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-002.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="961448151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Albedo\Chomper_WLK_Albedo-014.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Albedo/Chomper_WLK_Albedo-014_10C4C929.wem</CachePath>
+				</File>
+				<File Id="963747218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_ATK\Chomper_ATK_01.wav</ShortName>
+					<CachePath>SFX/Chomper_ATK/Chomper_ATK_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="972920686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-011.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="986436289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Albedo\Chomper_RUN_Albedo-013.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Albedo/Chomper_RUN_Albedo-013_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1021285773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_RUN_Mud\Chomper_RUN_Mud-003.wav</ShortName>
+					<CachePath>SFX/Chomper_RUN_Mud/Chomper_RUN_Mud-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031799636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_WLK_Mud\Chomper_WLK_Mud-008.wav</ShortName>
+					<CachePath>SFX/Chomper_WLK_Mud/Chomper_WLK_Mud-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1037702051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Sniff-003.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Sniff-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1039509972" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_HIT_Vox_01.wav</ShortName>
+					<CachePath>SFX/Chomper_HIT_Vox_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1067725795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_IDL\Chomper_IDL_Sniff-004.wav</ShortName>
+					<CachePath>SFX/Chomper_IDL/Chomper_IDL_Sniff-004_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3797042435" Name="Play_Chomper_ATK" DurationType="OneShot" DurationMin="1.1604371" DurationMax="1.6411058">
+					<MediaRefs>
+						<MediaRef Id="617981817"/>
+						<MediaRef Id="764765759"/>
+						<MediaRef Id="942681052"/>
+						<MediaRef Id="963747218"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4083688974" Name="Play_Chomper_HIT" DurationType="OneShot" DurationMin="0.74915355" DurationMax="1.3348398">
+					<MediaRefs>
+						<MediaRef Id="301572479"/>
+						<MediaRef Id="324133235"/>
+						<MediaRef Id="365944156"/>
+						<MediaRef Id="370027248"/>
+						<MediaRef Id="386033967"/>
+						<MediaRef Id="606264269"/>
+						<MediaRef Id="631029170"/>
+						<MediaRef Id="753325750"/>
+						<MediaRef Id="827933169"/>
+						<MediaRef Id="1039509972"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="177509106" Name="Play_Chomper_IDL_Growl" DurationType="OneShot" DurationMin="2.53264" DurationMax="3.5816936">
+					<MediaRefs>
+						<MediaRef Id="29399816"/>
+						<MediaRef Id="301614189"/>
+						<MediaRef Id="664412114"/>
+						<MediaRef Id="956107197"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3278365387" Name="Play_Chomper_IDL_Scratch" DurationType="OneShot" DurationMin="3.784034" DurationMax="5.351432">
+					<MediaRefs>
+						<MediaRef Id="11223627"/>
+						<MediaRef Id="663388250"/>
+						<MediaRef Id="741140885"/>
+						<MediaRef Id="856608714"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2580655721" Name="Play_Chomper_IDL_Sniff" DurationType="OneShot" DurationMin="2.3629189" DurationMax="3.3416717">
+					<MediaRefs>
+						<MediaRef Id="421520485"/>
+						<MediaRef Id="712641108"/>
+						<MediaRef Id="1037702051"/>
+						<MediaRef Id="1067725795"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2881135418" Name="Play_Chomper_IDL_Yawn" DurationType="OneShot" DurationMin="1.455837" DurationMax="2.0588644">
+					<MediaRefs>
+						<MediaRef Id="225482934"/>
+						<MediaRef Id="460051576"/>
+						<MediaRef Id="554768774"/>
+						<MediaRef Id="771720827"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3548379502" Name="Play_Chomper_RUN" DurationType="OneShot" DurationMin="0.1419188" DurationMax="0.42392755">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="134483716"/>
+								<MediaRef Id="156271689"/>
+								<MediaRef Id="161631539"/>
+								<MediaRef Id="231212849"/>
+								<MediaRef Id="251047007"/>
+								<MediaRef Id="271557756"/>
+								<MediaRef Id="287945508"/>
+								<MediaRef Id="638709904"/>
+								<MediaRef Id="658272508"/>
+								<MediaRef Id="670300551"/>
+								<MediaRef Id="805207871"/>
+								<MediaRef Id="854125941"/>
+								<MediaRef Id="857081824"/>
+								<MediaRef Id="954898546"/>
+								<MediaRef Id="959148368"/>
+								<MediaRef Id="1021285773"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="71408060"/>
+								<MediaRef Id="247117634"/>
+								<MediaRef Id="280874067"/>
+								<MediaRef Id="365157223"/>
+								<MediaRef Id="406783082"/>
+								<MediaRef Id="481834559"/>
+								<MediaRef Id="485284019"/>
+								<MediaRef Id="493011791"/>
+								<MediaRef Id="588213352"/>
+								<MediaRef Id="700107197"/>
+								<MediaRef Id="761771530"/>
+								<MediaRef Id="762812979"/>
+								<MediaRef Id="814495707"/>
+								<MediaRef Id="906772876"/>
+								<MediaRef Id="972920686"/>
+								<MediaRef Id="986436289"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="350866255" Name="Play_Chomper_SPOT" DurationType="OneShot" DurationMin="0.27460524" DurationMax="0.46260154">
+					<MediaRefs>
+						<MediaRef Id="584634823"/>
+						<MediaRef Id="746093749"/>
+						<MediaRef Id="808687363"/>
+						<MediaRef Id="927929031"/>
+						<MediaRef Id="940942373"/>
+						<MediaRef Id="952145629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4000639717" Name="Play_Chomper_WLK" DurationType="OneShot" DurationMin="0.12976083" DurationMax="0.3810913">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="39751593"/>
+								<MediaRef Id="66571607"/>
+								<MediaRef Id="68259090"/>
+								<MediaRef Id="242907666"/>
+								<MediaRef Id="283080916"/>
+								<MediaRef Id="321959391"/>
+								<MediaRef Id="492476342"/>
+								<MediaRef Id="525300382"/>
+								<MediaRef Id="646073544"/>
+								<MediaRef Id="648411992"/>
+								<MediaRef Id="736983061"/>
+								<MediaRef Id="784665699"/>
+								<MediaRef Id="804779476"/>
+								<MediaRef Id="840609427"/>
+								<MediaRef Id="850579583"/>
+								<MediaRef Id="1031799636"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="1684300366"/>
+							<MediaRefs>
+								<MediaRef Id="17730691"/>
+								<MediaRef Id="76296863"/>
+								<MediaRef Id="209169410"/>
+								<MediaRef Id="237795809"/>
+								<MediaRef Id="272137969"/>
+								<MediaRef Id="440314114"/>
+								<MediaRef Id="468611026"/>
+								<MediaRef Id="485535931"/>
+								<MediaRef Id="509287086"/>
+								<MediaRef Id="607546144"/>
+								<MediaRef Id="618217076"/>
+								<MediaRef Id="630084952"/>
+								<MediaRef Id="704792762"/>
+								<MediaRef Id="773815795"/>
+								<MediaRef Id="958568256"/>
+								<MediaRef Id="961448151"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3131853436" Name="MC_Switch_Material">
+					<Switches>
+						<Switch Id="712897245" Name="Mud"/>
+						<Switch Id="1684300366" Name="Albedo"/>
+						<Switch Id="2927316363" Name="Moss"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{47B697DC-3A02-B626-5229-D67A9BD9A1D8}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{3AB150AC-238E-7A1E-2BBF-B95C7A84698C}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{545AC72B-8721-B424-D593-ADBAF2148A8B}">
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{0D7182A9-8B15-28AC-CABE-9E2A557C286B}">
 			<ShortName>Grenadier</ShortName>
 			<Path>Grenadier.bnk</Path>
 			<Media>
@@ -156,7 +729,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DEF07995-005D-3FC4-CDFF-8DE84E923934}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{807D1445-4B69-5216-0CF9-9265AF86D738}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -185,7 +758,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{96EAD708-D188-CA12-0EA1-6EB4CC89D609}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{CE409851-BC6F-DB26-C9DB-428FB85A1F63}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Events>
@@ -193,7 +766,7 @@
 				<Event Id="2407924494" Name="Resume_Global" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{21B47CA0-36FC-1E64-FDE8-8B76081B5DAA}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{AF3B1D43-455B-6DAF-1302-53751CF6175A}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1281,6 +1854,62 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{D344211A-BC32-8AAF-2E01-CA497C68AD83}">
+			<ShortName>Spitter</ShortName>
+			<Path>Spitter.bnk</Path>
+			<Media>
+				<File Id="144183806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPIT\Chomper_SPIT-002.wav</ShortName>
+					<CachePath>SFX/Chomper_SPIT/Chomper_SPIT-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="235591580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPIT\Chomper_SPIT-003.wav</ShortName>
+					<CachePath>SFX/Chomper_SPIT/Chomper_SPIT-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="243230857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPAT\Chomper_SPAT-003.wav</ShortName>
+					<CachePath>SFX/Chomper_SPAT/Chomper_SPAT-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="421591113" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPAT\Chomper_SPAT-004.wav</ShortName>
+					<CachePath>SFX/Chomper_SPAT/Chomper_SPAT-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="429489173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPIT\Chomper_SPIT-001.wav</ShortName>
+					<CachePath>SFX/Chomper_SPIT/Chomper_SPIT-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="548559792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPAT\Chomper_SPAT-001.wav</ShortName>
+					<CachePath>SFX/Chomper_SPAT/Chomper_SPAT-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="622404631" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPIT\Chomper_SPIT-004.wav</ShortName>
+					<CachePath>SFX/Chomper_SPIT/Chomper_SPIT-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1043740032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chomper_SPAT\Chomper_SPAT-002.wav</ShortName>
+					<CachePath>SFX/Chomper_SPAT/Chomper_SPAT-002_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="317311073" Name="Play_Chomper_SPAT" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="243230857"/>
+						<MediaRef Id="421591113"/>
+						<MediaRef Id="548559792"/>
+						<MediaRef Id="1043740032"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="451531993" Name="Play_Chomper_SPIT" DurationType="OneShot" DurationMin="1.0491458" DurationMax="1.0803958">
+					<MediaRefs>
+						<MediaRef Id="144183806"/>
+						<MediaRef Id="235591580"/>
+						<MediaRef Id="429489173"/>
+						<MediaRef Id="622404631"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE671D23-CB41-56D9-1146-8C8807A44EBD}</FileHash>
+	<FileHash>{692D3D32-62C1-BFF8-37C2-898EA3BF39D3}</FileHash>
 </SoundBanksInfo>
