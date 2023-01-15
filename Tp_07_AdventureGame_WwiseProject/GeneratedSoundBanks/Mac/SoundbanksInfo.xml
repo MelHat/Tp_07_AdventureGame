@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{C895D0B3-8E74-46D9-AE2F-99F3E082D824}">
+		<SoundBank Id="14039721" Type="User" Language="SFX">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{3ABDC6EC-C348-B333-8C6B-5C183808997E}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{922045D7-9BA8-5513-28D8-153F5AD88755}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -616,6 +616,10 @@
 					<Path>Media/380665248.wem</Path>
 					<CachePath>SFX/SFX_Tile/SFX_Tile_Loop_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="435377645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Doors\SFX_Door_Huge_Open.wav</ShortName>
+					<CachePath>SFX/Doors/SFX_Door_Huge_Open_10C4C929.wem</CachePath>
+				</File>
 				<File Id="465809695" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_Portal\SFX_Portal_Loop.wav</ShortName>
 					<Path>Media/465809695.wem</Path>
@@ -625,9 +629,17 @@
 					<ShortName>SFX_Chest\SFX_Chest_Open.wav</ShortName>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Open_10C4C929.wem</CachePath>
 				</File>
+				<File Id="712943403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Crystal_Activate.wav</ShortName>
+					<CachePath>SFX/SFX_Crystal_Activate_10C4C929.wem</CachePath>
+				</File>
 				<File Id="805912963" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-001.wav</ShortName>
 					<CachePath>SFX/Bloc_HIT/Bloc_HIT-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="848942827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Doors\SFX_Door_Small_Open.wav</ShortName>
+					<CachePath>SFX/Doors/SFX_Door_Small_Open_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1005879309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-005.wav</ShortName>
@@ -660,6 +672,21 @@
 						<MediaRef Id="577350161"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3449537228" Name="Play_SFX_Crystal_Activate" DurationType="OneShot" DurationMin="1.6" DurationMax="1.6">
+					<MediaRefs>
+						<MediaRef Id="712943403"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1392533543" Name="Play_SFX_Door_Huge_Open" DurationType="OneShot" DurationMin="6.260375" DurationMax="6.260375">
+					<MediaRefs>
+						<MediaRef Id="435377645"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2365795113" Name="Play_SFX_Door_Small_Open" DurationType="OneShot" DurationMin="4.7" DurationMax="4.7">
+					<MediaRefs>
+						<MediaRef Id="848942827"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3596040068" Name="Play_SFX_Particles_Loop" MaxAttenuation="70" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1058993494"/>
@@ -675,7 +702,7 @@
 						<MediaRef Id="380665248"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1951128422" Name="Play_SFX_Tile_Press" MaxAttenuation="20" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="1951128422" Name="Play_SFX_Tile_Press" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<MediaRefs>
 						<MediaRef Id="57528329"/>
 					</MediaRefs>
@@ -684,10 +711,14 @@
 				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{C7E4C19B-BD15-5E05-4EBC-CD2008E48C24}">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{D55D2F37-464B-3504-CD7F-8A3AA982D1C0}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 			<Media>
+				<File Id="212107804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Level_01_LP.wav</ShortName>
+					<CachePath>SFX/AMB_Level_01_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="453760494" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB\AMB_Ext_LV2.wav</ShortName>
 					<Path>Media/453760494.wem</Path>
@@ -697,6 +728,10 @@
 					<ShortName>AMB\AMB_Cave.wav</ShortName>
 					<Path>Media/530269747.wem</Path>
 					<CachePath>SFX/AMB/AMB_Cave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="531193081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Firefly_LP.wav</ShortName>
+					<CachePath>SFX/AMB_Firefly_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="1022703319" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB\AMB_Acid.wav</ShortName>
@@ -718,6 +753,16 @@
 				<Event Id="1564626531" Name="Play_AMB_Ext_LV2" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="453760494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3330973287" Name="Play_AMB_Firefly_LP" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="531193081"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1122905436" Name="Play_AMB_Level_01_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="212107804"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2622214992" Name="Stop_AMB_Acid" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -893,7 +938,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{AB90B677-4B26-2A7B-9241-BC004903531D}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{63CFCCC1-C2D9-F364-2227-98B7F4B92E93}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Events>
@@ -901,7 +946,7 @@
 				<Event Id="2407924494" Name="Resume_Global" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{12B96285-00D3-FE74-0247-5AA6B50F3B9E}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{62FDF9A1-E4B8-2818-A3C8-03AA6D835DAD}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1989,7 +2034,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{97C663F2-FEBE-F37F-ECF8-777FA54C6658}">
+		<SoundBank Id="2535446860" Type="User" Language="SFX">
 			<ShortName>Spitter</ShortName>
 			<Path>Spitter.bnk</Path>
 			<Media>
@@ -2046,5 +2091,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C7C83A77-3C3D-5AD8-5A87-7BC07357B594}</FileHash>
+	<FileHash>{1956C243-2D41-113B-8168-427349CF0157}</FileHash>
 </SoundBanksInfo>

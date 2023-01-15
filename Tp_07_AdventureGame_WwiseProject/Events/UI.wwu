@@ -34,6 +34,7 @@
 						<Action Name="" ID="{C5D5A2F9-4548-44A2-A106-AB954CA47A30}" ShortID="201278417">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -44,6 +45,7 @@
 						<Action Name="" ID="{4DD6DA75-DA6A-4862-8E1F-E0F0D0763C3A}" ShortID="686650099">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -51,13 +53,25 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{0F1EBF90-2EFD-4D8C-8FA3-A57A2D479489}" ShortID="266443320">
+						<Action Name="" ID="{C85AD55B-C74E-418A-856F-6A53E71079CB}" ShortID="74030776">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chest" ID="{607DACB0-D047-498A-A553-9BC25A34BE20}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+									<ObjectRef Name="Props" ID="{09704E2B-9921-4B8E-B77A-09EB4B2DCEDD}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{184B57E0-8604-4DD7-91CB-66FCE244DBDC}" ShortID="780683938">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{189E3AE5-B3F4-49A8-A095-B0A187503A31}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -107,13 +121,25 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{BED160AB-F5DF-48A0-BFFF-8342C9402F9B}" ShortID="540297420">
+						<Action Name="" ID="{3CE0EFA0-6883-4565-BAFE-A363E54F309D}" ShortID="194551673">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chest" ID="{607DACB0-D047-498A-A553-9BC25A34BE20}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+									<ObjectRef Name="Props" ID="{09704E2B-9921-4B8E-B77A-09EB4B2DCEDD}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FC920EBF-66A0-4682-A4F7-8D7124644FE4}" ShortID="518948613">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{189E3AE5-B3F4-49A8-A095-B0A187503A31}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

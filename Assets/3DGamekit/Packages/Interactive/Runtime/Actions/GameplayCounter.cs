@@ -7,6 +7,7 @@ namespace Gamekit3D.GameCommands
     {
         public int currentCount = 0;
         public int targetCount = 3;
+        public AK.Wwise.Event doorOpen;
 
         [Space]
         [Tooltip("Send a command when increment is performed. (optional)")]
@@ -28,6 +29,7 @@ namespace Gamekit3D.GameCommands
                 if (onTargetReachedPerformAction != null) onTargetReachedPerformAction.PerformInteraction();
                 if (onTargetReachedSendCommand != null) onTargetReachedSendCommand.Send();
                 isTriggered = true;
+                doorOpen.Post(gameObject);
             }
             else
             {

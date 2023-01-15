@@ -94,6 +94,42 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Animals" ID="{DAD3A475-0CD2-4AFD-8629-4886D26C334D}" ShortID="274147985">
+					<ChildrenList>
+						<Event Name="Play_AMB_Firefly_LP" ID="{EB48FDA4-8AD4-4932-B8C8-B908DB0D8157}">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool" Value="False"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{35765768-A401-4B83-8229-F37DA5980C58}" ShortID="517667511">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Firefly_LP" ID="{2E631EA2-D24D-400A-B807-5D95A1F45FD3}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EXT_LV1" ID="{C604326B-80FB-4B50-9908-19A33F4CC844}" ShortID="688749545">
+					<ChildrenList>
+						<Event Name="Play_AMB_Level_01_LP" ID="{952CE58E-EBD7-4AE8-ADE2-BAF105001C93}">
+							<ChildrenList>
+								<Action Name="" ID="{ED6F6F4B-524A-4F2E-B202-DCB09B1D0450}" ShortID="668939697">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Level_01_LP" ID="{D5FE825E-D1FE-4AFA-B24A-09127FAED864}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

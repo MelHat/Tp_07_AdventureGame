@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID PLAY_AMB_ACID = 1612516214U;
         static const AkUniqueID PLAY_AMB_CAVE = 2314402090U;
         static const AkUniqueID PLAY_AMB_EXT_LV2 = 1564626531U;
+        static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
+        static const AkUniqueID PLAY_AMB_LEVEL_01_LP = 1122905436U;
         static const AkUniqueID PLAY_BLOC_HIT = 3653246000U;
         static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
         static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
@@ -63,6 +65,9 @@ namespace AK
         static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
         static const AkUniqueID PLAY_SFX_CHEST_LOOP = 4275973846U;
         static const AkUniqueID PLAY_SFX_CHEST_OPEN = 1851288980U;
+        static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
+        static const AkUniqueID PLAY_SFX_DOOR_HUGE_OPEN = 1392533543U;
+        static const AkUniqueID PLAY_SFX_DOOR_SMALL_OPEN = 2365795113U;
         static const AkUniqueID PLAY_SFX_PARTICLES_LOOP = 3596040068U;
         static const AkUniqueID PLAY_SFX_PORTAL_LOOP = 2889476857U;
         static const AkUniqueID PLAY_SFX_TILE_LOOP = 29733011U;
