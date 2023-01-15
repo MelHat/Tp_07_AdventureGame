@@ -7,70 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_SFX_Chest_Open" ID="{8C8471A7-3AC2-44B4-9A76-B19BF183BD32}">
-					<ChildrenList>
-						<Action Name="" ID="{E2A6EE13-46AF-41F4-B80F-A48F114715C5}" ShortID="21741649">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chest_Open" ID="{C331E224-C524-47D4-883B-A74BF746872A}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B118A086-1FF6-44DF-B4CB-0B9F71A04C7B}" ShortID="60153573">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chest_Loop" ID="{0FB03535-35BE-4D43-BDB0-0F04B193BF29}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Chest_Loop" ID="{78E96641-4678-4923-8473-C54FE02892C6}">
-					<ChildrenList>
-						<Action Name="" ID="{191B32D7-A56E-4DBF-B694-1970EC8A3128}" ShortID="722870520">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chest_Loop" ID="{0FB03535-35BE-4D43-BDB0-0F04B193BF29}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Tile_Press" ID="{1FF4BA93-ADE2-415B-A135-C3A75074A015}">
-					<ChildrenList>
-						<Action Name="" ID="{4991F6B5-CAEA-4474-9EF8-50DF00EE0C16}" ShortID="627397798">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Tile_Press" ID="{D5CD3681-02CE-4892-B7C9-7EC47BB8B148}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{E3DC1701-EBC0-4D6D-A032-08E8B7181359}" ShortID="586745993">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Tile_Loop" ID="{1F117CDB-35AF-4D9C-94B8-160337ABD56D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_Tile_Loop" ID="{3C4FB63C-6E34-4E81-BEA0-FDDCA553E5B0}">
-					<ChildrenList>
-						<Action Name="" ID="{DB417BA2-B4F2-4C1E-8BB6-D5725C13BEA0}" ShortID="916974459">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SFX_Tile_Loop" ID="{1F117CDB-35AF-4D9C-94B8-160337ABD56D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Bloc_HIT" ID="{BFEC612F-837E-482F-A696-2CCFD92D24D5}">
 					<ChildrenList>
 						<Action Name="" ID="{2D673F28-CC70-4275-96E8-BAEFF18954F2}" ShortID="206114318">
@@ -82,6 +18,132 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Chest" ID="{6F620611-12C0-4D3A-A8E5-A94615A7E688}" ShortID="67421734">
+					<ChildrenList>
+						<Event Name="Play_SFX_Chest_Loop" ID="{78E96641-4678-4923-8473-C54FE02892C6}">
+							<ChildrenList>
+								<Action Name="" ID="{191B32D7-A56E-4DBF-B694-1970EC8A3128}" ShortID="722870520">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chest_Loop" ID="{0FB03535-35BE-4D43-BDB0-0F04B193BF29}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Chest_Open" ID="{8C8471A7-3AC2-44B4-9A76-B19BF183BD32}">
+							<ChildrenList>
+								<Action Name="" ID="{E2A6EE13-46AF-41F4-B80F-A48F114715C5}" ShortID="21741649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chest_Open" ID="{C331E224-C524-47D4-883B-A74BF746872A}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B118A086-1FF6-44DF-B4CB-0B9F71A04C7B}" ShortID="60153573">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Chest_Loop" ID="{0FB03535-35BE-4D43-BDB0-0F04B193BF29}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tile" ID="{DAE951CC-53F6-40C7-B0E9-431426E34F80}" ShortID="805264943">
+					<ChildrenList>
+						<Event Name="Play_SFX_Tile_Loop" ID="{3C4FB63C-6E34-4E81-BEA0-FDDCA553E5B0}">
+							<ChildrenList>
+								<Action Name="" ID="{DB417BA2-B4F2-4C1E-8BB6-D5725C13BEA0}" ShortID="916974459">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tile_Loop" ID="{1F117CDB-35AF-4D9C-94B8-160337ABD56D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Tile_Press" ID="{1FF4BA93-ADE2-415B-A135-C3A75074A015}">
+							<ChildrenList>
+								<Action Name="" ID="{4991F6B5-CAEA-4474-9EF8-50DF00EE0C16}" ShortID="627397798">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tile_Press" ID="{D5CD3681-02CE-4892-B7C9-7EC47BB8B148}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3DC1701-EBC0-4D6D-A032-08E8B7181359}" ShortID="586745993">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Tile_Loop" ID="{1F117CDB-35AF-4D9C-94B8-160337ABD56D}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Portal" ID="{01E71640-8FEC-4246-80C8-90507E607212}" ShortID="44398111">
+					<ChildrenList>
+						<Event Name="Play_SFX_Particles_Loop" ID="{63F92962-2EDF-42DA-966E-5A7BF132179F}">
+							<ChildrenList>
+								<Action Name="" ID="{EAF1360A-F62F-45C0-A974-AFA7A4B395ED}" ShortID="647811599">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Particles_Loop" ID="{F2DE2506-C586-4F78-A8BD-022D3D0C8088}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_Portal_Loop" ID="{C23DDB7C-EE30-46B5-83BF-EB3E0A002E60}">
+							<ChildrenList>
+								<Action Name="" ID="{B1AD8641-EC32-40DC-9350-2A19CD3C470B}" ShortID="309237558">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Portal_Loop" ID="{3E4A417F-1BFB-4169-AA14-46DF91956DB5}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Particles_Loop" ID="{B5DF6EBE-A58B-4513-BDCF-2EE0BBA87181}">
+							<ChildrenList>
+								<Action Name="" ID="{7B470178-78E1-4137-92A8-EAE9869D8EBC}" ShortID="937438470">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Particles_Loop" ID="{F2DE2506-C586-4F78-A8BD-022D3D0C8088}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_Portal_Loop" ID="{7CCCF815-C6FE-4B67-8F5C-4AB21C6DF3E7}">
+							<ChildrenList>
+								<Action Name="" ID="{79C887D5-DD33-4DDB-99DA-1925A76D7C33}" ShortID="150735993">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Portal_Loop" ID="{3E4A417F-1BFB-4169-AA14-46DF91956DB5}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -17,6 +17,10 @@
 							<ObjectRef Name="Resume_Global" ID="{F35F9391-CA37-4386-8EF0-3A70EB4F9F1E}" WorkUnitID="{B30AE371-DAAC-49A4-BB84-A40590C2555A}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Portal_Loop" ID="{C23DDB7C-EE30-46B5-83BF-EB3E0A002E60}" WorkUnitID="{8D7C3A09-A2C7-4CB0-883A-5D55F0190F27}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

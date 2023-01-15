@@ -60,9 +60,13 @@ namespace AK
         static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
         static const AkUniqueID PLAY_SFX_CHEST_LOOP = 4275973846U;
         static const AkUniqueID PLAY_SFX_CHEST_OPEN = 1851288980U;
+        static const AkUniqueID PLAY_SFX_PARTICLES_LOOP = 3596040068U;
+        static const AkUniqueID PLAY_SFX_PORTAL_LOOP = 2889476857U;
         static const AkUniqueID PLAY_SFX_TILE_LOOP = 29733011U;
         static const AkUniqueID PLAY_SFX_TILE_PRESS = 1951128422U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
+        static const AkUniqueID STOP_SFX_PARTICLES_LOOP = 1382542350U;
+        static const AkUniqueID STOP_SFX_PORTAL_LOOP = 3333170603U;
     } // namespace EVENTS
 
     namespace SWITCHES

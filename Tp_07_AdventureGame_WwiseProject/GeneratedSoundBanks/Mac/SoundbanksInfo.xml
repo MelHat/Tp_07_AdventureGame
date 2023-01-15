@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{0D90F2F8-6B3F-E00A-01B8-EC79835B8EE0}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{C895D0B3-8E74-46D9-AE2F-99F3E082D824}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{0F8A6B26-4D40-A35E-46F4-EC5CD6BEB297}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{5263F6AE-C9BA-F31B-C4F9-69A6874C4F2B}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -616,6 +616,11 @@
 					<Path>Media/380665248.wem</Path>
 					<CachePath>SFX/SFX_Tile/SFX_Tile_Loop_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="465809695" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_Portal\SFX_Portal_Loop.wav</ShortName>
+					<Path>Media/465809695.wem</Path>
+					<CachePath>SFX/SFX_Portal/SFX_Portal_Loop_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="577350161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chest\SFX_Chest_Open.wav</ShortName>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Open_10C4C929.wem</CachePath>
@@ -627,6 +632,11 @@
 				<File Id="1005879309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-005.wav</ShortName>
 					<CachePath>SFX/Bloc_HIT/Bloc_HIT-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1058993494" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>SFX_Portal\SFX_Particles_Loop.wav</ShortName>
+					<Path>Media/1058993494.wem</Path>
+					<CachePath>SFX/SFX_Portal/SFX_Particles_Loop_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -650,6 +660,16 @@
 						<MediaRef Id="577350161"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3596040068" Name="Play_SFX_Particles_Loop" MaxAttenuation="70" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1058993494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2889476857" Name="Play_SFX_Portal_Loop" MaxAttenuation="70" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="465809695"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="29733011" Name="Play_SFX_Tile_Loop" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380665248"/>
@@ -660,6 +680,8 @@
 						<MediaRef Id="57528329"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1382542350" Name="Stop_SFX_Particles_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{3AB150AC-238E-7A1E-2BBF-B95C7A84698C}">
@@ -1987,5 +2009,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9530B053-BE21-AC9B-E04B-CE39B237AFFF}</FileHash>
+	<FileHash>{7B174370-69B5-17DE-6998-9A3C623507EE}</FileHash>
 </SoundBanksInfo>
