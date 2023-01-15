@@ -21,7 +21,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Mud" ID="{7219AAAF-8256-4CD2-99BE-F07869CDEB8A}"/>
+						<CurrentSwitchRef Name="Albedo" ID="{B10B88F4-76BA-4409-9872-6FB0C6970A09}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

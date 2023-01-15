@@ -10,7 +10,7 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2022.1.1.8100</WwiseInstallationPathWindows>
+  <WwiseInstallationPathWindows>E:\Jet\Documents\Wwise 2022.1.1.8100</WwiseInstallationPathWindows>
   <WwiseProjectPath>../Tp_07_AdventureGame_WwiseProject/Tp_07_AdventureGame_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>

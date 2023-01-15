@@ -4,7 +4,26 @@
 		<WorkUnit Name="Spitter" ID="{EEA8E984-A4A1-4535-94BB-8076C4EAF643}" OwnerID="{B6474106-D6D6-41C6-9C0A-E90E091F1CB6}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="Spitter" ID="{D1F305E7-ECB9-40FB-A2B9-6CFE002EF6C2}" ShortID="229200748">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A792E954-4DDE-4D3A-B43E-F6C265C66D91}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Grenadier" ID="{FFA57B0A-448F-405A-9770-0FBA5DA6D462}" WorkUnitID="{8C2594C9-FC95-4B97-8FA0-4AC432E45BCE}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
 						</Reference>

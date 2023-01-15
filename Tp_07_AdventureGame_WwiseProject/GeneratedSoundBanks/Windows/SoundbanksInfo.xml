@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{4A6EF3A8-84F6-0BA4-A5D9-7CBB15C988CF}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{3447CE9F-EEBC-EE51-A820-686BD1E1BAF0}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -415,7 +415,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3797042435" Name="Play_Chomper_ATK" DurationType="OneShot" DurationMin="1.1604371" DurationMax="1.6411058">
+				<Event Id="3797042435" Name="Play_Chomper_ATK" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.0044006" DurationMax="1.7896386">
 					<MediaRefs>
 						<MediaRef Id="617981817"/>
 						<MediaRef Id="764765759"/>
@@ -423,7 +423,7 @@
 						<MediaRef Id="963747218"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4083688974" Name="Play_Chomper_HIT" DurationType="OneShot" DurationMin="0.74915355" DurationMax="1.3348398">
+				<Event Id="4083688974" Name="Play_Chomper_HIT" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.6674199" DurationMax="1.4983071">
 					<MediaRefs>
 						<MediaRef Id="301572479"/>
 						<MediaRef Id="324133235"/>
@@ -437,7 +437,7 @@
 						<MediaRef Id="1039509972"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="177509106" Name="Play_Chomper_IDL_Growl" DurationType="OneShot" DurationMin="2.53264" DurationMax="3.5816936">
+				<Event Id="177509106" Name="Play_Chomper_IDL_Growl" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.8973362" DurationMax="4.5126514">
 					<MediaRefs>
 						<MediaRef Id="29399816"/>
 						<MediaRef Id="301614189"/>
@@ -445,7 +445,7 @@
 						<MediaRef Id="956107197"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3278365387" Name="Play_Chomper_IDL_Scratch" DurationType="OneShot" DurationMin="3.784034" DurationMax="5.351432">
+				<Event Id="3278365387" Name="Play_Chomper_IDL_Scratch" MaxAttenuation="25" DurationType="OneShot" DurationMin="2.8348224" DurationMax="6.742382">
 					<MediaRefs>
 						<MediaRef Id="11223627"/>
 						<MediaRef Id="663388250"/>
@@ -453,7 +453,7 @@
 						<MediaRef Id="856608714"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2580655721" Name="Play_Chomper_IDL_Sniff" DurationType="OneShot" DurationMin="2.3629189" DurationMax="3.3416717">
+				<Event Id="2580655721" Name="Play_Chomper_IDL_Sniff" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.770189" DurationMax="4.2102427">
 					<MediaRefs>
 						<MediaRef Id="421520485"/>
 						<MediaRef Id="712641108"/>
@@ -461,7 +461,7 @@
 						<MediaRef Id="1067725795"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2881135418" Name="Play_Chomper_IDL_Yawn" DurationType="OneShot" DurationMin="1.455837" DurationMax="2.0588644">
+				<Event Id="2881135418" Name="Play_Chomper_IDL_Yawn" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.0294322" DurationMax="2.448416">
 					<MediaRefs>
 						<MediaRef Id="225482934"/>
 						<MediaRef Id="460051576"/>
@@ -469,7 +469,7 @@
 						<MediaRef Id="771720827"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3548379502" Name="Play_Chomper_RUN" DurationType="OneShot" DurationMin="0.1419188" DurationMax="0.42392755">
+				<Event Id="3548379502" Name="Play_Chomper_RUN" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.119339" DurationMax="0.4758426">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
@@ -515,7 +515,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="350866255" Name="Play_Chomper_SPOT" DurationType="OneShot" DurationMin="0.27460524" DurationMax="0.46260154">
+				<Event Id="350866255" Name="Play_Chomper_SPOT" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.24464545" DurationMax="0.55012906">
 					<MediaRefs>
 						<MediaRef Id="584634823"/>
 						<MediaRef Id="746093749"/>
@@ -525,7 +525,7 @@
 						<MediaRef Id="952145629"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4000639717" Name="Play_Chomper_WLK" DurationType="OneShot" DurationMin="0.12976083" DurationMax="0.3810913">
+				<Event Id="4000639717" Name="Play_Chomper_WLK" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.11560376" DurationMax="0.42776054">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3131853436" Id="712897245" Default="true"/>
@@ -1854,7 +1854,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{D344211A-BC32-8AAF-2E01-CA497C68AD83}">
+		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{97C663F2-FEBE-F37F-ECF8-777FA54C6658}">
 			<ShortName>Spitter</ShortName>
 			<Path>Spitter.bnk</Path>
 			<Media>
@@ -1892,7 +1892,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="317311073" Name="Play_Chomper_SPAT" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+				<Event Id="317311073" Name="Play_Chomper_SPAT" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.44544935" DurationMax="0.561231">
 					<MediaRefs>
 						<MediaRef Id="243230857"/>
 						<MediaRef Id="421591113"/>
@@ -1900,7 +1900,7 @@
 						<MediaRef Id="1043740032"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="451531993" Name="Play_Chomper_SPIT" DurationType="OneShot" DurationMin="1.0491458" DurationMax="1.0803958">
+				<Event Id="451531993" Name="Play_Chomper_SPIT" MaxAttenuation="25" DurationType="OneShot" DurationMin="0.93468267" DurationMax="1.2127032">
 					<MediaRefs>
 						<MediaRef Id="144183806"/>
 						<MediaRef Id="235591580"/>
@@ -1911,5 +1911,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{692D3D32-62C1-BFF8-37C2-898EA3BF39D3}</FileHash>
+	<FileHash>{C52D4B56-BBED-EE1A-0414-A55FEF2B1F2D}</FileHash>
 </SoundBanksInfo>

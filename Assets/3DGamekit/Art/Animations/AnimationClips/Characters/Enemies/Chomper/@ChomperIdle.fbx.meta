@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: ab5bda48f8799bb4f84ab060e69f60a7
 ModelImporter:
-  serializedVersion: 20101
+  serializedVersion: 22103
   internalIDToNameTable:
   - first:
       1: 100000
@@ -635,6 +635,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -677,19 +678,33 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.31155777
+      - time: 0.3095723
+        functionName: PlayEvent
+        data: Play_Chomper_IDL_Sniff
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.32771802
         functionName: PlayStep
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.32160804
+      - time: 0.34210768
         functionName: PlayStep
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
+        messageOptions: 0
+      - time: 0.397878
+        functionName: Grunt
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
         messageOptions: 0
       - time: 0.40837538
         functionName: PlayStep
@@ -713,8 +728,8 @@ ModelImporter:
         intParameter: 1
         messageOptions: 0
       - time: 0.49664953
-        functionName: PlayStep
-        data: 
+        functionName: PlayEvent
+        data: Play_Chomper_IDL_Growl
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
@@ -726,6 +741,13 @@ ModelImporter:
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
+      - time: 0.530504
+        functionName: Grunt
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.54053617
         functionName: PlayStep
         data: 
@@ -733,14 +755,21 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.6319937
+      - time: 0.6279204
         functionName: PlayStep
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
-      - time: 0.66432166
+      - time: 0.64254963
+        functionName: PlayEvent
+        data: Play_Chomper_IDL_Yawn
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.66024834
         functionName: PlayStep
         data: 
         objectReferenceParameter: {instanceID: 0}
@@ -757,6 +786,13 @@ ModelImporter:
       - time: 0.7020103
         functionName: PlayStep
         data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.8163985
+        functionName: PlayEvent
+        data: Play_Chomper_IDL_Scratch
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
@@ -781,20 +817,6 @@ ModelImporter:
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
-        messageOptions: 0
-      - time: 0.397878
-        functionName: Grunt
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.530504
-        functionName: Grunt
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
         messageOptions: 0
       transformMask: []
       maskType: 3
@@ -841,6 +863,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -852,6 +875,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -862,6 +886,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -894,6 +919,9 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
