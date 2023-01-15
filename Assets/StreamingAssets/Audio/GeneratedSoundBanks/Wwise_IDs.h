@@ -57,6 +57,10 @@ namespace AK
         static const AkUniqueID PLAY_MC_LAND = 1593937298U;
         static const AkUniqueID PLAY_MC_RESPAWN = 2047825579U;
         static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
+        static const AkUniqueID PLAY_SFX_CHEST_LOOP = 4275973846U;
+        static const AkUniqueID PLAY_SFX_CHEST_OPEN = 1851288980U;
+        static const AkUniqueID PLAY_SFX_TILE_LOOP = 29733011U;
+        static const AkUniqueID PLAY_SFX_TILE_PRESS = 1951128422U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
     } // namespace EVENTS
 

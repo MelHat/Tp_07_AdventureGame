@@ -51,6 +51,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{0F1EBF90-2EFD-4D8C-8FA3-A57A2D479489}" ShortID="266443320">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Chest" ID="{607DACB0-D047-498A-A553-9BC25A34BE20}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Resume_Global" ID="{F35F9391-CA37-4386-8EF0-3A70EB4F9F1E}">
@@ -94,6 +104,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spitter" ID="{D1F305E7-ECB9-40FB-A2B9-6CFE002EF6C2}" WorkUnitID="{EEA8E984-A4A1-4535-94BB-8076C4EAF643}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BED160AB-F5DF-48A0-BFFF-8342C9402F9B}" ShortID="540297420">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Chest" ID="{607DACB0-D047-498A-A553-9BC25A34BE20}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	29733011	Play_SFX_Tile_Loop			\Default Work Unit\Props\Play_SFX_Tile_Loop	
+	1851288980	Play_SFX_Chest_Open			\Default Work Unit\Props\Play_SFX_Chest_Open	
+	1951128422	Play_SFX_Tile_Press			\Default Work Unit\Props\Play_SFX_Tile_Press	
+	4275973846	Play_SFX_Chest_Loop			\Default Work Unit\Props\Play_SFX_Chest_Loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	57528329	SFX_Tile_Press	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Press_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Press		96096
+	577350161	SFX_Chest_Open	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Open		672096
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	160388069	SFX_Chest_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Loop_D79FB2B7.wem	160388069.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Loop	
+	380665248	SFX_Tile_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Loop_D79FB2B7.wem	380665248.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Loop	
+

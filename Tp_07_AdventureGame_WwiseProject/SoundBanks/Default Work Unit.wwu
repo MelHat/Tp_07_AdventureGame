@@ -16,7 +16,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Props" ID="{0330D017-8B35-44D1-B537-1364A0648900}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Props" ID="{8D7C3A09-A2C7-4CB0-883A-5D55F0190F27}" WorkUnitID="{8D7C3A09-A2C7-4CB0-883A-5D55F0190F27}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
