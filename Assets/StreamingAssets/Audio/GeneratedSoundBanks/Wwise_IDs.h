@@ -72,6 +72,10 @@ namespace AK
         static const AkUniqueID PLAY_SFX_PORTAL_LOOP = 2889476857U;
         static const AkUniqueID PLAY_SFX_TILE_LOOP = 29733011U;
         static const AkUniqueID PLAY_SFX_TILE_PRESS = 1951128422U;
+        static const AkUniqueID PLAY_SFX_UI_BACK = 1117141914U;
+        static const AkUniqueID PLAY_SFX_UI_CLICK = 3504421513U;
+        static const AkUniqueID PLAY_SFX_UI_MOUSE = 3934649960U;
+        static const AkUniqueID PLAY_SFX_UI_START = 4148643457U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
         static const AkUniqueID STOP_AMB_ACID = 2622214992U;
         static const AkUniqueID STOP_AMB_CAVE = 1551221296U;

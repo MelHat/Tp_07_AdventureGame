@@ -1,4 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	953280733	Pause_Global			\Default Work Unit\UI\Pause_Global	
+	1117141914	Play_SFX_UI_Back			\Default Work Unit\UI\Play_SFX_UI_Back	
 	2407924494	Resume_Global			\Default Work Unit\UI\Resume_Global	
+	3504421513	Play_SFX_UI_Click			\Default Work Unit\UI\Play_SFX_UI_Click	
+	3934649960	Play_SFX_UI_Mouse			\Default Work Unit\UI\Play_SFX_UI_Mouse	
+	4148643457	Play_SFX_UI_Start			\Default Work Unit\UI\Play_SFX_UI_Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	163352980	SFX_UI_Start	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI\SFX_UI_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\SFX_UI_Start		576096
+	190646287	SFX_UI_Back	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI\SFX_UI_Back_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\SFX_UI_Back		192096
+	708737930	SFX_UI_Click	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI\SFX_UI_Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\SFX_UI_Click		192096
+	868016950	SFX_UI_Mouse	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI\SFX_UI_Mouse_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\SFX_UI_Mouse		192096
 

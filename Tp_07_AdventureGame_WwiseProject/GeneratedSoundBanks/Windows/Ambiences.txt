@@ -9,11 +9,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3330973287	Play_AMB_Firefly_LP			\Default Work Unit\Ambiences\Animals\Play_AMB_Firefly_LP	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	212107804	AMB_Level_01_LP	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Level_01_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Level_01_LP		5280096
-	531193081	AMB_Firefly_LP	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Firefly_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\Animals\AMB_Firefly_LP		832096
+	212107804	AMB_Level_01_LP	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Level_01_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Level_01_LP		5280096
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	453760494	AMB_Ext_LV2	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Ext_LV2_D79FB2B7.wem	453760494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2	
-	530269747	AMB_Cave	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Cave_D79FB2B7.wem	530269747.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Cave	
-	1022703319	AMB_Acid	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Acid_D79FB2B7.wem	1022703319.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Acid	
+	453760494	AMB_Ext_LV2	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Ext_LV2_D79FB2B7.wem	453760494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2	
+	530269747	AMB_Cave	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Cave_D79FB2B7.wem	530269747.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Cave	
+	1022703319	AMB_Acid	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB\AMB_Acid_D79FB2B7.wem	1022703319.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Acid	
 

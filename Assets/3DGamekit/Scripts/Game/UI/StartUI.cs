@@ -42,6 +42,7 @@ namespace Gamekit3D
         {
 #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
+            AkSoundEngine.PostEvent("Play_SFX_UI_Back", this.gameObject);
 #else
 		    Application.Quit();
 #endif
@@ -50,6 +51,7 @@ namespace Gamekit3D
         public void ExitPause()
         {
             m_InPause = true;
+            AkSoundEngine.PostEvent("Play_SFX_UI_Back", this.gameObject);
             SwitchPauseState();
         }
 
@@ -57,6 +59,7 @@ namespace Gamekit3D
         {
             m_InPause = true;
             SwitchPauseState();
+            AkSoundEngine.PostEvent("Play_SFX_UI_Start", this.gameObject);
             SceneController.RestartZone();
         }
 
@@ -115,7 +118,9 @@ namespace Gamekit3D
                 pauseCanvas.SetActive(!m_InPause);
 
             if (optionsCanvas)
+            {
                 optionsCanvas.SetActive(false);
+            }
 
             if (controlsCanvas)
                 controlsCanvas.SetActive(false);

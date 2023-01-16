@@ -97,9 +97,6 @@
 				<Folder Name="Animals" ID="{DAD3A475-0CD2-4AFD-8629-4886D26C334D}" ShortID="274147985">
 					<ChildrenList>
 						<Event Name="Play_AMB_Firefly_LP" ID="{EB48FDA4-8AD4-4932-B8C8-B908DB0D8157}">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool" Value="False"/>
-							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{35765768-A401-4B83-8229-F37DA5980C58}" ShortID="517667511">
 									<ReferenceList>
