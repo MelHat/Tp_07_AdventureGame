@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 114291976792941124}
   - component: {fileID: 95328959913549822}
   - component: {fileID: 114703270605103622}
+  - component: {fileID: 5877149228640363646}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -450,6 +451,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5877149228640363646}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95328959913549822
 Animator:
   serializedVersion: 4
@@ -500,6 +513,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &5877149228640363646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023057674918034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &1023584815895628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1523,7 @@ GameObject:
   - component: {fileID: 114343458140157096}
   - component: {fileID: 95441149525695446}
   - component: {fileID: 114902877399032354}
+  - component: {fileID: 325130949479276692}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -1640,6 +1671,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 325130949479276692}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95441149525695446
 Animator:
   serializedVersion: 4
@@ -1690,6 +1733,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &325130949479276692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252858889501016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &1254897583050978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3578,6 +3638,7 @@ GameObject:
   - component: {fileID: 114036667001416306}
   - component: {fileID: 95161541454163714}
   - component: {fileID: 114468217024489828}
+  - component: {fileID: 2045965646378254817}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -3725,6 +3786,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2045965646378254817}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95161541454163714
 Animator:
   serializedVersion: 4
@@ -3775,6 +3848,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &2045965646378254817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433629661736686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!1 &1488563161167442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4283,6 +4373,7 @@ GameObject:
   - component: {fileID: 114523038994207456}
   - component: {fileID: 95517041055024258}
   - component: {fileID: 114905669132276312}
+  - component: {fileID: 483611926796116475}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -4430,6 +4521,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 483611926796116475}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95517041055024258
 Animator:
   serializedVersion: 4
@@ -4480,6 +4583,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &483611926796116475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518105554445918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!1 &1539263326051834
 GameObject:
   m_ObjectHideFlags: 0
@@ -5239,6 +5359,7 @@ GameObject:
   - component: {fileID: 114008495077693512}
   - component: {fileID: 95836340401522068}
   - component: {fileID: 114229212055402668}
+  - component: {fileID: 190252744460499925}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -5386,6 +5507,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 190252744460499925}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95836340401522068
 Animator:
   serializedVersion: 4
@@ -5436,6 +5569,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &190252744460499925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604989958880546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &1607321754220932
 GameObject:
   m_ObjectHideFlags: 0
@@ -6952,6 +7102,7 @@ GameObject:
   - component: {fileID: 114457350830320588}
   - component: {fileID: 95882106972613346}
   - component: {fileID: 114237751419964762}
+  - component: {fileID: 7752878335749273960}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -7087,6 +7238,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7752878335749273960}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95882106972613346
 Animator:
   serializedVersion: 4
@@ -7137,6 +7300,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &7752878335749273960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861018524279522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!1 &1864887695928104
 GameObject:
   m_ObjectHideFlags: 0
@@ -8329,6 +8509,7 @@ GameObject:
   - component: {fileID: 114360599574213584}
   - component: {fileID: 95797561166319378}
   - component: {fileID: 114862744818260960}
+  - component: {fileID: 1074569414606168471}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -8476,6 +8657,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1074569414606168471}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95797561166319378
 Animator:
   serializedVersion: 4
@@ -8526,6 +8719,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1074569414606168471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964690908701214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!1 &1967289726781572
 GameObject:
   m_ObjectHideFlags: 0

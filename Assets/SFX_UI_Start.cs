@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class SFX_UI_Start : MonoBehaviour
 {
+    public AK.Wwise.Event clickEvent = null; 
     public void onClick()
     {
-        AkSoundEngine.PostEvent("Play_SFX_UI_Start", gameObject);
+        clickEvent.Post(gameObject);
     }
 }

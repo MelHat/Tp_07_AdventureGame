@@ -101,6 +101,7 @@ namespace Gamekit3D
             {
                 CameraShake.Stop();
                 pauseEvent.Post(gameObject);
+                AkSoundEngine.PostEvent("Play_SFX_UI_Click", this.gameObject);
             }
                 
             if (m_InPause)

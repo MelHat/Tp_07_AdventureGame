@@ -1353,9 +1353,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1651437830616796}
+      - m_Target: {fileID: 4020358576347417343}
         m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1397,6 +1397,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90c580c5b18b8ed4b8ca57bd2e66da55,
+      type: 2}
 --- !u!1 &1846229942699404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1666,7 @@ GameObject:
   - component: {fileID: 50236738518669172}
   - component: {fileID: 114113160483481408}
   - component: {fileID: 114694211569148176}
+  - component: {fileID: 8156368925522532365}
   m_Layer: 5
   m_Name: UICanvas
   m_TagString: Untagged
@@ -1812,6 +1818,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d283e5cc46fd49043a530e4f42388fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8156368925522532365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952037551585386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429878dfc8d2b2f40b9a8e74de2e1296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e8fee9b312cfd1744b3e05d88cf383b6,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1978453937621582
 GameObject:
   m_ObjectHideFlags: 0
