@@ -160,9 +160,6 @@
 						<Event Name="Play_SFX_Door_Huge_Open" ID="{3864B696-519F-472C-A368-C641FAF46F56}">
 							<ChildrenList>
 								<Action Name="" ID="{323528D6-5A96-4A58-9BC4-011AFDF1D591}" ShortID="1032270689">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Door_Huge_Open" ID="{BD6E8F86-0894-4FD9-846D-875D6D1D0D2F}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
@@ -174,9 +171,6 @@
 						<Event Name="Play_SFX_Door_Small_Open" ID="{EFC91409-923C-45A2-A1FB-7D49E58F2A8C}">
 							<ChildrenList>
 								<Action Name="" ID="{3671620D-8966-421A-BC4D-9B5B4AC80584}" ShortID="981194006">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.2"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="SFX_Door_Small_Open" ID="{4F3F278C-1B22-45E4-98ED-59340338643E}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>

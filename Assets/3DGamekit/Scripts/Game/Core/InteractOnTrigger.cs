@@ -12,6 +12,9 @@ namespace Gamekit3D
         public UnityEvent OnEnter, OnExit;
         new Collider collider;
         public InventoryController.InventoryChecker[] inventoryChecks;
+        public GameObject doorC1;
+        public AK.Wwise.Event door1Open;
+
 
         void Reset()
         {
@@ -25,6 +28,8 @@ namespace Gamekit3D
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 ExecuteOnEnter(other);
+                door1Open.Post(doorC1);
+
             }
         }
 

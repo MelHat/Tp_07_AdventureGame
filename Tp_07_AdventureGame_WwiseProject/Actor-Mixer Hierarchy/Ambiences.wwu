@@ -274,6 +274,7 @@
 								</Sound>
 								<RandomSequenceContainer Name="Birds" ID="{BA1F9DA8-3831-4393-9F84-FC88B69065CC}" ShortID="287600455">
 									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
@@ -608,6 +609,9 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{CB4D9ACA-F2D8-42DA-A0ED-485EA5FC045A}"/>
+									</PositioningInfo>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>

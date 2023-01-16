@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{922045D7-9BA8-5513-28D8-153F5AD88755}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{A3DC1420-7B91-9324-9FAE-A15668337448}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -677,12 +677,12 @@
 						<MediaRef Id="712943403"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1392533543" Name="Play_SFX_Door_Huge_Open" DurationType="OneShot" DurationMin="6.260375" DurationMax="6.260375">
+				<Event Id="1392533543" Name="Play_SFX_Door_Huge_Open" DurationType="OneShot" DurationMin="6.060375" DurationMax="6.060375">
 					<MediaRefs>
 						<MediaRef Id="435377645"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2365795113" Name="Play_SFX_Door_Small_Open" DurationType="OneShot" DurationMin="4.7" DurationMax="4.7">
+				<Event Id="2365795113" Name="Play_SFX_Door_Small_Open" DurationType="OneShot" DurationMin="4.5" DurationMax="4.5">
 					<MediaRefs>
 						<MediaRef Id="848942827"/>
 					</MediaRefs>
@@ -2121,5 +2121,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4DDB7A0F-5271-1281-04AF-0202E59DD6B0}</FileHash>
+	<FileHash>{DB2943B1-C1B2-4FBD-013E-C1459585A59D}</FileHash>
 </SoundBanksInfo>
