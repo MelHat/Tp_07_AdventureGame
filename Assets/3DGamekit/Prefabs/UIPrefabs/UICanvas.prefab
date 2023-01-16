@@ -1831,6 +1831,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  startEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
   alwaysDisplayMouse: 1
   pauseCanvas: {fileID: 0}
   optionsCanvas: {fileID: 0}
