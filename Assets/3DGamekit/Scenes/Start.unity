@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 30343063}
   - component: {fileID: 30343062}
   - component: {fileID: 30343066}
+  - component: {fileID: 30343067}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -365,6 +366,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 30343067}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &30343064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,6 +446,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &30343067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30343060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &46387564
 GameObject:
   m_ObjectHideFlags: 0
@@ -4898,6 +4928,7 @@ GameObject:
   - component: {fileID: 541599283}
   - component: {fileID: 541599282}
   - component: {fileID: 541599281}
+  - component: {fileID: 541599286}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -5057,6 +5088,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 541599286}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &541599284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5095,6 +5138,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541599279}
   m_CullTransparentMesh: 0
+--- !u!114 &541599286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541599279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!1001 &542443987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6345,6 +6405,7 @@ GameObject:
   - component: {fileID: 762690714}
   - component: {fileID: 762690713}
   - component: {fileID: 762690712}
+  - component: {fileID: 762690717}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -6504,6 +6565,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 762690717}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &762690715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6542,6 +6615,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762690710}
   m_CullTransparentMesh: 0
+--- !u!114 &762690717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762690710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07888678d398f8a45b47e81bc1ab8010,
+      type: 2}
 --- !u!4 &766580131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4804005196842948, guid: cdfb686de96ee57479ec834151e92dc1,
@@ -12149,6 +12239,7 @@ GameObject:
   - component: {fileID: 1642557926}
   - component: {fileID: 1642557925}
   - component: {fileID: 1642557929}
+  - component: {fileID: 1642557930}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -12278,6 +12369,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1642557930}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1642557927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12346,6 +12449,23 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1642557930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642557923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &1647602764
 GameObject:
   m_ObjectHideFlags: 0

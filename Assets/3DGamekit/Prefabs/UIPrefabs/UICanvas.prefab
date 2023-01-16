@@ -552,6 +552,7 @@ GameObject:
   - component: {fileID: 114968705255547386}
   - component: {fileID: 114219926330395178}
   - component: {fileID: 95353005301021142}
+  - component: {fileID: 2453190981165294342}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -688,6 +689,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2453190981165294342}
+        m_TargetAssemblyTypeName: SFX_UI_Start, Assembly-CSharp
+        m_MethodName: onClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!95 &95353005301021142
 Animator:
   serializedVersion: 4
@@ -708,6 +721,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2453190981165294342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337602115582290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2bfb72356d5af4fb937d5482146849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ce3c3f13e284c9d4dbda513e57b40faf,
+      type: 2}
 --- !u!1 &1398822295718774
 GameObject:
   m_ObjectHideFlags: 0
