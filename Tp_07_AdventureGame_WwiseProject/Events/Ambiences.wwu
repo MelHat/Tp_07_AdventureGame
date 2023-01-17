@@ -127,6 +127,24 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_AMB_LV2" ID="{879C973F-A23A-4E41-BEA5-E95879CB3207}">
+					<ChildrenList>
+						<Action Name="" ID="{56B0C17B-210A-4870-8F60-7D6841C3B297}" ShortID="940712624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cave" ID="{1C990C68-A634-4774-937E-DD4993427D4B}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3CA511F9-1807-47A5-88C7-6C5D0A37C181}" ShortID="632543399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Ext_LV2" ID="{7C035347-707D-4C06-95C0-BAA28634E035}" WorkUnitID="{2158681B-76EF-4594-BF70-E657931CEDDE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

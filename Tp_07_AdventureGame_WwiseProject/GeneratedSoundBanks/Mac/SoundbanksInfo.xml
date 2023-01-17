@@ -711,7 +711,7 @@
 				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{13C5A082-5F97-E918-A6FE-267CDB15DCFE}">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{46703D70-7EAC-F182-F304-73681B745BFE}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 			<Media>
@@ -764,29 +764,10 @@
 						<MediaRef Id="530269747"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3313924395" Name="Set_State_Cave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="3334362130" Id="4122393694" Name="Cave"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="1998405797" Name="Set_State_Ext" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="3334362130" Id="898834102" Name="Ext"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="2622214992" Name="Stop_AMB_Acid" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1551221296" Name="Stop_AMB_Cave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2258856857" Name="Stop_AMB_Ext_LV2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
-			<StateGroups>
-				<StateGroup Id="3334362130" Name="Amb_LV2">
-					<States>
-						<State Id="748895195" Name="None"/>
-						<State Id="898834102" Name="Ext"/>
-						<State Id="4122393694" Name="Cave"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{8F7C51BF-3BF0-CF06-05A3-D91700C6CDD0}">
 			<ShortName>Grenadier</ShortName>
@@ -951,6 +932,8 @@
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="898834102" Name="Ext"/>
+						<State Id="1171191680" Name="Micave"/>
+						<State Id="1889659501" Name="FullCave"/>
 						<State Id="4122393694" Name="Cave"/>
 					</States>
 				</StateGroup>
@@ -2156,5 +2139,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3826B1AF-0751-4ABD-1C75-94B6BA54F738}</FileHash>
+	<FileHash>{E18DAB23-7067-A829-4EF8-DDED8423C4CA}</FileHash>
 </SoundBanksInfo>

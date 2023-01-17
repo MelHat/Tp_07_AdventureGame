@@ -6,8 +6,10 @@
 				<StateGroup Name="Amb_LV2" ID="{8D4AC6E7-6BD8-4C43-B84A-61938DF14781}">
 					<ChildrenList>
 						<State Name="None" ID="{4B177413-A3C9-4E23-BF40-1C6ADDBA5321}"/>
-						<State Name="In" ID="{27BADA7E-C636-48FD-B896-9EE8394C9007}"/>
-						<State Name="Out" ID="{CDDE88EF-F93A-4452-8F3D-B2467D36DA4E}"/>
+						<State Name="Cave" ID="{27BADA7E-C636-48FD-B896-9EE8394C9007}"/>
+						<State Name="Ext" ID="{CDDE88EF-F93A-4452-8F3D-B2467D36DA4E}"/>
+						<State Name="Micave" ID="{53E78AA5-E045-453F-9260-F3F389685B78}"/>
+						<State Name="FullCave" ID="{E80BDA80-97D8-4407-9445-F0F3382E0111}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

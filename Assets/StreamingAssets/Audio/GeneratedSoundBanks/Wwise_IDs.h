@@ -78,8 +78,6 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MOUSE = 3934649960U;
         static const AkUniqueID PLAY_SFX_UI_START = 4148643457U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
-        static const AkUniqueID SET_STATE_CAVE = 3313924395U;
-        static const AkUniqueID SET_STATE_EXT = 1998405797U;
         static const AkUniqueID STOP_AMB_ACID = 2622214992U;
         static const AkUniqueID STOP_AMB_CAVE = 1551221296U;
         static const AkUniqueID STOP_AMB_EXT_LV2 = 2258856857U;
@@ -97,6 +95,8 @@ namespace AK
             {
                 static const AkUniqueID CAVE = 4122393694U;
                 static const AkUniqueID EXT = 898834102U;
+                static const AkUniqueID FULLCAVE = 1889659501U;
+                static const AkUniqueID MICAVE = 1171191680U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace AMB_LV2

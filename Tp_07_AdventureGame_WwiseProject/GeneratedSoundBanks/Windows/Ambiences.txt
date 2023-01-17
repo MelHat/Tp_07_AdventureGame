@@ -4,11 +4,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1564626531	Play_AMB_Ext_LV2			\Default Work Unit\Ambiences\EXT_LV2\Play_AMB_Ext_LV2	
 	1587464883	Play_AMB_LV2			\Default Work Unit\Ambiences\Play_AMB_LV2	
 	1612516214	Play_AMB_Acid			\Default Work Unit\Ambiences\Acid\Play_AMB_Acid	
-	1998405797	Set_State_Ext			\Default Work Unit\Ambiences\Set_State_Ext	
 	2258856857	Stop_AMB_Ext_LV2			\Default Work Unit\Ambiences\EXT_LV2\Stop_AMB_Ext_LV2	
 	2314402090	Play_AMB_Cave			\Default Work Unit\Ambiences\Cave\Play_AMB_Cave	
 	2622214992	Stop_AMB_Acid			\Default Work Unit\Ambiences\Acid\Stop_AMB_Acid	
-	3313924395	Set_State_Cave			\Default Work Unit\Ambiences\Set_State_Cave	
 	3330973287	Play_AMB_Firefly_LP			\Default Work Unit\Ambiences\Animals\Play_AMB_Firefly_LP	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -17,10 +15,15 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Amb_LV2			
 	898834102	Ext	Amb_LV2			
+	1171191680	Micave	Amb_LV2			
+	1889659501	FullCave	Amb_LV2			
 	4122393694	Cave	Amb_LV2			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	164747062	FullCave	Amb_LV2	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2		
 	273229208	Cave	Amb_LV2	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2		
+	702390016	Micave	Amb_LV2	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Ext_LV2		
+	718330963	Micave	Amb_LV2	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Cave		
 	739318967	Ext	Amb_LV2	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\AMB\AMB_Cave		
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes

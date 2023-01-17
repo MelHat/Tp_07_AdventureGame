@@ -55,66 +55,6 @@
 								<ActiveSource Name="AMB_Acid" ID="{D78C75F1-E342-4A9C-AAD4-8D658E6E39C1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="AMB_Cave" ID="{1C990C68-A634-4774-937E-DD4993427D4B}" ShortID="793224889">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_Cave" ID="{B892F128-777A-40D3-9F17-E37413B08E94}">
-									<Language>SFX</Language>
-									<AudioFile>AMB\AMB_Cave.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="530269747"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_Cave" ID="{B892F128-777A-40D3-9F17-E37413B08E94}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="AMB_Ext_LV2" ID="{7C035347-707D-4C06-95C0-BAA28634E035}" ShortID="65300184">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsStreamingEnabled" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="AMB_Ext_LV2" ID="{1021738E-7B97-4F55-BFDC-6E2C71895296}">
-									<Language>SFX</Language>
-									<AudioFile>AMB\AMB_Ext_LV2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="453760494"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="AMB_Ext_LV2" ID="{1021738E-7B97-4F55-BFDC-6E2C71895296}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="AMB_Level_01_LP" ID="{D5FE825E-D1FE-4AFA-B24A-09127FAED864}" ShortID="574520730">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -620,6 +560,140 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="AMB_Cave" ID="{1C990C68-A634-4774-937E-DD4993427D4B}" ShortID="793224889">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Cave" ID="{B892F128-777A-40D3-9F17-E37413B08E94}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\AMB_Cave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="530269747"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Amb_LV2" ID="{8D4AC6E7-6BD8-4C43-B84A-61938DF14781}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="FullCave" ID="{E80BDA80-97D8-4407-9445-F0F3382E0111}"/>
+										<CustomState Name="" ID="{FB04972F-DE0D-40AB-A1B2-755E29D094CF}" ShortID="728709589"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ext" ID="{CDDE88EF-F93A-4452-8F3D-B2467D36DA4E}"/>
+										<CustomState Name="" ID="{CEDE320A-D705-4458-A410-C776E2385D05}" ShortID="739318967">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Micave" ID="{53E78AA5-E045-453F-9260-F3F389685B78}"/>
+										<CustomState Name="" ID="{B9C4AE79-3FCB-45A2-8AEF-B4E8C323BBDB}" ShortID="718330963">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{27BADA7E-C636-48FD-B896-9EE8394C9007}"/>
+										<CustomState Name="" ID="{360F9151-EAD8-41A0-8395-20596B53BFA7}" ShortID="480672201"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Cave" ID="{B892F128-777A-40D3-9F17-E37413B08E94}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Ext_LV2" ID="{7C035347-707D-4C06-95C0-BAA28634E035}" ShortID="65300184">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Ext_LV2" ID="{1021738E-7B97-4F55-BFDC-6E2C71895296}">
+									<Language>SFX</Language>
+									<AudioFile>AMB\AMB_Ext_LV2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="453760494"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Amb_LV2" ID="{8D4AC6E7-6BD8-4C43-B84A-61938DF14781}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="FullCave" ID="{E80BDA80-97D8-4407-9445-F0F3382E0111}"/>
+										<CustomState Name="" ID="{90E9BEED-854A-4909-BF0E-BD6C9B3D63E4}" ShortID="164747062">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Ext" ID="{CDDE88EF-F93A-4452-8F3D-B2467D36DA4E}"/>
+										<CustomState Name="" ID="{F31C66E7-68D4-497F-A904-F4659D429EC1}" ShortID="600630900"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Micave" ID="{53E78AA5-E045-453F-9260-F3F389685B78}"/>
+										<CustomState Name="" ID="{B2249137-5E7C-4398-8A38-7E46E455BA07}" ShortID="702390016">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-9"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cave" ID="{27BADA7E-C636-48FD-B896-9EE8394C9007}"/>
+										<CustomState Name="" ID="{D1E54575-F1D3-4116-8BBF-BDDE384623AA}" ShortID="273229208">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-17"/>
+												<Property Name="Volume" Type="Real64" Value="-8"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Ext_LV2" ID="{1021738E-7B97-4F55-BFDC-6E2C71895296}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
