@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3334362130	Amb_LV2			\Default Work Unit\Amb_LV2	
+
+State	ID	Name	State Group			Notes
+	645492555	Out	Amb_LV2			
+	748895195	None	Amb_LV2			
+	1752637612	In	Amb_LV2			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	838047381	Non-World			\Default Work Unit\Master Audio Bus\Non-World	
 	968010305	Props			\Default Work Unit\Master Audio Bus\World\Props	

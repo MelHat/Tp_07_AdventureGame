@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_EXT_LV2 = 1564626531U;
         static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
         static const AkUniqueID PLAY_AMB_LEVEL_01_LP = 1122905436U;
+        static const AkUniqueID PLAY_AMB_LV2 = 1587464883U;
         static const AkUniqueID PLAY_BLOC_HIT = 3653246000U;
         static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
         static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
@@ -77,12 +78,30 @@ namespace AK
         static const AkUniqueID PLAY_SFX_UI_MOUSE = 3934649960U;
         static const AkUniqueID PLAY_SFX_UI_START = 4148643457U;
         static const AkUniqueID RESUME_GLOBAL = 2407924494U;
+        static const AkUniqueID SET_STATE_CAVE = 3313924395U;
+        static const AkUniqueID SET_STATE_EXT = 1998405797U;
         static const AkUniqueID STOP_AMB_ACID = 2622214992U;
         static const AkUniqueID STOP_AMB_CAVE = 1551221296U;
         static const AkUniqueID STOP_AMB_EXT_LV2 = 2258856857U;
         static const AkUniqueID STOP_SFX_PARTICLES_LOOP = 1382542350U;
         static const AkUniqueID STOP_SFX_PORTAL_LOOP = 3333170603U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace AMB_LV2
+        {
+            static const AkUniqueID GROUP = 3334362130U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID EXT = 898834102U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace AMB_LV2
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

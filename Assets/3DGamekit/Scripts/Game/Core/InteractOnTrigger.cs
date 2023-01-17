@@ -14,6 +14,9 @@ namespace Gamekit3D
         public InventoryController.InventoryChecker[] inventoryChecks;
         public GameObject doorC1;
         public AK.Wwise.Event door1Open;
+        public AK.Wwise.Event tilePress;
+
+        bool istriggered = false;
 
 
         void Reset()
@@ -25,10 +28,14 @@ namespace Gamekit3D
 
         void OnTriggerEnter(Collider other)
         {
+            if (istriggered) return;
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 ExecuteOnEnter(other);
                 door1Open.Post(doorC1);
+                tilePress.Post(doorC1);
+
+                istriggered = true;
 
             }
         }

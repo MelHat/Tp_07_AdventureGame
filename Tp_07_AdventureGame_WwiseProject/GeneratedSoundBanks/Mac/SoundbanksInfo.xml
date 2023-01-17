@@ -711,12 +711,13 @@
 				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{5BDC8AA8-C74E-F0BA-BD6E-46FF7453B536}">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{13C5A082-5F97-E918-A6FE-267CDB15DCFE}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 			<Media>
-				<File Id="212107804" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="212107804" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>AMB_Level_01_LP.wav</ShortName>
+					<Path>Media/212107804.wem</Path>
 					<CachePath>SFX/AMB_Level_01_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="453760494" Language="SFX" Streaming="true" Location="Loose">
@@ -757,10 +758,35 @@
 						<MediaRef Id="212107804"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1587464883" Name="Play_AMB_LV2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="453760494"/>
+						<MediaRef Id="530269747"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3313924395" Name="Set_State_Cave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3334362130" Id="4122393694" Name="Cave"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1998405797" Name="Set_State_Ext" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3334362130" Id="898834102" Name="Ext"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="2622214992" Name="Stop_AMB_Acid" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1551221296" Name="Stop_AMB_Cave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2258856857" Name="Stop_AMB_Ext_LV2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3334362130" Name="Amb_LV2">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="898834102" Name="Ext"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{8F7C51BF-3BF0-CF06-05A3-D91700C6CDD0}">
 			<ShortName>Grenadier</ShortName>
@@ -901,7 +927,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{51259AB7-E177-BC42-7ADC-FBBDD5044855}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9F74893C-90D8-C517-5307-978B464353E5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -920,6 +946,15 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="4166191657" Name="Ennemies"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3334362130" Name="Amb_LV2">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="898834102" Name="Ext"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3131853436" Name="MC_Switch_Material">
 					<Switches>
@@ -2121,5 +2156,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EFCB768D-9B49-24C1-10C2-F007A050F1ED}</FileHash>
+	<FileHash>{3826B1AF-0751-4ABD-1C75-94B6BA54F738}</FileHash>
 </SoundBanksInfo>

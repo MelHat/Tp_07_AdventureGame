@@ -118,9 +118,14 @@
 						<Sound Name="AMB_Level_01_LP" ID="{D5FE825E-D1FE-4AFA-B24A-09127FAED864}" ShortID="574520730">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
