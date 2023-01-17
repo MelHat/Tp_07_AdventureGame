@@ -190,6 +190,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SFX_Door_Small_Open_01" ID="{F7475606-8AAA-45ED-B065-24E351A06104}">
+							<ChildrenList>
+								<Action Name="" ID="{31487B7A-E695-463C-9A81-B87B4884990A}" ShortID="67221381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Door_Small_Open_01" ID="{AB6E2E42-223E-4C45-A16F-56832CADEADC}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Vaisseau" ID="{01A6712C-BF8C-4DEA-9CF5-1A121382E2D8}" ShortID="202678123">

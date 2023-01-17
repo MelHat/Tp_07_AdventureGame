@@ -72,6 +72,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;
         static const AkUniqueID PLAY_SFX_DOOR_HUGE_OPEN = 1392533543U;
         static const AkUniqueID PLAY_SFX_DOOR_SMALL_OPEN = 2365795113U;
+        static const AkUniqueID PLAY_SFX_DOOR_SMALL_OPEN_01 = 3802524757U;
         static const AkUniqueID PLAY_SFX_ENTER_PORTAL = 324139541U;
         static const AkUniqueID PLAY_SFX_PARTICLES_LOOP = 3596040068U;
         static const AkUniqueID PLAY_SFX_PORTAL_LOOP = 2889476857U;

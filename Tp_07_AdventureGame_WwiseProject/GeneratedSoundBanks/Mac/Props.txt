@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3449537228	Play_SFX_Crystal_Activate			\Default Work Unit\Props\Play_SFX_Crystal_Activate	
 	3596040068	Play_SFX_Particles_Loop			\Default Work Unit\Props\Portal\Play_SFX_Particles_Loop	
 	3653246000	Play_Bloc_HIT			\Default Work Unit\Props\Play_Bloc_HIT	
+	3802524757	Play_SFX_Door_Small_Open_01			\Default Work Unit\Props\Doors\Play_SFX_Door_Small_Open_01	
 	4275973846	Play_SFX_Chest_Loop			\Default Work Unit\Props\Chest\Play_SFX_Chest_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

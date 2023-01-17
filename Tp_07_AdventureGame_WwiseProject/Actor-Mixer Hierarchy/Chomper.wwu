@@ -11,7 +11,6 @@
 								<ModifierInfo>
 									<Modifier Name="" ID="{1538F03C-CCD3-4E59-946C-EB751B0C9E98}">
 										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
 											<Property Name="Max" Type="Real64" Value="300"/>
 											<Property Name="Min" Type="Real64" Value="-300"/>
 										</PropertyList>
@@ -350,7 +349,6 @@
 										<ModifierInfo>
 											<Modifier Name="" ID="{6805EE1A-4627-4EBF-A8FE-7606FDDD023A}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="300"/>
 													<Property Name="Min" Type="Real64" Value="-200"/>
 												</PropertyList>
@@ -376,8 +374,8 @@
 													<Modifier Name="" ID="{8C2A22AC-EE09-43A2-86F3-9AA2C0DA6F65}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -491,8 +489,8 @@
 													<Modifier Name="" ID="{2E4B01AD-FD80-4829-9D8E-2016BDFDD4FF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -606,8 +604,8 @@
 													<Modifier Name="" ID="{CCA1C70E-7F4D-4526-A602-DE3D1A7B480D}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -721,7 +719,7 @@
 													<Modifier Name="" ID="{D4E0B7E1-6879-4550-88FF-C7A3374DB472}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
 															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>

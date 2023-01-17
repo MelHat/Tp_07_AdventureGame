@@ -570,6 +570,31 @@
 										<ActiveSource Name="SFX_Door_Small_Open" ID="{B8270B83-9D56-4C2E-B69C-DF2393059433}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Door_Small_Open_01" ID="{AB6E2E42-223E-4C45-A16F-56832CADEADC}" ShortID="1071436841">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Door_Small_Open" ID="{CA306621-8CB3-4D24-BFD9-4685B10CFF22}">
+											<Language>SFX</Language>
+											<AudioFile>Doors\SFX_Door_Small_Open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848942827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Door_Small_Open" ID="{CA306621-8CB3-4D24-BFD9-4685B10CFF22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Vaisseau" ID="{9265E55F-D6E6-4A2F-986C-1FFEA9AE2DC2}" ShortID="374762985">
@@ -601,7 +626,7 @@
 																</Point>
 																<Point>
 																	<XPos>13.91753</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
