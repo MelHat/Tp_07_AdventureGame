@@ -1616,6 +1616,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="MC_Weapon_Combo4" ID="{6E194939-1C8A-4AF2-92C8-7167584E2178}" ShortID="221868267">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
@@ -1693,6 +1700,36 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="MC_Weapon_PickUp" ID="{F31C889A-A355-45D1-A1CB-770209E5AD77}" ShortID="754408653">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Props" ID="{DCA8F792-1DC9-4C71-9CD5-367D04185457}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MC_Weapon_PickUp" ID="{817754CB-B8D9-4642-980A-6A86B7714163}">
+											<Language>SFX</Language>
+											<AudioFile>MC_Weapon_PickUp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037304246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MC_Weapon_PickUp" ID="{817754CB-B8D9-4642-980A-6A86B7714163}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_FT" ID="{54C61DA3-AE1B-465E-B6D9-4994D48F387B}" ShortID="380161320">

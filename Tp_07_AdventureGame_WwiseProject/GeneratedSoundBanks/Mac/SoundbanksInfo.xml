@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{A3DC1420-7B91-9324-9FAE-A15668337448}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{32E0C57D-0C19-A26E-33BA-F07FD024743B}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -610,6 +610,10 @@
 				<File Id="264087726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-004.wav</ShortName>
 					<CachePath>SFX/Bloc_HIT/Bloc_HIT-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="320776345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Enter_Portal.wav</ShortName>
+					<CachePath>SFX/SFX_Enter_Portal_10C4C929.wem</CachePath>
 				</File>
 				<File Id="380665248" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>SFX_Tile\SFX_Tile_Loop.wav</ShortName>
@@ -685,6 +689,11 @@
 				<Event Id="2365795113" Name="Play_SFX_Door_Small_Open" DurationType="OneShot" DurationMin="4.5" DurationMax="4.5">
 					<MediaRefs>
 						<MediaRef Id="848942827"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="324139541" Name="Play_SFX_Enter_Portal" MaxAttenuation="70" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="320776345"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3596040068" Name="Play_SFX_Particles_Loop" MaxAttenuation="70" DurationType="Infinite">
@@ -994,7 +1003,7 @@
 				<Event Id="2407924494" Name="Resume_Global" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{62FDF9A1-E4B8-2818-A3C8-03AA6D835DAD}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{E7AF7415-ACF1-E4B7-C7E1-F4FF6FC9282F}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -1374,6 +1383,10 @@
 					<ShortName>MC_Weapon\MC_Weapon_Combo1\MC_Weapon_Combo1_02.wav</ShortName>
 					<CachePath>SFX/MC_Weapon/MC_Weapon_Combo1/MC_Weapon_Combo1_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1037304246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Weapon_PickUp.wav</ShortName>
+					<CachePath>SFX/MC_Weapon_PickUp_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1042899282" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VOX\MC_VOX_Hurt\MC_VOX_Hurt_03.wav</ShortName>
 					<CachePath>SFX/MC_VOX/MC_VOX_Hurt/MC_VOX_Hurt_03_10C4C929.wem</CachePath>
@@ -1444,6 +1457,7 @@
 						<MediaRef Id="1008355329"/>
 						<MediaRef Id="1013358215"/>
 						<MediaRef Id="1027038245"/>
+						<MediaRef Id="1037304246"/>
 						<MediaRef Id="1042899282"/>
 					</MediaRefs>
 					<PluginRefs>
@@ -1898,6 +1912,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="4066341808" Name="Play_MC_Weapon_PickUp" DurationType="OneShot" DurationMin="1.2112292" DurationMax="1.2112292">
+					<MediaRefs>
+						<MediaRef Id="1037304246"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2407924494" Name="Resume_Global" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="14341869"/>
@@ -1955,6 +1974,7 @@
 						<MediaRef Id="1008355329"/>
 						<MediaRef Id="1013358215"/>
 						<MediaRef Id="1027038245"/>
+						<MediaRef Id="1037304246"/>
 						<MediaRef Id="1042899282"/>
 					</MediaRefs>
 					<PluginRefs>
@@ -2139,5 +2159,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E18DAB23-7067-A829-4EF8-DDED8423C4CA}</FileHash>
+	<FileHash>{B03994CD-7295-F327-FC95-727A1BE41AE6}</FileHash>
 </SoundBanksInfo>

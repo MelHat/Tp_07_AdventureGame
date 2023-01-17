@@ -361,6 +361,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MC_Weapon_PickUp" ID="{DCAAFCEA-0BBE-420D-AE1A-EF819EC20F0A}">
+					<ChildrenList>
+						<Action Name="" ID="{02884344-59FB-45B1-93CC-1A768C8EC9B5}" ShortID="746433371">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Weapon_PickUp" ID="{F31C889A-A355-45D1-A1CB-770209E5AD77}" WorkUnitID="{44686F31-9733-4934-A747-E66AD5986B42}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

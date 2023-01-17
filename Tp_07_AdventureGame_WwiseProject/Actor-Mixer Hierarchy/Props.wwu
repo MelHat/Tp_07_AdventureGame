@@ -181,6 +181,36 @@
 										<ActiveSource Name="SFX_Portal_Loop" ID="{7F4502EB-1CF6-42EC-83FF-38602E46BB41}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_Enter_Portal" ID="{F74EB536-FE2A-4794-933B-A6D2A355285C}" ShortID="587264897">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Props" ID="{DCA8F792-1DC9-4C71-9CD5-367D04185457}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Enter_Portal" ID="{98509E3B-61A8-440C-A67D-91EDAE8A5353}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Enter_Portal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="320776345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Enter_Portal" ID="{98509E3B-61A8-440C-A67D-91EDAE8A5353}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_Tile" ID="{EB17B1EE-369A-45A9-9A70-6130C2304095}" ShortID="89008239">
