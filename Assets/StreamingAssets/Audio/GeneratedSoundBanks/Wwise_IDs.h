@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
         static const AkUniqueID PLAY_AMB_LEVEL_01_LP = 1122905436U;
         static const AkUniqueID PLAY_AMB_LV2 = 1587464883U;
+        static const AkUniqueID PLAY_ATTERISSAGE = 3260940830U;
         static const AkUniqueID PLAY_BLOC_HIT = 3653246000U;
         static const AkUniqueID PLAY_CHOMPER_ATK = 3797042435U;
         static const AkUniqueID PLAY_CHOMPER_HIT = 4083688974U;
@@ -65,6 +66,7 @@ namespace AK
         static const AkUniqueID PLAY_MC_RESPAWN = 2047825579U;
         static const AkUniqueID PLAY_MC_STRAFE = 3738803368U;
         static const AkUniqueID PLAY_MC_WEAPON_PICKUP = 4066341808U;
+        static const AkUniqueID PLAY_PROP_VAISSEAU_TRUSTER_LP = 3434535702U;
         static const AkUniqueID PLAY_SFX_CHEST_LOOP = 4275973846U;
         static const AkUniqueID PLAY_SFX_CHEST_OPEN = 1851288980U;
         static const AkUniqueID PLAY_SFX_CRYSTAL_ACTIVATE = 3449537228U;

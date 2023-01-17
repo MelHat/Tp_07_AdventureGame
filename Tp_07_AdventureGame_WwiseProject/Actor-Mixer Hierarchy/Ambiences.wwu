@@ -16,7 +16,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+							<ObjectRef Name="Amb" ID="{9AC75619-0284-442B-8F42-05B148409428}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -30,6 +30,11 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -65,7 +70,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -569,6 +574,11 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -631,6 +641,11 @@
 								<Property Name="IsStreamingEnabled" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

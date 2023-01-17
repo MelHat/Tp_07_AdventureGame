@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{C895D0B3-8E74-46D9-AE2F-99F3E082D824}">
+		<SoundBank Id="14039721" Type="User" Language="SFX" Hash="{F7923EAD-DED6-02A0-BC47-7FBCB1338DFB}">
 			<ShortName>Chomper</ShortName>
 			<Path>Chomper.bnk</Path>
 			<Media>
@@ -582,7 +582,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{32E0C57D-0C19-A26E-33BA-F07FD024743B}">
+		<SoundBank Id="968010305" Type="User" Language="SFX" Hash="{1DABD0C5-B18F-7BD3-22AC-CDA6F1E15D09}">
 			<ShortName>Props</ShortName>
 			<Path>Props.bnk</Path>
 			<Media>
@@ -602,6 +602,10 @@
 					<ShortName>SFX_Chest\SFX_Chest_Loop.wav</ShortName>
 					<Path>Media/160388069.wem</Path>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="171545706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vaisseau\Prop_Vaisseau_Idle_LP.wav</ShortName>
+					<CachePath>SFX/Vaisseau/Prop_Vaisseau_Idle_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="248953593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-006.wav</ShortName>
@@ -629,6 +633,10 @@
 					<Path>Media/465809695.wem</Path>
 					<CachePath>SFX/SFX_Portal/SFX_Portal_Loop_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="525475748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vaisseau\Prop_Vaisseau_Truster_LP.wav</ShortName>
+					<CachePath>SFX/Vaisseau/Prop_Vaisseau_Truster_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="577350161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chest\SFX_Chest_Open.wav</ShortName>
 					<CachePath>SFX/SFX_Chest/SFX_Chest_Open_10C4C929.wem</CachePath>
@@ -645,6 +653,10 @@
 					<ShortName>Doors\SFX_Door_Small_Open.wav</ShortName>
 					<CachePath>SFX/Doors/SFX_Door_Small_Open_10C4C929.wem</CachePath>
 				</File>
+				<File Id="881155034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prop_Vaisseau_Landing.wav</ShortName>
+					<CachePath>SFX/Prop_Vaisseau_Landing_27F4261B.wem</CachePath>
+				</File>
 				<File Id="1005879309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bloc_HIT\Bloc_HIT-005.wav</ShortName>
 					<CachePath>SFX/Bloc_HIT/Bloc_HIT-005_10C4C929.wem</CachePath>
@@ -656,6 +668,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="3260940830" Name="Play_Atterissage" MaxAttenuation="90" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="171545706"/>
+						<MediaRef Id="881155034"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3653246000" Name="Play_Bloc_HIT" DurationType="OneShot" DurationMin="1.6921693" DurationMax="2.244924">
 					<MediaRefs>
 						<MediaRef Id="11062814"/>
@@ -666,12 +684,17 @@
 						<MediaRef Id="1005879309"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4275973846" Name="Play_SFX_Chest_Loop" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="3434535702" Name="Play_Prop_Vaisseau_Truster_LP" MaxAttenuation="90" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="525475748"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4275973846" Name="Play_SFX_Chest_Loop" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="160388069"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1851288980" Name="Play_SFX_Chest_Open" MaxAttenuation="20" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
+				<Event Id="1851288980" Name="Play_SFX_Chest_Open" MaxAttenuation="25" DurationType="OneShot" DurationMin="3.5" DurationMax="3.5">
 					<MediaRefs>
 						<MediaRef Id="577350161"/>
 					</MediaRefs>
@@ -706,7 +729,7 @@
 						<MediaRef Id="465809695"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="29733011" Name="Play_SFX_Tile_Loop" MaxAttenuation="20" DurationType="Infinite">
+				<Event Id="29733011" Name="Play_SFX_Tile_Loop" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380665248"/>
 					</MediaRefs>
@@ -720,7 +743,7 @@
 				<Event Id="3333170603" Name="Stop_SFX_Portal_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{46703D70-7EAC-F182-F304-73681B745BFE}">
+		<SoundBank Id="1017660616" Type="User" Language="SFX" Hash="{9C2C831C-9A89-B3F8-67EA-3DC59002D6CC}">
 			<ShortName>Ambiences</ShortName>
 			<Path>Ambiences.bnk</Path>
 			<Media>
@@ -778,7 +801,7 @@
 				<Event Id="2258856857" Name="Stop_AMB_Ext_LV2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{8F7C51BF-3BF0-CF06-05A3-D91700C6CDD0}">
+		<SoundBank Id="1343892184" Type="User" Language="SFX" Hash="{3977CB0A-677F-608E-666B-34075CB3E5CC}">
 			<ShortName>Grenadier</ShortName>
 			<Path>Grenadier.bnk</Path>
 			<Media>
@@ -860,28 +883,28 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="986282324" Name="Play_GRE_Attack_Melee" MaxAttenuation="25" DurationType="OneShot" DurationMin="3.3666666" DurationMax="3.3666666">
+				<Event Id="986282324" Name="Play_GRE_Attack_Melee" MaxAttenuation="70" DurationType="OneShot" DurationMin="3.3666666" DurationMax="3.3666666">
 					<MediaRefs>
 						<MediaRef Id="628122336"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3496026436" Name="Play_GRE_Attack_Range1" MaxAttenuation="30" DurationType="OneShot" DurationMin="4.3" DurationMax="4.3">
+				<Event Id="3496026436" Name="Play_GRE_Attack_Range1" MaxAttenuation="70" DurationType="OneShot" DurationMin="4.3" DurationMax="4.3">
 					<MediaRefs>
 						<MediaRef Id="287688149"/>
 						<MediaRef Id="519653906"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3496026439" Name="Play_GRE_Attack_Range2" MaxAttenuation="25" DurationType="OneShot" DurationMin="3.6333334" DurationMax="3.6333334">
+				<Event Id="3496026439" Name="Play_GRE_Attack_Range2" MaxAttenuation="70" DurationType="OneShot" DurationMin="3.6333334" DurationMax="3.6333334">
 					<MediaRefs>
 						<MediaRef Id="391032836"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1948459449" Name="Play_GRE_Death" MaxAttenuation="25" DurationType="OneShot" DurationMin="5.2" DurationMax="5.2">
+				<Event Id="1948459449" Name="Play_GRE_Death" MaxAttenuation="70" DurationType="OneShot" DurationMin="5.2" DurationMax="5.2">
 					<MediaRefs>
 						<MediaRef Id="574619970"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1462277527" Name="Play_GRE_FT" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.6666666" DurationMax="1.6666666">
+				<Event Id="1462277527" Name="Play_GRE_FT" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.6666666" DurationMax="1.6666666">
 					<MediaRefs>
 						<MediaRef Id="147187351"/>
 						<MediaRef Id="210126388"/>
@@ -890,7 +913,7 @@
 						<MediaRef Id="836851975"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3097803578" Name="Play_GRE_Hurt" MaxAttenuation="25" DurationType="OneShot" DurationMin="1.7" DurationMax="1.8666667">
+				<Event Id="3097803578" Name="Play_GRE_Hurt" MaxAttenuation="70" DurationType="OneShot" DurationMin="1.7" DurationMax="1.8666667">
 					<MediaRefs>
 						<MediaRef Id="214701318"/>
 						<MediaRef Id="259059168"/>
@@ -957,7 +980,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{7A7C4EF9-FEF7-85F7-C87F-99015ACF4320}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{9F15858B-50E5-64CD-C761-55A3770408CB}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -1003,7 +1026,7 @@
 				<Event Id="2407924494" Name="Resume_Global" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{E7AF7415-ACF1-E4B7-C7E1-F4FF6FC9282F}">
+		<SoundBank Id="1685527061" Type="User" Language="SFX" Hash="{CEBE0943-AD2A-7CAC-EA8B-83E855258E8F}">
 			<ShortName>MC</ShortName>
 			<Path>MC.bnk</Path>
 			<Media>
@@ -2102,7 +2125,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{97C663F2-FEBE-F37F-ECF8-777FA54C6658}">
+		<SoundBank Id="2535446860" Type="User" Language="SFX" Hash="{0F0D8EB3-F11C-A774-48D2-FF6454A30686}">
 			<ShortName>Spitter</ShortName>
 			<Path>Spitter.bnk</Path>
 			<Media>
@@ -2159,5 +2182,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B03994CD-7295-F327-FC95-727A1BE41AE6}</FileHash>
+	<FileHash>{F7796736-04B8-C06A-49A0-6DDCFD1547A1}</FileHash>
 </SoundBanksInfo>

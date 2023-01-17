@@ -192,6 +192,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Vaisseau" ID="{01A6712C-BF8C-4DEA-9CF5-1A121382E2D8}" ShortID="202678123">
+					<ChildrenList>
+						<Event Name="Play_Atterissage" ID="{DD1C896C-9A5E-416A-91F1-5C3A2BED0D51}">
+							<ChildrenList>
+								<Action Name="" ID="{71416CFF-EA54-49B7-B8F1-5060851BB68E}" ShortID="481143372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atterissage" ID="{B0E0F780-0AC6-435A-8840-5C3D5D69182A}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Prop_Vaisseau_Truster_LP" ID="{CCE8544C-2C0F-41BF-A909-E0EEAEC100F0}">
+							<ChildrenList>
+								<Action Name="" ID="{B0D78ADC-286F-4532-815D-4C5FF9439B38}" ShortID="900783422">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prop_Vaisseau_Truster_LP" ID="{6C396A90-9325-49DC-83F7-44BAE2A5F2DA}" WorkUnitID="{3925D2D1-E293-4A06-B559-FED7C40B7C36}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

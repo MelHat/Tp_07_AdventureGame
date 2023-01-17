@@ -7,29 +7,34 @@ Event	ID	Name			Wwise Object Path	Notes
 	1951128422	Play_SFX_Tile_Press			\Default Work Unit\Props\Tile\Play_SFX_Tile_Press	
 	2365795113	Play_SFX_Door_Small_Open			\Default Work Unit\Props\Doors\Play_SFX_Door_Small_Open	
 	2889476857	Play_SFX_Portal_Loop			\Default Work Unit\Props\Portal\Play_SFX_Portal_Loop	
+	3260940830	Play_Atterissage			\Default Work Unit\Props\Vaisseau\Play_Atterissage	
 	3333170603	Stop_SFX_Portal_Loop			\Default Work Unit\Props\Portal\Stop_SFX_Portal_Loop	
+	3434535702	Play_Prop_Vaisseau_Truster_LP			\Default Work Unit\Props\Vaisseau\Play_Prop_Vaisseau_Truster_LP	
 	3449537228	Play_SFX_Crystal_Activate			\Default Work Unit\Props\Play_SFX_Crystal_Activate	
 	3596040068	Play_SFX_Particles_Loop			\Default Work Unit\Props\Portal\Play_SFX_Particles_Loop	
 	3653246000	Play_Bloc_HIT			\Default Work Unit\Props\Play_Bloc_HIT	
 	4275973846	Play_SFX_Chest_Loop			\Default Work Unit\Props\Chest\Play_SFX_Chest_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	11062814	Bloc_HIT-002	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-002		192096
-	57528329	SFX_Tile_Press	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Press_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Press		96096
-	103966253	Bloc_HIT-003	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-003		192096
-	248953593	Bloc_HIT-006	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-006		192096
-	264087726	Bloc_HIT-004	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-004		192096
-	320776345	SFX_Enter_Portal	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Enter_Portal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Enter_Portal		480096
-	435377645	SFX_Door_Huge_Open	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Doors\SFX_Door_Huge_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Doors\SFX_Door_Huge_Open		1163688
-	577350161	SFX_Chest_Open	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Open		672096
-	712943403	SFX_Crystal_Activate	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Crystal_Activate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Crystal\SFX_Crystal_Activate		307296
-	805912963	Bloc_HIT-001	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-001		182438
-	848942827	SFX_Door_Small_Open	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Doors\SFX_Door_Small_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Doors\SFX_Door_Small_Open		864096
-	1005879309	Bloc_HIT-005	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-005		192096
+	11062814	Bloc_HIT-002	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-002		192096
+	57528329	SFX_Tile_Press	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Press_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Press		96096
+	103966253	Bloc_HIT-003	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-003		192096
+	171545706	Prop_Vaisseau_Idle_LP	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Vaisseau\Prop_Vaisseau_Idle_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Vaisseau\Atterissage\Prop_Vaisseau_Idle_LP		2174452
+	248953593	Bloc_HIT-006	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-006		192096
+	264087726	Bloc_HIT-004	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-004		192096
+	320776345	SFX_Enter_Portal	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Enter_Portal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Enter_Portal		480096
+	435377645	SFX_Door_Huge_Open	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Doors\SFX_Door_Huge_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Doors\SFX_Door_Huge_Open		1163688
+	525475748	Prop_Vaisseau_Truster_LP	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Vaisseau\Prop_Vaisseau_Truster_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Vaisseau\Prop_Vaisseau_Truster_LP		358496
+	577350161	SFX_Chest_Open	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Open		672096
+	712943403	SFX_Crystal_Activate	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Crystal_Activate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Crystal\SFX_Crystal_Activate		307296
+	805912963	Bloc_HIT-001	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-001		182438
+	848942827	SFX_Door_Small_Open	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Doors\SFX_Door_Small_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Doors\SFX_Door_Small_Open		864096
+	881155034	Prop_Vaisseau_Landing	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Prop_Vaisseau_Landing_27F4261B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Vaisseau\Atterissage\Prop_Vaisseau_Landing		1632040
+	1005879309	Bloc_HIT-005	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\Bloc_HIT\Bloc_HIT-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\Bloc_HIT\Bloc_HIT-005		192096
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	160388069	SFX_Chest_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Loop_D79FB2B7.wem	160388069.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Loop	
-	380665248	SFX_Tile_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Loop_D79FB2B7.wem	380665248.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Loop	
-	465809695	SFX_Portal_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Portal\SFX_Portal_Loop_D79FB2B7.wem	465809695.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Portal_Loop	
-	1058993494	SFX_Particles_Loop	E:\Jet\Documents\Git\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Portal\SFX_Particles_Loop_D79FB2B7.wem	1058993494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Particles_Loop	
+	160388069	SFX_Chest_Loop	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Chest\SFX_Chest_Loop_D79FB2B7.wem	160388069.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Chest\SFX_Chest_Loop	
+	380665248	SFX_Tile_Loop	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Tile\SFX_Tile_Loop_D79FB2B7.wem	380665248.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Tile\SFX_Tile_Loop	
+	465809695	SFX_Portal_Loop	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Portal\SFX_Portal_Loop_D79FB2B7.wem	465809695.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Portal_Loop	
+	1058993494	SFX_Particles_Loop	C:\Users\MELVIN\Desktop\Tp_07_AdventureGame\Tp_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Portal\SFX_Particles_Loop_D79FB2B7.wem	1058993494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Props\Props\SFX_Portal\SFX_Particles_Loop	
 

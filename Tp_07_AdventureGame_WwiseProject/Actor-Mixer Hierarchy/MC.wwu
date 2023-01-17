@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+							<ObjectRef Name="MC" ID="{4D30805B-48FD-4FFE-802C-B282E50E2B48}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -3356,6 +3356,11 @@
 								<RandomSequenceContainer Name="MC_SFX_Hurt" ID="{EBBC40FC-8B85-424A-8A72-4EE7992DCB36}" ShortID="472383082">
 									<PropertyList>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

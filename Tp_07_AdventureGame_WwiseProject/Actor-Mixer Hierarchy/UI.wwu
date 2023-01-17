@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
+							<ObjectRef Name="UI" ID="{16C998A6-98A9-4F5E-9DCE-671D0289CA8B}" WorkUnitID="{34220FE7-8DA1-45D9-B583-8D7E78DF57F6}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -84,6 +84,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="SFX_UI_Start" ID="{87A69800-D44F-4677-BB81-5A3661CC0257}" ShortID="908497741">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{36868AB3-51D6-46FE-AA4E-72ABB353CD3C}"/>

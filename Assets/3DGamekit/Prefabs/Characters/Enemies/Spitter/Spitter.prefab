@@ -292,6 +292,11 @@ MonoBehaviour:
   damagedLayers:
     serializedVersion: 2
     m_Bits: 512
+  spatEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a4aeda6cd09fd9946b9d7c2459647439,
+      type: 2}
 --- !u!65 &65820526907324108
 BoxCollider:
   m_ObjectHideFlags: 0
